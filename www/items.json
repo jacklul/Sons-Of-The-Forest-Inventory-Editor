@@ -144,7 +144,7 @@
         "max": 6
     },
     {
-        "name": "??",
+        "name": "Battery Charger",
         "id": 458,
         "max": 1
     },
@@ -169,142 +169,142 @@
         "max": 20
     },
     {
-        "name": "??",
+        "name": "BlueprintBirdHouse",
         "id": 581,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintBoneChair",
         "id": 579,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintBoneChandelier",
         "id": 588,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintDryingRack",
         "id": 530,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintFishTrap",
         "id": 582,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintHangingSkullLight",
         "id": 625,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintMannequin",
         "id": 584,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintPlanterFloor",
         "id": 587,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintPlanterWall",
         "id": 586,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintRockPath",
         "id": 622,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintScarecrow",
         "id": 585,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintShelf",
         "id": 621,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintSmallLogCabin",
         "id": 591,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintStickBed",
         "id": 532,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintStickChair",
         "id": 531,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintStickLadde",
         "id": 580,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintStorageBones",
         "id": 608,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintStorageBox",
         "id": 583,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintStorageLogs",
         "id": 609,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintStorageRocks",
         "id": 607,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintStorageSticks",
         "id": 610,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintTable",
         "id": 620,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintTrapBoneMaker",
         "id": 549,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintTrapFlySwatter",
         "id": 550,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintTrapSmallAnimalCatcher",
         "id": 551,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintWallShelf",
         "id": 623,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintWallTorch",
         "id": 624,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "BlueprintWeaponRack",
         "id": 533,
         "max": 1
     },
@@ -369,7 +369,7 @@
         "max": 10
     },
     {
-        "name": "??",
+        "name": "Climbing Axe",
         "id": 478,
         "max": 1
     },
@@ -389,12 +389,12 @@
         "max": 1
     },
     {
-        "name": "??",
+        "name": "ContactSpringTrigger",
         "id": 514,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "ContactTrigger",
         "id": 511,
         "max": 1
     },
@@ -452,7 +452,7 @@
         "max": 10
     },
     {
-        "name": "??",
+        "name": "Creepy Skin",
         "id": 592,
         "max": 10
     },
@@ -483,7 +483,7 @@
         "max": 15
     },
     {
-        "name": "??",
+        "name": "Crossbow Quiver Mod",
         "id": 384,
         "max": 1
     },
@@ -513,107 +513,107 @@
         "max": 100
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutAstrologyA",
         "id": 539,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutAstrologyB",
         "id": 540,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutAstrologyC",
         "id": 541,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutBalletA",
         "id": 545,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutCaveLighting",
         "id": 521,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutGolfA",
         "id": 534,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutGolfB",
         "id": 535,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutGolfC",
         "id": 536,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutGolfD",
         "id": 537,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutGovernmentA",
         "id": 614,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutGovernmentB",
         "id": 615,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutGovernmentC",
         "id": 616,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutMrPuffyFinancial",
         "id": 528,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutMrPuffyWill",
         "id": 526,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutPaintingA",
         "id": 538,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutPoliticianA",
         "id": 542,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutPoliticianB",
         "id": 543,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutPoliticianC",
         "id": 544,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutSqueakyShoesA",
         "id": 546,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutSqueakyShoesB",
         "id": 547,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "EmailPrintoutSqueakyShoesC",
         "id": 548,
         "max": 1
     },
@@ -832,22 +832,22 @@
         "max": 3
     },
     {
-        "name": "??",
+        "name": "HolovilleNoticeA",
         "id": 562,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "HolovilleNoticeB",
         "id": 563,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "HolovilleNoticeC",
         "id": 564,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "HolovilleNoticeD",
         "id": 565,
         "max": 1
     },
@@ -990,7 +990,7 @@
         "max": 6
     },
     {
-        "name": "??",
+        "name": "Molotov Ammo (?)",
         "id": 389,
         "max": 10
     },
@@ -1005,12 +1005,12 @@
         "max": 6
     },
     {
-        "name": "??",
+        "name": "NewspaperCutout",
         "id": 612,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "NewspaperCutoutOutbid",
         "id": 613,
         "max": 1
     },
@@ -1035,7 +1035,7 @@
         "max": 1
     },
     {
-        "name": "??",
+        "name": "NumbersPrintout",
         "id": 611,
         "max": 1
     },
@@ -1055,7 +1055,7 @@
         "max": 50
     },
     {
-        "name": "??",
+        "name": "Pistol Ammo Box",
         "id": 370,
         "max": 1
     },
@@ -1254,12 +1254,12 @@
         "max": 20
     },
     {
-        "name": "??",
+        "name": "Shotgun Buckshot Ammo Box",
         "id": 371,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "Shotgun Slug Ammo Box",
         "id": 372,
         "max": 1
     },
@@ -1298,7 +1298,7 @@
         "max": 3
     },
     {
-        "name": "??",
+        "name": "Sleeping Bag",
         "id": 573,
         "max": 1
     },
@@ -1318,7 +1318,7 @@
         "max": 20
     },
     {
-        "name": "??",
+        "name": "Spring",
         "id": 513,
         "max": 1
     },
@@ -1328,7 +1328,7 @@
         "max": 20
     },
     {
-        "name": "??",
+        "name": "StockPricePrintout",
         "id": 617,
         "max": 1
     },
@@ -1338,7 +1338,7 @@
         "max": 1000
     },
     {
-        "name": "??",
+        "name": "Stun Gun Ammo Box",
         "id": 457,
         "max": 1
     },
@@ -1398,7 +1398,7 @@
         }
     },
     {
-        "name": "??",
+        "name": "Tactical Jacket",
         "id": 495,
         "max": 2
     },
@@ -1483,12 +1483,12 @@
         "essential": true
     },
     {
-        "name": "??",
+        "name": "TutorialPageBasicBuilding",
         "id": 515,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "TutorialPageTarpTent",
         "id": 516,
         "max": 1
     },
@@ -1503,27 +1503,27 @@
         "max": 20
     },
     {
-        "name": "??",
+        "name": "VirginiaCamoSuit",
         "id": 558,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "VirginiaDress",
         "id": 556,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "VirginiaLeatherSuit",
         "id": 557,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "VirginiaSwimSuit",
         "id": 619,
         "max": 1
     },
     {
-        "name": "??",
+        "name": "VirginiaTrackSuit",
         "id": 555,
         "max": 1
     },
