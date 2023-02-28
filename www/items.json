@@ -1,0 +1,1629 @@
+[
+    {
+        "name": "Emergency Pack",
+        "id": 483,
+        "max": 1,
+        "essential": true,
+        "hidden": true
+    },
+    {
+        "name": "Inventory Object",
+        "id": 402,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "essential": true
+    },
+    {
+        "name": "Utility Knife",
+        "id": 380,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "essential": true
+    },
+    {
+        "name": "Backpack Object",
+        "id": 351,
+        "max": 1,
+        "essential": true
+    },
+    {
+        "name": "Blueprint Book",
+        "id": 552,
+        "max": 1,
+        "essential": true
+    },
+    {
+        "name": "Meds",
+        "id": 437,
+        "max": 6
+    },
+    {
+        "name": "Small Rock",
+        "id": 476,
+        "max": 30
+    },
+    {
+        "name": "3D Printed Arrow",
+        "id": 618,
+        "max": 20
+    },
+    {
+        "name": "Printed Flask",
+        "id": 426,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "RecipeId": -1,
+                    "CurrentVolume": 0,
+                    "Version": "0.0.0",
+                    "ModuleId": 7
+                }
+            ]
+        }
+    },
+    {
+        "name": "Printed Grappling Hook",
+        "id": 560,
+        "max": 10
+    },
+    {
+        "name": "Printed Sled",
+        "id": 428,
+        "max": 1
+    },
+    {
+        "name": "Printer Resin",
+        "id": 390,
+        "max": 1000
+    },
+    {
+        "name": "9mm Ammo",
+        "id": 362,
+        "max": 1000
+    },
+    {
+        "name": "Air Tank",
+        "id": 469,
+        "max": 4
+    },
+    {
+        "name": "Album Cover",
+        "id": 467,
+        "max": 1
+    },
+    {
+        "name": "Aloe Vera",
+        "id": 451,
+        "max": 20
+    },
+    {
+        "name": "Aloe Vera Seed",
+        "id": 596,
+        "max": 20
+    },
+    {
+        "name": "Arrowleaf",
+        "id": 454,
+        "max": 20
+    },
+    {
+        "name": "Arrowleaf Seed",
+        "id": 597,
+        "max": 20
+    },
+    {
+        "name": "Batteries",
+        "id": 527,
+        "max": 6
+    },
+    {
+        "name": "??",
+        "id": 458,
+        "max": 1
+    },
+    {
+        "name": "Blackberries",
+        "id": 595,
+        "max": 20
+    },
+    {
+        "name": "Blackberry Seed",
+        "id": 598,
+        "max": 20
+    },
+    {
+        "name": "Blueberries",
+        "id": 445,
+        "max": 20
+    },
+    {
+        "name": "Blueberry Seed",
+        "id": 599,
+        "max": 20
+    },
+    {
+        "name": "??",
+        "id": 581,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 579,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 588,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 530,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 582,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 625,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 584,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 587,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 586,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 622,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 585,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 621,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 591,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 532,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 531,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 580,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 608,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 583,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 609,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 607,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 610,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 620,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 549,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 550,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 551,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 623,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 624,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 533,
+        "max": 1
+    },
+    {
+        "name": "Bone",
+        "id": 405,
+        "max": 15
+    },
+    {
+        "name": "Bone Armor",
+        "id": 494,
+        "max": 10
+    },
+    {
+        "name": "Buckshot Ammo",
+        "id": 364,
+        "max": 1000
+    },
+    {
+        "name": "Holosprings Pamphlet",
+        "id": 509,
+        "max": 1
+    },
+    {
+        "name": "C4 Brick",
+        "id": 420,
+        "max": 10
+    },
+    {
+        "name": "Canned Food",
+        "id": 434,
+        "max": 6
+    },
+    {
+        "name": "Can Opener",
+        "id": 432,
+        "max": 1
+    },
+    {
+        "name": "Cat Food",
+        "id": 464,
+        "max": 5
+    },
+    {
+        "name": "Crunchie Wunchies",
+        "id": 425,
+        "max": 4
+    },
+    {
+        "name": "Chicory",
+        "id": 465,
+        "max": 20
+    },
+    {
+        "name": "Chicory Seed",
+        "id": 605,
+        "max": 20
+    },
+    {
+        "name": "Circuit Board",
+        "id": 416,
+        "max": 10
+    },
+    {
+        "name": "??",
+        "id": 478,
+        "max": 1
+    },
+    {
+        "name": "Cloth",
+        "id": 415,
+        "max": 1000
+    },
+    {
+        "name": "Coins",
+        "id": 502,
+        "max": 1000
+    },
+    {
+        "name": "Pistol Rail",
+        "id": 376,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 514,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 511,
+        "max": 1
+    },
+    {
+        "name": "Stone Arrow",
+        "id": 507,
+        "max": 20
+    },
+    {
+        "name": "Crafted Bow",
+        "id": 443,
+        "max": 1
+    },
+    {
+        "name": "Crafted Club",
+        "id": 477,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Crafted Spear",
+        "id": 474,
+        "max": 5,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Creepy Armor",
+        "id": 593,
+        "max": 10
+    },
+    {
+        "name": "??",
+        "id": 592,
+        "max": 10
+    },
+    {
+        "name": "Cross",
+        "id": 468,
+        "max": 1
+    },
+    {
+        "name": "Crossbow",
+        "id": 365,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "AmmoType": -1,
+                    "CurrentAmmo": -1,
+                    "WeaponModIds": [],
+                    "Version": "0.0.0",
+                    "ModuleId": 4
+                }
+            ]
+        }
+    },
+    {
+        "name": "Crossbow Bolt",
+        "id": 368,
+        "max": 15
+    },
+    {
+        "name": "??",
+        "id": 384,
+        "max": 1
+    },
+    {
+        "name": "Animal Hide",
+        "id": 472,
+        "max": 10
+    },
+    {
+        "name": "Hide Armor",
+        "id": 519,
+        "max": 10
+    },
+    {
+        "name": "Devil's Club",
+        "id": 449,
+        "max": 20
+    },
+    {
+        "name": "Devil's Club Seed",
+        "id": 600,
+        "max": 20
+    },
+    {
+        "name": "Duct Tape",
+        "id": 419,
+        "max": 100
+    },
+    {
+        "name": "??",
+        "id": 539,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 540,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 541,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 545,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 521,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 534,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 535,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 536,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 537,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 614,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 615,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 616,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 528,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 526,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 538,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 542,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 543,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 544,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 546,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 547,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 548,
+        "max": 1
+    },
+    {
+        "name": "Energy Bar",
+        "id": 441,
+        "max": 10
+    },
+    {
+        "name": "Energy Drink",
+        "id": 439,
+        "max": 10
+    },
+    {
+        "name": "Energy Mix",
+        "id": 461,
+        "max": 3
+    },
+    {
+        "name": "Energy Mix +",
+        "id": 462,
+        "max": 3
+    },
+    {
+        "name": "Feather",
+        "id": 479,
+        "max": 1000
+    },
+    {
+        "name": "Firefighter Axe",
+        "id": 431,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Fireweed",
+        "id": 453,
+        "max": 20
+    },
+    {
+        "name": "Fireweed Seed",
+        "id": 601,
+        "max": 20
+    },
+    {
+        "name": "Raw Fish",
+        "id": 436,
+        "max": 3,
+        "item_data": {
+            "Modules": [
+                {
+                    "CurrentState": 1,
+                    "TimeRemainingInState": 81346.65,
+                    "PauseDecay": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 3
+                }
+            ]
+        }
+    },
+    {
+        "name": "Flare",
+        "id": 440,
+        "max": 10
+    },
+    {
+        "name": "Flashlight",
+        "id": 471,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "RecipeId": -1,
+                    "CurrentVolume": 100,
+                    "Version": "0.0.0",
+                    "ModuleId": 7
+                }
+            ]
+        }
+    },
+    {
+        "name": "Flashlight",
+        "id": 378,
+        "max": 1
+    },
+    {
+        "name": "Fly Amanita",
+        "id": 400,
+        "max": 20
+    },
+    {
+        "name": "Brain Bite",
+        "id": 569,
+        "max": 10
+    },
+    {
+        "name": "Steak Bite",
+        "id": 570,
+        "max": 10
+    },
+    {
+        "name": "Bacon Bite",
+        "id": 571,
+        "max": 10
+    },
+    {
+        "name": "Gold Armor",
+        "id": 572,
+        "max": 1
+    },
+    {
+        "name": "Gold Mask",
+        "id": 435,
+        "max": 1
+    },
+    {
+        "name": "Golf Ball",
+        "id": 524,
+        "max": 20
+    },
+    {
+        "name": "Putter",
+        "id": 525,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "GPS Locator",
+        "id": 529,
+        "max": 10,
+        "item_data": {
+            "Modules": [
+                {
+                    "IconIndex": 0,
+                    "ShowBreadcrumbs": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 2
+                }
+            ]
+        }
+    },
+    {
+        "name": "GPS Tracker",
+        "id": 412,
+        "max": 1,
+        "essential": true
+    },
+    {
+        "name": "Grenade",
+        "id": 381,
+        "max": 10
+    },
+    {
+        "name": "Guarana Berries",
+        "id": 594,
+        "max": 20
+    },
+    {
+        "name": "Guarana Seed",
+        "id": 602,
+        "max": 20
+    },
+    {
+        "name": "Guitar",
+        "id": 340,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Health Mix",
+        "id": 455,
+        "max": 3
+    },
+    {
+        "name": "Health Mix +",
+        "id": 456,
+        "max": 3
+    },
+    {
+        "name": "??",
+        "id": 562,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 563,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 564,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 565,
+        "max": 1
+    },
+    {
+        "name": "Hoodie",
+        "id": 490,
+        "max": 1
+    },
+    {
+        "name": "Horsetail",
+        "id": 450,
+        "max": 20
+    },
+    {
+        "name": "Horsetail Seed",
+        "id": 603,
+        "max": 20
+    },
+    {
+        "name": "Hydnum Repandum",
+        "id": 399,
+        "max": 20
+    },
+    {
+        "name": "Katana",
+        "id": 367,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Guest Keycard",
+        "id": 567,
+        "max": 1
+    },
+    {
+        "name": "Maintenance Keycard",
+        "id": 566,
+        "max": 1
+    },
+    {
+        "name": "VIP Keycard",
+        "id": 568,
+        "max": 1
+    },
+    {
+        "name": "King Oyster",
+        "id": 398,
+        "max": 20
+    },
+    {
+        "name": "Laser Sight",
+        "id": 375,
+        "max": 1
+    },
+    {
+        "name": "Leaf",
+        "id": 484,
+        "max": 1000
+    },
+    {
+        "name": "Leaf Armor",
+        "id": 473,
+        "max": 10
+    },
+    {
+        "name": "Skin Pouch",
+        "id": 508,
+        "max": 6
+    },
+    {
+        "name": "Machete",
+        "id": 359,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Raw Meat",
+        "id": 433,
+        "max": 7,
+        "item_data": {
+            "Modules": [
+                {
+                    "CurrentState": 1,
+                    "TimeRemainingInState": 81342.26,
+                    "PauseDecay": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 3
+                }
+            ]
+        }
+    },
+    {
+        "name": "Modern Axe",
+        "id": 356,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Molotov",
+        "id": 388,
+        "max": 6
+    },
+    {
+        "name": "??",
+        "id": 389,
+        "max": 10
+    },
+    {
+        "name": "Cash",
+        "id": 496,
+        "max": 1000000
+    },
+    {
+        "name": "MRE Pack",
+        "id": 438,
+        "max": 6
+    },
+    {
+        "name": "??",
+        "id": 612,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 613,
+        "max": 1
+    },
+    {
+        "name": "Pennant Line Book",
+        "id": 423,
+        "max": 1
+    },
+    {
+        "name": "Deep Sleep Book",
+        "id": 424,
+        "max": 1
+    },
+    {
+        "name": "Rescued Book",
+        "id": 574,
+        "max": 1
+    },
+    {
+        "name": "Parallel Universes Book",
+        "id": 575,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 611,
+        "max": 1
+    },
+    {
+        "name": "Blazer",
+        "id": 491,
+        "max": 1
+    },
+    {
+        "name": "Oyster",
+        "id": 466,
+        "max": 5
+    },
+    {
+        "name": "Paper Target",
+        "id": 518,
+        "max": 50
+    },
+    {
+        "name": "??",
+        "id": 370,
+        "max": 1
+    },
+    {
+        "name": "Silencer",
+        "id": 374,
+        "max": 1
+    },
+    {
+        "name": "Lighter",
+        "id": 413,
+        "max": 1,
+        "essential": true
+    },
+    {
+        "name": "Winter Jacket",
+        "id": 500,
+        "max": 1
+    },
+    {
+        "name": "Radio",
+        "id": 590,
+        "max": 1
+    },
+    {
+        "name": "Ramen Noodles",
+        "id": 421,
+        "max": 10
+    },
+    {
+        "name": "Rebreather",
+        "id": 444,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "RecipeId": -1,
+                    "CurrentVolume": 1000,
+                    "Version": "0.0.0",
+                    "ModuleId": 7
+                }
+            ]
+        }
+    },
+    {
+        "name": "Red Mask",
+        "id": 391,
+        "max": 1
+    },
+    {
+        "name": "Repair Tool",
+        "id": 422,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Revolver",
+        "id": 386,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "AmmoType": 362,
+                    "CurrentAmmo": 6,
+                    "WeaponModIds": [],
+                    "Version": "0.0.0",
+                    "ModuleId": 4
+                }
+            ]
+        }
+    },
+    {
+        "name": "Rock",
+        "id": 393,
+        "max": 10
+    },
+    {
+        "name": "Rope",
+        "id": 403,
+        "max": 10
+    },
+    {
+        "name": "Rope Gun",
+        "id": 522,
+        "max": 1
+    },
+    {
+        "name": "Salmonberries",
+        "id": 447,
+        "max": 20
+    },
+    {
+        "name": "Salmonberry Seed",
+        "id": 604,
+        "max": 20
+    },
+    {
+        "name": "Raw Arm",
+        "id": 480,
+        "max": 2,
+        "item_data": {
+            "Modules": [
+                {
+                    "SourceActorType": 0,
+                    "Version": "0.0.0",
+                    "ModuleId": 1
+                },
+                {
+                    "CurrentState": 1,
+                    "TimeRemainingInState": 81347.77,
+                    "PauseDecay": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 3
+                },
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Raw Head",
+        "id": 482,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "SourceActorType": 0,
+                    "Version": "0.0.0",
+                    "ModuleId": 1
+                },
+                {
+                    "CurrentState": 1,
+                    "TimeRemainingInState": 81347.31,
+                    "PauseDecay": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 3
+                }
+            ]
+        }
+    },
+    {
+        "name": "Raw Leg",
+        "id": 481,
+        "max": 2,
+        "item_data": {
+            "Modules": [
+                {
+                    "SourceActorType": 0,
+                    "Version": "0.0.0",
+                    "ModuleId": 1
+                },
+                {
+                    "CurrentState": 1,
+                    "TimeRemainingInState": 81347.77,
+                    "PauseDecay": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 3
+                },
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Shiitake",
+        "id": 397,
+        "max": 20
+    },
+    {
+        "name": "??",
+        "id": 371,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 372,
+        "max": 1
+    },
+    {
+        "name": "Shotgun Rail",
+        "id": 346,
+        "max": 1
+    },
+    {
+        "name": "Shovel",
+        "id": 485,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Pajamas",
+        "id": 487,
+        "max": 1
+    },
+    {
+        "name": "Skull",
+        "id": 430,
+        "max": 3
+    },
+    {
+        "name": "??",
+        "id": 573,
+        "max": 1
+    },
+    {
+        "name": "Slingshot",
+        "id": 459,
+        "max": 1
+    },
+    {
+        "name": "Slug Ammo",
+        "id": 363,
+        "max": 1000
+    },
+    {
+        "name": "Snowberries",
+        "id": 448,
+        "max": 20
+    },
+    {
+        "name": "??",
+        "id": 513,
+        "max": 1
+    },
+    {
+        "name": "Stick",
+        "id": 392,
+        "max": 20
+    },
+    {
+        "name": "??",
+        "id": 617,
+        "max": 1
+    },
+    {
+        "name": "Stun Gun Ammo",
+        "id": 369,
+        "max": 1000
+    },
+    {
+        "name": "??",
+        "id": 457,
+        "max": 1
+    },
+    {
+        "name": "Tactical Axe",
+        "id": 379,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "essential": true
+    },
+    {
+        "name": "Compound Bow",
+        "id": 360,
+        "max": 1
+    },
+    {
+        "name": "Carbon Fiber Arrow",
+        "id": 373,
+        "max": 25
+    },
+    {
+        "name": "Chainsaw",
+        "id": 394,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "RecipeId": -1,
+                    "CurrentVolume": 100,
+                    "Version": "0.0.0",
+                    "ModuleId": 7
+                },
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "??",
+        "id": 495,
+        "max": 2
+    },
+    {
+        "name": "Tarp",
+        "id": 504,
+        "max": 5
+    },
+    {
+        "name": "Stun Baton",
+        "id": 396,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "RecipeId": -1,
+                    "CurrentVolume": 100,
+                    "Version": "0.0.0",
+                    "ModuleId": 7
+                },
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Tech Armor",
+        "id": 554,
+        "max": 10
+    },
+    {
+        "name": "Tech Mesh",
+        "id": 553,
+        "max": 10
+    },
+    {
+        "name": "Time Bomb",
+        "id": 417,
+        "max": 3
+    },
+    {
+        "name": "Torch",
+        "id": 503,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    },
+    {
+        "name": "Turtle Egg",
+        "id": 401,
+        "max": 10
+    },
+    {
+        "name": "Turtle Shell",
+        "id": 506,
+        "max": 1
+    },
+    {
+        "name": "Guide Book",
+        "id": 589,
+        "max": 1,
+        "essential": true
+    },
+    {
+        "name": "??",
+        "id": 515,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 516,
+        "max": 1
+    },
+    {
+        "name": "Tuxedo",
+        "id": 492,
+        "max": 1
+    },
+    {
+        "name": "Twinberries",
+        "id": 446,
+        "max": 20
+    },
+    {
+        "name": "??",
+        "id": 558,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 556,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 557,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 619,
+        "max": 1
+    },
+    {
+        "name": "??",
+        "id": 555,
+        "max": 1
+    },
+    {
+        "name": "Vodka Bottle",
+        "id": 414,
+        "max": 6
+    },
+    {
+        "name": "Walkie Talkie",
+        "id": 486,
+        "max": 1,
+        "essential": true
+    },
+    {
+        "name": "Wetsuit",
+        "id": 499,
+        "max": 1
+    },
+    {
+        "name": "Wire",
+        "id": 418,
+        "max": 100
+    },
+    {
+        "name": "Watch",
+        "id": 410,
+        "max": 50
+    },
+    {
+        "name": "Yarrow",
+        "id": 452,
+        "max": 20
+    },
+    {
+        "name": "Yarrow Seed",
+        "id": 606,
+        "max": 20
+    },
+    {
+        "name": "Zipline Rope",
+        "id": 523,
+        "max": 10
+    },
+    {
+        "name": "Shotgun",
+        "id": 358,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "AmmoType": 364,
+                    "CurrentAmmo": 2,
+                    "WeaponModIds": [],
+                    "Version": "0.0.0",
+                    "ModuleId": 4
+                }
+            ]
+        }
+    },
+    {
+        "name": "Stun Gun",
+        "id": 353,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "AmmoType": 369,
+                    "CurrentAmmo": 1,
+                    "WeaponModIds": [],
+                    "Version": "0.0.0",
+                    "ModuleId": 4
+                }
+            ]
+        }
+    },
+    {
+        "name": "Pistol",
+        "id": 355,
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "AmmoType": 362,
+                    "CurrentAmmo": 12,
+                    "WeaponModIds": [],
+                    "Version": "0.0.0",
+                    "ModuleId": 4
+                },
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        }
+    }
+]

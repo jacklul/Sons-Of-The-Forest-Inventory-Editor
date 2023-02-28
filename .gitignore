@@ -1,0 +1,12 @@
+/*.*
+!/.github/
+/locales/
+/php/*
+!/php/.gitkeep
+!/php/php.ini
+!/.gitignore
+!/settings.json
+!/README.md
+/data/
+/dist/
+!/build.php
