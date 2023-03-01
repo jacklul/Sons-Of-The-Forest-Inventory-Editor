@@ -221,7 +221,9 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
                 die('Invalid action specified' . backLink());
         }
 
-        header('location: ?path=' . $_GET['path']);
+        @header('location: ?path=' . $_GET['path']);
+        echo '<script>location.href = "?path=' . urlencode($_GET['path']) . '"</script>';
+        exit;
     }
 
     foreach ($inventoryContents['EquippedItems'] as &$equippedItem) {
