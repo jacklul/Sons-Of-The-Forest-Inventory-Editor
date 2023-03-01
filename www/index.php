@@ -276,7 +276,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
         }
 
         echo '<tr>';
-        echo '<td>' . $itemId . '</td><td>' . $itemName . ' &nbsp; (' . $itemReference . ')' . ($itemUnknown ? ' <span title="Unknown/Unobtainable item">⚠️</span> ' : '') . '</td><td>' . $itemCount . '</td><td>' . $itemMaxCount . '</td>';
+        echo '<td>' . $itemId . '</td><td>' . $itemName . ' &nbsp; (' . $itemReference . ')' . ($itemUnknown ? ' <span title="Unknown/Unobtainable item'."\n".'Data on this item is not available and keeping it might break your save">⚠️</span> ' : '') . '</td><td>' . $itemCount . '</td><td>' . $itemMaxCount . '</td>';
         echo '<td>' . ($itemUnique ? 'yes' : 'no') . '</td>';
         echo '<td>' . ($itemEssential ? 'yes' : 'no') . '</td>';
         
