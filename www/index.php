@@ -136,7 +136,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
 
                 $uniqueItems = [];
                 if (isset($itemData[$_GET['id']]['item_data'])) {
-                    $uniqueItems = addCurrentVersionToItemArray($itemData[$_GET['id']]['item_data'], $version);
+                    $uniqueItems[] = addCurrentVersionToItemArray($itemData[$_GET['id']]['item_data'], $version);
                 }
 
                 $inventoryContents['ItemInstanceManagerData']['ItemBlocks'][] = [
