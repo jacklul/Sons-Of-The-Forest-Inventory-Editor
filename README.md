@@ -7,6 +7,8 @@ The game is currently in early access and there are multiple bugs that make you 
 
 ### Backup your saves before editing.
 
+<a href="https://i.imgur.com/ot0ABFN.png"><img src="https://i.imgur.com/ot0ABFN.png" height="300"></a>
+
 ## Installation/Usage
 
 Download release zip from [Releases](https://github.com/jacklul/Sons-Of-The-Forest-Inventory-Editor/releases) tab and extract it to directory of your choice, run the tool using `phpdesktop-chrome.exe` executable.
