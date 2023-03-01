@@ -1,81 +1,22 @@
 [
     {
-        "name": "Emergency Pack",
-        "id": 483,
+        "id": "618",
+        "name": "Printed Arrow",
+        "reference": "3dPrintedArrow",
+        "max": 20,
+        "name_short": "3dPrintedArrow"
+    },
+    {
+        "id": "559",
+        "name": "Printed Arrow Heads",
+        "reference": "3dPrintedArrowHeads",
         "max": 1,
-        "essential": true,
-        "hidden": true
+        "name_short": "3dPrintedArrowHeads"
     },
     {
-        "name": "Inventory Object",
-        "id": 402,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        },
-        "essential": true
-    },
-    {
-        "name": "Utility Knife",
-        "id": 380,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        },
-        "essential": true
-    },
-    {
-        "name": "Backpack Object",
-        "id": 351,
-        "max": 1,
-        "essential": true
-    },
-    {
-        "name": "Blueprint Book",
-        "id": 552,
-        "max": 1,
-        "essential": true
-    },
-    {
-        "name": "Meds",
-        "id": 437,
-        "max": 6
-    },
-    {
-        "name": "Small Rock",
-        "id": 476,
-        "max": 30
-    },
-    {
-        "name": "3D Printed Arrow",
-        "id": 618,
-        "max": 20
-    },
-    {
+        "id": "426",
         "name": "Printed Flask",
-        "id": 426,
+        "reference": "3dPrintedFlask",
         "max": 1,
         "item_data": {
             "Modules": [
@@ -86,1265 +27,118 @@
                     "ModuleId": 7
                 }
             ]
-        }
+        },
+        "name_short": "3dPrintedFlask"
     },
     {
+        "id": "561",
+        "name": "Printed Flower Pot",
+        "reference": "3dPrintedFlowerPot",
+        "max": 1,
+        "name_short": "3dPrintedFlowerPot"
+    },
+    {
+        "id": "560",
         "name": "Printed Grappling Hook",
-        "id": 560,
-        "max": 10
-    },
-    {
-        "name": "Printed Sled",
-        "id": 428,
-        "max": 1
-    },
-    {
-        "name": "Printer Resin",
-        "id": 390,
-        "max": 1000
-    },
-    {
-        "name": "9mm Ammo",
-        "id": 362,
-        "max": 1000
-    },
-    {
-        "name": "Air Tank",
-        "id": 469,
-        "max": 4
-    },
-    {
-        "name": "Album Cover",
-        "id": 467,
-        "max": 1
-    },
-    {
-        "name": "Aloe Vera",
-        "id": 451,
-        "max": 20
-    },
-    {
-        "name": "Aloe Vera Seed",
-        "id": 596,
-        "max": 20
-    },
-    {
-        "name": "Arrowleaf",
-        "id": 454,
-        "max": 20
-    },
-    {
-        "name": "Arrowleaf Seed",
-        "id": 597,
-        "max": 20
-    },
-    {
-        "name": "Batteries",
-        "id": 527,
-        "max": 6
-    },
-    {
-        "name": "Battery Charger",
-        "id": 458,
-        "max": 1
-    },
-    {
-        "name": "Blackberries",
-        "id": 595,
-        "max": 20
-    },
-    {
-        "name": "Blackberry Seed",
-        "id": 598,
-        "max": 20
-    },
-    {
-        "name": "Blueberries",
-        "id": 445,
-        "max": 20
-    },
-    {
-        "name": "Blueberry Seed",
-        "id": 599,
-        "max": 20
-    },
-    {
-        "name": "BlueprintBirdHouse",
-        "id": 581,
-        "max": 1
-    },
-    {
-        "name": "BlueprintBoneChair",
-        "id": 579,
-        "max": 1
-    },
-    {
-        "name": "BlueprintBoneChandelier",
-        "id": 588,
-        "max": 1
-    },
-    {
-        "name": "BlueprintDryingRack",
-        "id": 530,
-        "max": 1
-    },
-    {
-        "name": "BlueprintFishTrap",
-        "id": 582,
-        "max": 1
-    },
-    {
-        "name": "BlueprintHangingSkullLight",
-        "id": 625,
-        "max": 1
-    },
-    {
-        "name": "BlueprintMannequin",
-        "id": 584,
-        "max": 1
-    },
-    {
-        "name": "BlueprintPlanterFloor",
-        "id": 587,
-        "max": 1
-    },
-    {
-        "name": "BlueprintPlanterWall",
-        "id": 586,
-        "max": 1
-    },
-    {
-        "name": "BlueprintRockPath",
-        "id": 622,
-        "max": 1
-    },
-    {
-        "name": "BlueprintScarecrow",
-        "id": 585,
-        "max": 1
-    },
-    {
-        "name": "BlueprintShelf",
-        "id": 621,
-        "max": 1
-    },
-    {
-        "name": "BlueprintSmallLogCabin",
-        "id": 591,
-        "max": 1
-    },
-    {
-        "name": "BlueprintStickBed",
-        "id": 532,
-        "max": 1
-    },
-    {
-        "name": "BlueprintStickChair",
-        "id": 531,
-        "max": 1
-    },
-    {
-        "name": "BlueprintStickLadde",
-        "id": 580,
-        "max": 1
-    },
-    {
-        "name": "BlueprintStorageBones",
-        "id": 608,
-        "max": 1
-    },
-    {
-        "name": "BlueprintStorageBox",
-        "id": 583,
-        "max": 1
-    },
-    {
-        "name": "BlueprintStorageLogs",
-        "id": 609,
-        "max": 1
-    },
-    {
-        "name": "BlueprintStorageRocks",
-        "id": 607,
-        "max": 1
-    },
-    {
-        "name": "BlueprintStorageSticks",
-        "id": 610,
-        "max": 1
-    },
-    {
-        "name": "BlueprintTable",
-        "id": 620,
-        "max": 1
-    },
-    {
-        "name": "BlueprintTrapBoneMaker",
-        "id": 549,
-        "max": 1
-    },
-    {
-        "name": "BlueprintTrapFlySwatter",
-        "id": 550,
-        "max": 1
-    },
-    {
-        "name": "BlueprintTrapSmallAnimalCatcher",
-        "id": 551,
-        "max": 1
-    },
-    {
-        "name": "BlueprintWallShelf",
-        "id": 623,
-        "max": 1
-    },
-    {
-        "name": "BlueprintWallTorch",
-        "id": 624,
-        "max": 1
-    },
-    {
-        "name": "BlueprintWeaponRack",
-        "id": 533,
-        "max": 1
-    },
-    {
-        "name": "Bone",
-        "id": 405,
-        "max": 15
-    },
-    {
-        "name": "Bone Armor",
-        "id": 494,
-        "max": 10
-    },
-    {
-        "name": "Buckshot Ammo",
-        "id": 364,
-        "max": 1000
-    },
-    {
-        "name": "Holosprings Pamphlet",
-        "id": 509,
-        "max": 1
-    },
-    {
-        "name": "C4 Brick",
-        "id": 420,
-        "max": 10
-    },
-    {
-        "name": "Canned Food",
-        "id": 434,
-        "max": 6
-    },
-    {
-        "name": "Can Opener",
-        "id": 432,
-        "max": 1
-    },
-    {
-        "name": "Cat Food",
-        "id": 464,
-        "max": 5
-    },
-    {
-        "name": "Crunchie Wunchies",
-        "id": 425,
-        "max": 4
-    },
-    {
-        "name": "Chicory",
-        "id": 465,
-        "max": 20
-    },
-    {
-        "name": "Chicory Seed",
-        "id": 605,
-        "max": 20
-    },
-    {
-        "name": "Circuit Board",
-        "id": 416,
-        "max": 10
-    },
-    {
-        "name": "Climbing Axe",
-        "id": 478,
-        "max": 1
-    },
-    {
-        "name": "Cloth",
-        "id": 415,
-        "max": 1000
-    },
-    {
-        "name": "Coins",
-        "id": 502,
-        "max": 1000
-    },
-    {
-        "name": "Pistol Rail",
-        "id": 376,
-        "max": 1
-    },
-    {
-        "name": "ContactSpringTrigger",
-        "id": 514,
-        "max": 1
-    },
-    {
-        "name": "ContactTrigger",
-        "id": 511,
-        "max": 1
-    },
-    {
-        "name": "Stone Arrow",
-        "id": 507,
-        "max": 20
-    },
-    {
-        "name": "Crafted Bow",
-        "id": 443,
-        "max": 1
-    },
-    {
-        "name": "Crafted Club",
-        "id": 477,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
-    },
-    {
-        "name": "Crafted Spear",
-        "id": 474,
-        "max": 5,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
-    },
-    {
-        "name": "Creepy Armor",
-        "id": 593,
-        "max": 10
-    },
-    {
-        "name": "Creepy Skin",
-        "id": 592,
-        "max": 10
-    },
-    {
-        "name": "Cross",
-        "id": 468,
-        "max": 1
-    },
-    {
-        "name": "Crossbow",
-        "id": 365,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "AmmoType": -1,
-                    "CurrentAmmo": -1,
-                    "WeaponModIds": [],
-                    "Version": "0.0.0",
-                    "ModuleId": 4
-                }
-            ]
-        }
-    },
-    {
-        "name": "Crossbow Bolt",
-        "id": 368,
-        "max": 15
-    },
-    {
-        "name": "Crossbow Quiver Mod",
-        "id": 384,
-        "max": 1
-    },
-    {
-        "name": "Animal Hide",
-        "id": 472,
-        "max": 10
-    },
-    {
-        "name": "Hide Armor",
-        "id": 519,
-        "max": 10
-    },
-    {
-        "name": "Devil's Club",
-        "id": 449,
-        "max": 20
-    },
-    {
-        "name": "Devil's Club Seed",
-        "id": 600,
-        "max": 20
-    },
-    {
-        "name": "Duct Tape",
-        "id": 419,
-        "max": 100
-    },
-    {
-        "name": "EmailPrintoutAstrologyA",
-        "id": 539,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutAstrologyB",
-        "id": 540,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutAstrologyC",
-        "id": 541,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutBalletA",
-        "id": 545,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutCaveLighting",
-        "id": 521,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutGolfA",
-        "id": 534,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutGolfB",
-        "id": 535,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutGolfC",
-        "id": 536,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutGolfD",
-        "id": 537,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutGovernmentA",
-        "id": 614,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutGovernmentB",
-        "id": 615,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutGovernmentC",
-        "id": 616,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutMrPuffyFinancial",
-        "id": 528,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutMrPuffyWill",
-        "id": 526,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutPaintingA",
-        "id": 538,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutPoliticianA",
-        "id": 542,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutPoliticianB",
-        "id": 543,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutPoliticianC",
-        "id": 544,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutSqueakyShoesA",
-        "id": 546,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutSqueakyShoesB",
-        "id": 547,
-        "max": 1
-    },
-    {
-        "name": "EmailPrintoutSqueakyShoesC",
-        "id": 548,
-        "max": 1
-    },
-    {
-        "name": "Energy Bar",
-        "id": 441,
-        "max": 10
-    },
-    {
-        "name": "Energy Drink",
-        "id": 439,
-        "max": 10
-    },
-    {
-        "name": "Energy Mix",
-        "id": 461,
-        "max": 3
-    },
-    {
-        "name": "Energy Mix +",
-        "id": 462,
-        "max": 3
-    },
-    {
-        "name": "Feather",
-        "id": 479,
-        "max": 1000
-    },
-    {
-        "name": "Firefighter Axe",
-        "id": 431,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
-    },
-    {
-        "name": "Fireweed",
-        "id": 453,
-        "max": 20
-    },
-    {
-        "name": "Fireweed Seed",
-        "id": 601,
-        "max": 20
-    },
-    {
-        "name": "Raw Fish",
-        "id": 436,
-        "max": 3,
-        "item_data": {
-            "Modules": [
-                {
-                    "CurrentState": 1,
-                    "TimeRemainingInState": 81346.65,
-                    "PauseDecay": false,
-                    "Version": "0.0.0",
-                    "ModuleId": 3
-                }
-            ]
-        }
-    },
-    {
-        "name": "Flare",
-        "id": 440,
-        "max": 10
-    },
-    {
-        "name": "Flashlight",
-        "id": 471,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "RecipeId": -1,
-                    "CurrentVolume": 100,
-                    "Version": "0.0.0",
-                    "ModuleId": 7
-                }
-            ]
-        }
-    },
-    {
-        "name": "Flashlight",
-        "id": 378,
-        "max": 1
-    },
-    {
-        "name": "Fly Amanita",
-        "id": 400,
-        "max": 20
-    },
-    {
-        "name": "Brain Bite",
-        "id": 569,
-        "max": 10
-    },
-    {
-        "name": "Steak Bite",
-        "id": 570,
-        "max": 10
-    },
-    {
-        "name": "Bacon Bite",
-        "id": 571,
-        "max": 10
-    },
-    {
-        "name": "Gold Armor",
-        "id": 572,
-        "max": 1
-    },
-    {
-        "name": "Gold Mask",
-        "id": 435,
-        "max": 1
-    },
-    {
-        "name": "Golf Ball",
-        "id": 524,
-        "max": 20
-    },
-    {
-        "name": "Putter",
-        "id": 525,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
-    },
-    {
-        "name": "GPS Locator",
-        "id": 529,
+        "reference": "3dPrintedGrapplingHook",
         "max": 10,
-        "item_data": {
-            "Modules": [
-                {
-                    "IconIndex": 0,
-                    "ShowBreadcrumbs": false,
-                    "Version": "0.0.0",
-                    "ModuleId": 2
-                }
-            ]
-        }
+        "name_short": "3dPrintedGrapplingHook"
     },
     {
-        "name": "GPS Tracker",
-        "id": 412,
+        "id": "427",
+        "name": "Printed Knife",
+        "reference": "3dPrintedKnife",
         "max": 1,
-        "essential": true
+        "name_short": "3dPrintedKnife"
     },
     {
-        "name": "Grenade",
-        "id": 381,
-        "max": 10
-    },
-    {
-        "name": "Guarana Berries",
-        "id": 594,
-        "max": 20
-    },
-    {
-        "name": "Guarana Seed",
-        "id": 602,
-        "max": 20
-    },
-    {
-        "name": "Guitar",
-        "id": 340,
+        "id": "428",
+        "name": "Printed Sled",
+        "reference": "3dPrintedSled",
         "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
+        "name_short": "3dPrintedSled"
     },
     {
-        "name": "Health Mix",
-        "id": 455,
-        "max": 3
-    },
-    {
-        "name": "Health Mix +",
-        "id": 456,
-        "max": 3
-    },
-    {
-        "name": "HolovilleNoticeA",
-        "id": 562,
-        "max": 1
-    },
-    {
-        "name": "HolovilleNoticeB",
-        "id": 563,
-        "max": 1
-    },
-    {
-        "name": "HolovilleNoticeC",
-        "id": 564,
-        "max": 1
-    },
-    {
-        "name": "HolovilleNoticeD",
-        "id": 565,
-        "max": 1
-    },
-    {
-        "name": "Hoodie",
-        "id": 490,
-        "max": 1
-    },
-    {
-        "name": "Horsetail",
-        "id": 450,
-        "max": 20
-    },
-    {
-        "name": "Horsetail Seed",
-        "id": 603,
-        "max": 20
-    },
-    {
-        "name": "Hydnum Repandum",
-        "id": 399,
-        "max": 20
-    },
-    {
-        "name": "Katana",
-        "id": 367,
+        "id": "429",
+        "name": "Printed Scuba Mask",
+        "reference": "3dPrintedUnderwaterMask",
         "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
+        "name_short": "3dPrintedUnderwaterMask"
     },
     {
-        "name": "Guest Keycard",
-        "id": 567,
-        "max": 1
+        "id": "390",
+        "name": "Printer Resin",
+        "reference": "3dPrinterResin",
+        "max": 1000,
+        "name_short": "3dPrinterResin"
     },
     {
-        "name": "Maintenance Keycard",
-        "id": 566,
-        "max": 1
+        "id": "362",
+        "name": "Pistol Ammo",
+        "reference": "9mmAmmo",
+        "max": 1000,
+        "name_short": "9mmAmmo"
     },
     {
-        "name": "VIP Keycard",
-        "id": 568,
-        "max": 1
+        "id": "469",
+        "name": "Air Canister",
+        "reference": "AirCanister",
+        "max": 4,
+        "name_short": "AirCanister"
     },
     {
-        "name": "King Oyster",
-        "id": 398,
-        "max": 20
-    },
-    {
-        "name": "Laser Sight",
-        "id": 375,
-        "max": 1
-    },
-    {
-        "name": "Leaf",
-        "id": 484,
-        "max": 1000
-    },
-    {
-        "name": "Leaf Armor",
-        "id": 473,
-        "max": 10
-    },
-    {
-        "name": "Skin Pouch",
-        "id": 508,
-        "max": 6
-    },
-    {
-        "name": "Machete",
-        "id": 359,
+        "id": "357",
+        "name": "Airgun",
+        "reference": "Airgun",
         "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
+        "name_short": "Airgun"
     },
     {
-        "name": "Raw Meat",
-        "id": 433,
-        "max": 7,
-        "item_data": {
-            "Modules": [
-                {
-                    "CurrentState": 1,
-                    "TimeRemainingInState": 81342.26,
-                    "PauseDecay": false,
-                    "Version": "0.0.0",
-                    "ModuleId": 3
-                }
-            ]
-        }
-    },
-    {
-        "name": "Modern Axe",
-        "id": 356,
+        "id": "470",
+        "name": "Airgun Scope",
+        "reference": "AirgunScope",
         "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
+        "name_short": "AirgunScope"
     },
     {
-        "name": "Molotov",
-        "id": 388,
-        "max": 6
-    },
-    {
-        "name": "Molotov Ammo (?)",
-        "id": 389,
-        "max": 10
-    },
-    {
-        "name": "Cash",
-        "id": 496,
-        "max": 1000000
-    },
-    {
-        "name": "MRE Pack",
-        "id": 438,
-        "max": 6
-    },
-    {
-        "name": "NewspaperCutout",
-        "id": 612,
-        "max": 1
-    },
-    {
-        "name": "NewspaperCutoutOutbid",
-        "id": 613,
-        "max": 1
-    },
-    {
-        "name": "Pennant Line Book",
-        "id": 423,
-        "max": 1
-    },
-    {
-        "name": "Deep Sleep Book",
-        "id": 424,
-        "max": 1
-    },
-    {
-        "name": "Rescued Book",
-        "id": 574,
-        "max": 1
-    },
-    {
-        "name": "Parallel Universes Book",
-        "id": 575,
-        "max": 1
-    },
-    {
-        "name": "NumbersPrintout",
-        "id": 611,
-        "max": 1
-    },
-    {
-        "name": "Blazer",
-        "id": 491,
-        "max": 1
-    },
-    {
-        "name": "Oyster",
-        "id": 466,
-        "max": 5
-    },
-    {
-        "name": "Paper Target",
-        "id": 518,
-        "max": 50
-    },
-    {
-        "name": "Pistol Ammo Box",
-        "id": 370,
-        "max": 1
-    },
-    {
-        "name": "Silencer",
-        "id": 374,
-        "max": 1
-    },
-    {
-        "name": "Lighter",
-        "id": 413,
+        "id": "467",
+        "name": "Album Cover",
+        "reference": "AlbumCover",
         "max": 1,
-        "essential": true
+        "name_short": "AlbumCover"
     },
     {
-        "name": "Winter Jacket",
-        "id": 500,
-        "max": 1
+        "id": "451",
+        "name": "Aloe Vera",
+        "reference": "AloeVera",
+        "max": 20,
+        "name_short": "AloeVera"
     },
     {
-        "name": "Radio",
-        "id": 590,
-        "max": 1
+        "id": "596",
+        "name": "AloeVera Seed",
+        "reference": "AloeVeraSeed",
+        "max": 20,
+        "name_short": "AloeVeraSeed"
     },
     {
-        "name": "Ramen Noodles",
-        "id": 421,
-        "max": 10
+        "id": "454",
+        "name": "Arrowleaf",
+        "reference": "ArrowleafBalsamroot",
+        "max": 20,
+        "name_short": "ArrowleafBalsamroot"
     },
     {
-        "name": "Rebreather",
-        "id": 444,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "RecipeId": -1,
-                    "CurrentVolume": 1000,
-                    "Version": "0.0.0",
-                    "ModuleId": 7
-                }
-            ]
-        }
+        "id": "597",
+        "name": "Arrowleaf Seed",
+        "reference": "ArrowleafSeed",
+        "max": 20,
+        "name_short": "ArrowleafSeed"
     },
     {
-        "name": "Red Mask",
-        "id": 391,
-        "max": 1
-    },
-    {
-        "name": "Repair Tool",
-        "id": 422,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
-    },
-    {
-        "name": "Revolver",
-        "id": 386,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "AmmoType": 362,
-                    "CurrentAmmo": 6,
-                    "WeaponModIds": [],
-                    "Version": "0.0.0",
-                    "ModuleId": 4
-                }
-            ]
-        }
-    },
-    {
-        "name": "Rock",
-        "id": 393,
-        "max": 10
-    },
-    {
-        "name": "Rope",
-        "id": 403,
-        "max": 10
-    },
-    {
-        "name": "Rope Gun",
-        "id": 522,
-        "max": 1
-    },
-    {
-        "name": "Salmonberries",
-        "id": 447,
-        "max": 20
-    },
-    {
-        "name": "Salmonberry Seed",
-        "id": 604,
-        "max": 20
-    },
-    {
-        "name": "Raw Arm",
-        "id": 480,
-        "max": 2,
-        "item_data": {
-            "Modules": [
-                {
-                    "SourceActorType": 0,
-                    "Version": "0.0.0",
-                    "ModuleId": 1
-                },
-                {
-                    "CurrentState": 1,
-                    "TimeRemainingInState": 81347.77,
-                    "PauseDecay": false,
-                    "Version": "0.0.0",
-                    "ModuleId": 3
-                },
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
-    },
-    {
-        "name": "Raw Head",
-        "id": 482,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "SourceActorType": 0,
-                    "Version": "0.0.0",
-                    "ModuleId": 1
-                },
-                {
-                    "CurrentState": 1,
-                    "TimeRemainingInState": 81347.31,
-                    "PauseDecay": false,
-                    "Version": "0.0.0",
-                    "ModuleId": 3
-                }
-            ]
-        }
-    },
-    {
-        "name": "Raw Leg",
-        "id": 481,
-        "max": 2,
-        "item_data": {
-            "Modules": [
-                {
-                    "SourceActorType": 0,
-                    "Version": "0.0.0",
-                    "ModuleId": 1
-                },
-                {
-                    "CurrentState": 1,
-                    "TimeRemainingInState": 81347.77,
-                    "PauseDecay": false,
-                    "Version": "0.0.0",
-                    "ModuleId": 3
-                },
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
-    },
-    {
-        "name": "Shiitake",
-        "id": 397,
-        "max": 20
-    },
-    {
-        "name": "Shotgun Buckshot Ammo Box",
-        "id": 371,
-        "max": 1
-    },
-    {
-        "name": "Shotgun Slug Ammo Box",
-        "id": 372,
-        "max": 1
-    },
-    {
-        "name": "Shotgun Rail",
-        "id": 346,
-        "max": 1
-    },
-    {
-        "name": "Shovel",
-        "id": 485,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
-    },
-    {
-        "name": "Pajamas",
-        "id": 487,
-        "max": 1
-    },
-    {
-        "name": "Skull",
-        "id": 430,
-        "max": 3
-    },
-    {
-        "name": "Sleeping Bag",
-        "id": 573,
-        "max": 1
-    },
-    {
-        "name": "Slingshot",
-        "id": 459,
-        "max": 1
-    },
-    {
-        "name": "Slug Ammo",
-        "id": 363,
-        "max": 1000
-    },
-    {
-        "name": "Snowberries",
-        "id": 448,
-        "max": 20
-    },
-    {
-        "name": "Spring",
-        "id": 513,
-        "max": 1
-    },
-    {
-        "name": "Stick",
-        "id": 392,
-        "max": 20
-    },
-    {
-        "name": "StockPricePrintout",
-        "id": 617,
-        "max": 1
-    },
-    {
-        "name": "Stun Gun Ammo",
-        "id": 369,
-        "max": 1000
-    },
-    {
-        "name": "Stun Gun Ammo Box",
-        "id": 457,
-        "max": 1
-    },
-    {
-        "name": "Tactical Axe",
-        "id": 379,
+        "id": "402",
+        "name": "Backpack",
+        "reference": "Backpack",
         "max": 1,
         "item_data": {
             "Modules": [
@@ -1360,30 +154,388 @@
                 }
             ]
         },
-        "essential": true
+        "essential": true,
+        "name_short": "Backpack"
     },
     {
-        "name": "Compound Bow",
-        "id": 360,
-        "max": 1
+        "id": "527",
+        "name": "Batteries",
+        "reference": "Batteries",
+        "max": 6,
+        "name_short": "Batteries"
     },
     {
-        "name": "Carbon Fiber Arrow",
-        "id": 373,
-        "max": 25
+        "id": "458",
+        "name": "Battery Charger",
+        "reference": "BatteryCharger",
+        "max": 1,
+        "name_short": "BatteryCharger"
     },
     {
-        "name": "Chainsaw",
-        "id": 394,
+        "id": "460",
+        "name": "Battery Pack",
+        "reference": "BatteryPack",
+        "max": 1,
+        "name_short": "BatteryPack"
+    },
+    {
+        "id": "341",
+        "name": "Binoculars",
+        "reference": "Binoculars",
+        "max": 1,
+        "name_short": "Binoculars"
+    },
+    {
+        "id": "595",
+        "name": "Blackberries",
+        "reference": "Blackberries",
+        "max": 20,
+        "name_short": "Blackberries"
+    },
+    {
+        "id": "598",
+        "name": "Blackberry Seed",
+        "reference": "BlackberrySeed",
+        "max": 20,
+        "name_short": "BlackberrySeed"
+    },
+    {
+        "id": "488",
+        "name": "Blue TShirt",
+        "reference": "BlueTShirt",
+        "max": 1,
+        "name_short": "BlueTShirt"
+    },
+    {
+        "id": "445",
+        "name": "Blueberries",
+        "reference": "Blueberries",
+        "max": 20,
+        "name_short": "Blueberries"
+    },
+    {
+        "id": "599",
+        "name": "Blueberry Seed",
+        "reference": "BlueberrySeed",
+        "max": 20,
+        "name_short": "BlueberrySeed"
+    },
+    {
+        "id": "581",
+        "name": "BlueprintBirdHouse",
+        "reference": "BlueprintBirdHouse",
+        "max": 1,
+        "name_short": "BlueprintBirdHouse"
+    },
+    {
+        "id": "579",
+        "name": "BlueprintBoneChair",
+        "reference": "BlueprintBoneChair",
+        "max": 1,
+        "name_short": "BlueprintBoneChair"
+    },
+    {
+        "id": "588",
+        "name": "BlueprintBoneChandelier",
+        "reference": "BlueprintBoneChandelier",
+        "max": 1,
+        "name_short": "BlueprintBoneChandelier"
+    },
+    {
+        "id": "552",
+        "name": "S.C.R.E.W.",
+        "reference": "BlueprintBook",
+        "max": 1,
+        "essential": true,
+        "name_short": "BlueprintBook"
+    },
+    {
+        "id": "530",
+        "name": "Drying Rack Blueprint",
+        "reference": "BlueprintDryingRack",
+        "max": 1,
+        "name_short": "BlueprintDryingRack"
+    },
+    {
+        "id": "582",
+        "name": "BlueprintFishTrap",
+        "reference": "BlueprintFishTrap",
+        "max": 1,
+        "name_short": "BlueprintFishTrap"
+    },
+    {
+        "id": "625",
+        "name": "BlueprintHangingSkullLight",
+        "reference": "BlueprintHangingSkullLight",
+        "max": 1,
+        "name_short": "BlueprintHangingSkullLight"
+    },
+    {
+        "id": "584",
+        "name": "BlueprintMannequin",
+        "reference": "BlueprintMannequin",
+        "max": 1,
+        "name_short": "BlueprintMannequin"
+    },
+    {
+        "id": "587",
+        "name": "BlueprintPlanterFloor",
+        "reference": "BlueprintPlanterFloor",
+        "max": 1,
+        "name_short": "BlueprintPlanterFloor"
+    },
+    {
+        "id": "586",
+        "name": "BlueprintPlanterWallJ",
+        "reference": "BlueprintPlanterWall",
+        "max": 1,
+        "name_short": "BlueprintPlanterWall"
+    },
+    {
+        "id": "622",
+        "name": "BlueprintRockPath",
+        "reference": "BlueprintRockPath",
+        "max": 1,
+        "name_short": "BlueprintRockPath"
+    },
+    {
+        "id": "585",
+        "name": "BlueprintScarecrow",
+        "reference": "BlueprintScarecrow",
+        "max": 1,
+        "name_short": "BlueprintScarecrow"
+    },
+    {
+        "id": "621",
+        "name": "BlueprintShelf",
+        "reference": "BlueprintShelf",
+        "max": 1,
+        "name_short": "BlueprintShelf"
+    },
+    {
+        "id": "591",
+        "name": "BlueprintSmallLogCabin",
+        "reference": "BlueprintSmallLogCabin",
+        "max": 1,
+        "name_short": "BlueprintSmallLogCabin"
+    },
+    {
+        "id": "532",
+        "name": "Stick Bed Blueprint",
+        "reference": "BlueprintStickBed",
+        "max": 1,
+        "name_short": "BlueprintStickBed"
+    },
+    {
+        "id": "531",
+        "name": "Stick Chair Blueprint",
+        "reference": "BlueprintStickChair",
+        "max": 1,
+        "name_short": "BlueprintStickChair"
+    },
+    {
+        "id": "580",
+        "name": "BlueprintStickLadderD",
+        "reference": "BlueprintStickLadder",
+        "max": 1,
+        "name_short": "BlueprintStickLadder"
+    },
+    {
+        "id": "608",
+        "name": "BlueprintStorageBones",
+        "reference": "BlueprintStorageBones",
+        "max": 1,
+        "name_short": "BlueprintStorageBones"
+    },
+    {
+        "id": "583",
+        "name": "BlueprintStorageBox",
+        "reference": "BlueprintStorageBox",
+        "max": 1,
+        "name_short": "BlueprintStorageBox"
+    },
+    {
+        "id": "609",
+        "name": "BlueprintStorageLogsa",
+        "reference": "BlueprintStorageLogs",
+        "max": 1,
+        "name_short": "BlueprintStorageLogs"
+    },
+    {
+        "id": "607",
+        "name": "BlueprintStorageRocks",
+        "reference": "BlueprintStorageRocks",
+        "max": 1,
+        "name_short": "BlueprintStorageRocks"
+    },
+    {
+        "id": "610",
+        "name": "BlueprintStorageSticks",
+        "reference": "BlueprintStorageSticks",
+        "max": 1,
+        "name_short": "BlueprintStorageSticks"
+    },
+    {
+        "id": "620",
+        "name": "BlueprintTable",
+        "reference": "BlueprintTable",
+        "max": 1,
+        "name_short": "BlueprintTable"
+    },
+    {
+        "id": "549",
+        "name": "Bone Maker Blueprint",
+        "reference": "BlueprintTrapBoneMaker",
+        "max": 1,
+        "name_short": "BlueprintTrapBoneMaker"
+    },
+    {
+        "id": "550",
+        "name": "Fly Swatter Blueprint",
+        "reference": "BlueprintTrapFlySwatter",
+        "max": 1,
+        "name_short": "BlueprintTrapFlySwatter"
+    },
+    {
+        "id": "551",
+        "name": "Small Animal Catcher Blueprint",
+        "reference": "BlueprintTrapSmallAnimalCatcher",
+        "max": 1,
+        "name_short": "BlueprintTrapSmallAnimalCatcher"
+    },
+    {
+        "id": "623",
+        "name": "BlueprintWallShelf",
+        "reference": "BlueprintWallShelf",
+        "max": 1,
+        "name_short": "BlueprintWallShelf"
+    },
+    {
+        "id": "624",
+        "name": "BlueprintWallTorch",
+        "reference": "BlueprintWallTorch",
+        "max": 1,
+        "name_short": "BlueprintWallTorch"
+    },
+    {
+        "id": "533",
+        "name": "BlueprintWeaponRack",
+        "reference": "BlueprintWeaponRack",
+        "max": 1,
+        "name_short": "BlueprintWeaponRack"
+    },
+    {
+        "id": "405",
+        "name": "Bone",
+        "reference": "Bone",
+        "max": 15,
+        "name_short": "Bone"
+    },
+    {
+        "id": "494",
+        "name": "Bone Armour",
+        "reference": "BoneArmour",
+        "max": 10,
+        "name_short": "BoneArmour"
+    },
+    {
+        "id": "364",
+        "name": "Shotgun Buckshot",
+        "reference": "BuckshotAmmo",
+        "max": 1000,
+        "name_short": "BuckshotAmmo"
+    },
+    {
+        "id": "509",
+        "name": "Holosprings Pamphlet",
+        "reference": "BunkerPamphlet",
+        "max": 1,
+        "name_short": "BunkerPamphlet"
+    },
+    {
+        "id": "420",
+        "name": "C4 Brick",
+        "reference": "C4Brick",
+        "max": 10,
+        "name_short": "C4Brick"
+    },
+    {
+        "id": "432",
+        "name": "Can Opener",
+        "reference": "CanOpener",
+        "max": 1,
+        "name_short": "CanOpener"
+    },
+    {
+        "id": "434",
+        "name": "Canned Food",
+        "reference": "CannedFood",
+        "max": 6,
+        "name_short": "CannedFood"
+    },
+    {
+        "id": "464",
+        "name": "Cat Food",
+        "reference": "CatFood",
+        "max": 5,
+        "name_short": "CatFood"
+    },
+    {
+        "id": "425",
+        "name": "Crunchie Wunchies",
+        "reference": "CerealBox",
+        "max": 4,
+        "name_short": "CerealBox"
+    },
+    {
+        "id": "465",
+        "name": "Chicory",
+        "reference": "Chicory",
+        "max": 20,
+        "name_short": "Chicory"
+    },
+    {
+        "id": "605",
+        "name": "Chicory Seed",
+        "reference": "ChicorySeed",
+        "max": 20,
+        "name_short": "ChicorySeed"
+    },
+    {
+        "id": "416",
+        "name": "Circuit Board",
+        "reference": "CircuitBoard",
+        "max": 10,
+        "name_short": "CircuitBoard"
+    },
+    {
+        "id": "478",
+        "name": "Climbing Axe",
+        "reference": "ClimbingAxe",
+        "max": 1,
+        "name_short": "ClimbingAxe"
+    },
+    {
+        "id": "415",
+        "name": "Cloth",
+        "reference": "Cloth",
+        "max": 1000,
+        "name_short": "Cloth"
+    },
+    {
+        "id": "502",
+        "name": "Coins",
+        "reference": "Coins",
+        "max": 1000,
+        "name_short": "Coins"
+    },
+    {
+        "id": "380",
+        "name": "Utility Knife",
+        "reference": "CombatKnife",
         "max": 1,
         "item_data": {
             "Modules": [
-                {
-                    "RecipeId": -1,
-                    "CurrentVolume": 100,
-                    "Version": "0.0.0",
-                    "ModuleId": 7
-                },
                 {
                     "ChannelWeights": {
                         "x": 0,
@@ -1395,214 +547,14 @@
                     "ModuleId": 0
                 }
             ]
-        }
+        },
+        "essential": true,
+        "name_short": "CombatKnife"
     },
     {
-        "name": "Tactical Jacket",
-        "id": 495,
-        "max": 2
-    },
-    {
-        "name": "Tarp",
-        "id": 504,
-        "max": 5
-    },
-    {
-        "name": "Stun Baton",
-        "id": 396,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "RecipeId": -1,
-                    "CurrentVolume": 100,
-                    "Version": "0.0.0",
-                    "ModuleId": 7
-                },
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
-    },
-    {
-        "name": "Tech Armor",
-        "id": 554,
-        "max": 10
-    },
-    {
-        "name": "Tech Mesh",
-        "id": 553,
-        "max": 10
-    },
-    {
-        "name": "Time Bomb",
-        "id": 417,
-        "max": 3
-    },
-    {
-        "name": "Torch",
-        "id": 503,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "ChannelWeights": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 0
-                    },
-                    "Version": "0.0.0",
-                    "ModuleId": 0
-                }
-            ]
-        }
-    },
-    {
-        "name": "Turtle Egg",
-        "id": 401,
-        "max": 10
-    },
-    {
-        "name": "Turtle Shell",
-        "id": 506,
-        "max": 1
-    },
-    {
-        "name": "Guide Book",
-        "id": 589,
-        "max": 1,
-        "essential": true
-    },
-    {
-        "name": "TutorialPageBasicBuilding",
-        "id": 515,
-        "max": 1
-    },
-    {
-        "name": "TutorialPageTarpTent",
-        "id": 516,
-        "max": 1
-    },
-    {
-        "name": "Tuxedo",
-        "id": 492,
-        "max": 1
-    },
-    {
-        "name": "Twinberries",
-        "id": 446,
-        "max": 20
-    },
-    {
-        "name": "VirginiaCamoSuit",
-        "id": 558,
-        "max": 1
-    },
-    {
-        "name": "VirginiaDress",
-        "id": 556,
-        "max": 1
-    },
-    {
-        "name": "VirginiaLeatherSuit",
-        "id": 557,
-        "max": 1
-    },
-    {
-        "name": "VirginiaSwimSuit",
-        "id": 619,
-        "max": 1
-    },
-    {
-        "name": "VirginiaTrackSuit",
-        "id": 555,
-        "max": 1
-    },
-    {
-        "name": "Vodka Bottle",
-        "id": 414,
-        "max": 6
-    },
-    {
-        "name": "Walkie Talkie",
-        "id": 486,
-        "max": 1,
-        "essential": true
-    },
-    {
-        "name": "Wetsuit",
-        "id": 499,
-        "max": 1
-    },
-    {
-        "name": "Wire",
-        "id": 418,
-        "max": 100
-    },
-    {
-        "name": "Watch",
-        "id": 410,
-        "max": 50
-    },
-    {
-        "name": "Yarrow",
-        "id": 452,
-        "max": 20
-    },
-    {
-        "name": "Yarrow Seed",
-        "id": 606,
-        "max": 20
-    },
-    {
-        "name": "Zipline Rope",
-        "id": 523,
-        "max": 10
-    },
-    {
-        "name": "Shotgun",
-        "id": 358,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "AmmoType": 364,
-                    "CurrentAmmo": 2,
-                    "WeaponModIds": [],
-                    "Version": "0.0.0",
-                    "ModuleId": 4
-                }
-            ]
-        }
-    },
-    {
-        "name": "Stun Gun",
-        "id": 353,
-        "max": 1,
-        "item_data": {
-            "Modules": [
-                {
-                    "AmmoType": 369,
-                    "CurrentAmmo": 1,
-                    "WeaponModIds": [],
-                    "Version": "0.0.0",
-                    "ModuleId": 4
-                }
-            ]
-        }
-    },
-    {
-        "name": "Pistol",
-        "id": 355,
+        "id": "355",
+        "name": "Compact Pistol",
+        "reference": "CompactPistol",
         "max": 1,
         "item_data": {
             "Modules": [
@@ -1624,6 +576,1782 @@
                     "ModuleId": 0
                 }
             ]
-        }
+        },
+        "name_short": "CompactPistol"
+    },
+    {
+        "id": "376",
+        "name": "Pistol Rail",
+        "reference": "CompactPistolRail",
+        "max": 1,
+        "name_short": "CompactPistolRail"
+    },
+    {
+        "id": "514",
+        "name": "Contact Spring Trigger",
+        "reference": "ContactSpringTrigger",
+        "max": 1,
+        "name_short": "ContactSpringTrigger"
+    },
+    {
+        "id": "511",
+        "name": "Contact Trigger",
+        "reference": "ContactTrigger",
+        "max": 1,
+        "name_short": "ContactTrigger"
+    },
+    {
+        "id": "517",
+        "name": "Cooking Pot",
+        "reference": "CookingPot",
+        "max": 1,
+        "name_short": "CookingPot"
+    },
+    {
+        "id": "507",
+        "name": "Crafted Arrow",
+        "reference": "CraftedArrow",
+        "max": 20,
+        "name_short": "CraftedArrow"
+    },
+    {
+        "id": "443",
+        "name": "Crafted Bow",
+        "reference": "CraftedBow",
+        "max": 1,
+        "name_short": "CraftedBow"
+    },
+    {
+        "id": "477",
+        "name": "Crafted Club",
+        "reference": "CraftedClub",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "CraftedClub"
+    },
+    {
+        "id": "474",
+        "name": "Crafted Spear",
+        "reference": "CraftedSpear",
+        "max": 5,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "CraftedSpear"
+    },
+    {
+        "id": "593",
+        "name": "Creepy Armour",
+        "reference": "CreepyArmour",
+        "max": 10,
+        "name_short": "CreepyArmour"
+    },
+    {
+        "id": "592",
+        "name": "Creepy Skin",
+        "reference": "CreepySkin",
+        "max": 10,
+        "name_short": "CreepySkin"
+    },
+    {
+        "id": "468",
+        "name": "Cross",
+        "reference": "Cross",
+        "max": 1,
+        "name_short": "Cross"
+    },
+    {
+        "id": "365",
+        "name": "Crossbow",
+        "reference": "Crossbow",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "AmmoType": -1,
+                    "CurrentAmmo": -1,
+                    "WeaponModIds": [],
+                    "Version": "0.0.0",
+                    "ModuleId": 4
+                }
+            ]
+        },
+        "name_short": "Crossbow"
+    },
+    {
+        "id": "368",
+        "name": "Crossbow Bolt",
+        "reference": "CrossbowAmmoBolt",
+        "max": 15,
+        "name_short": "CrossbowAmmoBolt"
+    },
+    {
+        "id": "384",
+        "name": "Crossbow Quiver",
+        "reference": "CrossbowQuiverMod",
+        "max": 1,
+        "name_short": "CrossbowQuiverMod"
+    },
+    {
+        "id": "472",
+        "name": "Deer Hide",
+        "reference": "DeerHide",
+        "max": 10,
+        "name_short": "DeerHide"
+    },
+    {
+        "id": "519",
+        "name": "Deer Hide Armour",
+        "reference": "DeerHideArmour",
+        "max": 10,
+        "name_short": "DeerHideArmour"
+    },
+    {
+        "id": "449",
+        "name": "DevilsClub",
+        "reference": "DevilsClub",
+        "max": 20,
+        "name_short": "DevilsClub"
+    },
+    {
+        "id": "600",
+        "name": "DevilsClub Seed",
+        "reference": "DevilsClubSeed",
+        "max": 20,
+        "name_short": "DevilsClubSeed"
+    },
+    {
+        "id": "419",
+        "name": "Duct Tape",
+        "reference": "DuctTape",
+        "max": 100,
+        "name_short": "DuctTape"
+    },
+    {
+        "id": "539",
+        "name": "Astrology Email Pt 1",
+        "reference": "EmailPrintoutAstrologyA",
+        "max": 1,
+        "name_short": "EmailPrintoutAstrologyA"
+    },
+    {
+        "id": "540",
+        "name": "Astrology Email Pt 2",
+        "reference": "EmailPrintoutAstrologyB",
+        "max": 1,
+        "name_short": "EmailPrintoutAstrologyB"
+    },
+    {
+        "id": "541",
+        "name": "Astrology Email Pt 3",
+        "reference": "EmailPrintoutAstrologyC",
+        "max": 1,
+        "name_short": "EmailPrintoutAstrologyC"
+    },
+    {
+        "id": "545",
+        "name": "Ballet Email",
+        "reference": "EmailPrintoutBalletA",
+        "max": 1,
+        "name_short": "EmailPrintoutBalletA"
+    },
+    {
+        "id": "521",
+        "name": "Cave Lighting Email",
+        "reference": "EmailPrintoutCaveLighting",
+        "max": 1,
+        "name_short": "EmailPrintoutCaveLighting"
+    },
+    {
+        "id": "534",
+        "name": "Golf Email Pt 1",
+        "reference": "EmailPrintoutGolfA",
+        "max": 1,
+        "name_short": "EmailPrintoutGolfA"
+    },
+    {
+        "id": "535",
+        "name": "Golf Email Pt 2",
+        "reference": "EmailPrintoutGolfB",
+        "max": 1,
+        "name_short": "EmailPrintoutGolfB"
+    },
+    {
+        "id": "536",
+        "name": "Golf Email Pt 3",
+        "reference": "EmailPrintoutGolfC",
+        "max": 1,
+        "name_short": "EmailPrintoutGolfC"
+    },
+    {
+        "id": "537",
+        "name": "Golf Email Pt 4",
+        "reference": "EmailPrintoutGolfD",
+        "max": 1,
+        "name_short": "EmailPrintoutGolfD"
+    },
+    {
+        "id": "614",
+        "name": "Email",
+        "reference": "EmailPrintoutGovernmentA",
+        "max": 1,
+        "name_short": "EmailPrintoutGovernmentA"
+    },
+    {
+        "id": "615",
+        "name": "Email",
+        "reference": "EmailPrintoutGovernmentB",
+        "max": 1,
+        "name_short": "EmailPrintoutGovernmentB"
+    },
+    {
+        "id": "616",
+        "name": "Email",
+        "reference": "EmailPrintoutGovernmentC",
+        "max": 1,
+        "name_short": "EmailPrintoutGovernmentC"
+    },
+    {
+        "id": "528",
+        "name": "MrPuffy Financials",
+        "reference": "EmailPrintoutMrPuffyFinancial",
+        "max": 1,
+        "name_short": "EmailPrintoutMrPuffyFinancial"
+    },
+    {
+        "id": "526",
+        "name": "Mr Puffy Will",
+        "reference": "EmailPrintoutMrPuffyWill",
+        "max": 1,
+        "name_short": "EmailPrintoutMrPuffyWill"
+    },
+    {
+        "id": "538",
+        "name": "Painting Email",
+        "reference": "EmailPrintoutPaintingA",
+        "max": 1,
+        "name_short": "EmailPrintoutPaintingA"
+    },
+    {
+        "id": "542",
+        "name": "Politician Email Pt 1",
+        "reference": "EmailPrintoutPoliticianA",
+        "max": 1,
+        "name_short": "EmailPrintoutPoliticianA"
+    },
+    {
+        "id": "543",
+        "name": "Politician Email Pt 2",
+        "reference": "EmailPrintoutPoliticianB",
+        "max": 1,
+        "name_short": "EmailPrintoutPoliticianB"
+    },
+    {
+        "id": "544",
+        "name": "Politician Email Pt 3",
+        "reference": "EmailPrintoutPoliticianC",
+        "max": 1,
+        "name_short": "EmailPrintoutPoliticianC"
+    },
+    {
+        "id": "546",
+        "name": "Squeaky Shoes Email Pt 1",
+        "reference": "EmailPrintoutSqueakyShoesA",
+        "max": 1,
+        "name_short": "EmailPrintoutSqueakyShoesA"
+    },
+    {
+        "id": "547",
+        "name": "Squeaky Shoes Email Pt 2",
+        "reference": "EmailPrintoutSqueakyShoesB",
+        "max": 1,
+        "name_short": "EmailPrintoutSqueakyShoesB"
+    },
+    {
+        "id": "548",
+        "name": "Squeaky Shoes Email Pt 3",
+        "reference": "EmailPrintoutSqueakyShoesC",
+        "max": 1,
+        "name_short": "EmailPrintoutSqueakyShoesC"
+    },
+    {
+        "id": "483",
+        "name": "Emergency Pack",
+        "reference": "EmergencyPack",
+        "max": 1,
+        "essential": true,
+        "hidden": true,
+        "name_short": "EmergencyPack"
+    },
+    {
+        "id": "441",
+        "name": "Energy Bar",
+        "reference": "EnergyBar",
+        "max": 10,
+        "name_short": "EnergyBar"
+    },
+    {
+        "id": "439",
+        "name": "Energy Drink",
+        "reference": "EnergyDrink",
+        "max": 10,
+        "name_short": "EnergyDrink"
+    },
+    {
+        "id": "461",
+        "name": "Energy Mix",
+        "reference": "EnergyMix",
+        "max": 3,
+        "name_short": "EnergyMix"
+    },
+    {
+        "id": "462",
+        "name": "Energy Mix+",
+        "reference": "EnergyMixPlus",
+        "max": 3,
+        "name_short": "EnergyMixPlus"
+    },
+    {
+        "id": "479",
+        "name": "Feather",
+        "reference": "Feather",
+        "max": 1000,
+        "name_short": "Feather"
+    },
+    {
+        "id": "431",
+        "name": "Firefighter Axe",
+        "reference": "FireAxe",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "FireAxe"
+    },
+    {
+        "id": "453",
+        "name": "Fireweed",
+        "reference": "Fireweed",
+        "max": 20,
+        "name_short": "Fireweed"
+    },
+    {
+        "id": "601",
+        "name": "Fireweed Seed",
+        "reference": "FireweedSeed",
+        "max": 20,
+        "name_short": "FireweedSeed"
+    },
+    {
+        "id": "436",
+        "name": "Fish",
+        "reference": "Fish",
+        "max": 3,
+        "item_data": {
+            "Modules": [
+                {
+                    "CurrentState": 1,
+                    "TimeRemainingInState": 81346.65,
+                    "PauseDecay": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 3
+                }
+            ]
+        },
+        "name_short": "Fish"
+    },
+    {
+        "id": "440",
+        "name": "Flare",
+        "reference": "Flare",
+        "max": 10,
+        "name_short": "Flare"
+    },
+    {
+        "id": "471",
+        "name": "Flashlight",
+        "reference": "Flashlight",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "RecipeId": -1,
+                    "CurrentVolume": 100,
+                    "Version": "0.0.0",
+                    "ModuleId": 7
+                }
+            ]
+        },
+        "name_short": "Flashlight"
+    },
+    {
+        "id": "378",
+        "name": "Flashlight Attachment",
+        "reference": "FlashlightMod",
+        "max": 1,
+        "name_short": "FlashlightMod"
+    },
+    {
+        "id": "475",
+        "name": "Flask",
+        "reference": "Flask",
+        "max": 1,
+        "name_short": "Flask"
+    },
+    {
+        "id": "463",
+        "name": "Flippers",
+        "reference": "Flippers",
+        "max": 1,
+        "name_short": "Flippers"
+    },
+    {
+        "id": "400",
+        "name": "Fly Amanita",
+        "reference": "FlyAmanitaMushroom",
+        "max": 20,
+        "name_short": "FlyAmanitaMushroom"
+    },
+    {
+        "id": "569",
+        "name": "Brain Bite",
+        "reference": "FoodCubeBrain",
+        "max": 10,
+        "name_short": "FoodCubeBrain"
+    },
+    {
+        "id": "570",
+        "name": "Steak Bite",
+        "reference": "FoodCubeSteak",
+        "max": 10,
+        "name_short": "FoodCubeSteak"
+    },
+    {
+        "id": "571",
+        "name": "Steak and Bacon Bite",
+        "reference": "FoodCubeSteakAndBacon",
+        "max": 10,
+        "name_short": "FoodCubeSteakAndBacon"
+    },
+    {
+        "id": "497",
+        "name": "Food Tray",
+        "reference": "FoodTray",
+        "max": 1,
+        "name_short": "FoodTray"
+    },
+    {
+        "id": "512",
+        "name": "Filled Food Tray",
+        "reference": "FoodTrayFilled",
+        "max": 1,
+        "name_short": "FoodTrayFilled"
+    },
+    {
+        "id": "529",
+        "name": "GPS Locator",
+        "reference": "GPSLocator",
+        "max": 10,
+        "item_data": {
+            "Modules": [
+                {
+                    "IconIndex": 0,
+                    "ShowBreadcrumbs": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 2
+                }
+            ]
+        },
+        "name_short": "GPSLocator"
+    },
+    {
+        "id": "412",
+        "name": "GPS Tracker",
+        "reference": "GPSTracker",
+        "max": 1,
+        "essential": true,
+        "name_short": "GPSTracker"
+    },
+    {
+        "id": "498",
+        "name": "GRABS Laser Pointer",
+        "reference": "GRABSLaserPointer",
+        "max": 1,
+        "name_short": "GRABSLaserPointer"
+    },
+    {
+        "id": "435",
+        "name": "Gold Mask",
+        "reference": "GoldMask",
+        "max": 1,
+        "name_short": "GoldMask"
+    },
+    {
+        "id": "572",
+        "name": "Golden Armour",
+        "reference": "GoldenArmour",
+        "max": 1,
+        "name_short": "GoldenArmour"
+    },
+    {
+        "id": "524",
+        "name": "Golf Ball",
+        "reference": "GolfBall",
+        "max": 20,
+        "name_short": "GolfBall"
+    },
+    {
+        "id": "525",
+        "name": "Putter",
+        "reference": "GolfPutter",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "GolfPutter"
+    },
+    {
+        "id": "351",
+        "name": "Grab Bag",
+        "reference": "GrabBag",
+        "max": 1,
+        "essential": true,
+        "name_short": "GrabBag"
+    },
+    {
+        "id": "381",
+        "name": "Grenade",
+        "reference": "Grenade",
+        "max": 10,
+        "name_short": "Grenade"
+    },
+    {
+        "id": "382",
+        "name": "GrenadeAmmo",
+        "reference": "GrenadeAmmo",
+        "max": 1,
+        "name_short": "GrenadeAmmo"
+    },
+    {
+        "id": "594",
+        "name": "Guarana Berries",
+        "reference": "GuaranaBerries",
+        "max": 20,
+        "name_short": "GuaranaBerries"
+    },
+    {
+        "id": "602",
+        "name": "Guarana Seed",
+        "reference": "GuaranaSeed",
+        "max": 20,
+        "name_short": "GuaranaSeed"
+    },
+    {
+        "id": "340",
+        "name": "Guitar",
+        "reference": "Guitar",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "Guitar"
+    },
+    {
+        "id": "455",
+        "name": "Health Mix",
+        "reference": "HealthMix",
+        "max": 3,
+        "name_short": "HealthMix"
+    },
+    {
+        "id": "456",
+        "name": "Health Mix+",
+        "reference": "HealthMixPlus",
+        "max": 3,
+        "name_short": "HealthMixPlus"
+    },
+    {
+        "id": "562",
+        "name": "HolovilleNoticeA",
+        "reference": "HolovilleNoticeA",
+        "max": 1,
+        "name_short": "HolovilleNoticeA"
+    },
+    {
+        "id": "563",
+        "name": "HolovilleNoticeB",
+        "reference": "HolovilleNoticeB",
+        "max": 1,
+        "name_short": "HolovilleNoticeB"
+    },
+    {
+        "id": "564",
+        "name": "HolovilleNoticeC",
+        "reference": "HolovilleNoticeC",
+        "max": 1,
+        "name_short": "HolovilleNoticeC"
+    },
+    {
+        "id": "565",
+        "name": "HolovilleNoticeD",
+        "reference": "HolovilleNoticeD",
+        "max": 1,
+        "name_short": "HolovilleNoticeD"
+    },
+    {
+        "id": "490",
+        "name": "Hoodie",
+        "reference": "Hoodie",
+        "max": 1,
+        "name_short": "Hoodie"
+    },
+    {
+        "id": "450",
+        "name": "Horsetail",
+        "reference": "Horsetail",
+        "max": 20,
+        "name_short": "Horsetail"
+    },
+    {
+        "id": "603",
+        "name": "Horsetail Seed",
+        "reference": "HorsetailSeed",
+        "max": 20,
+        "name_short": "HorsetailSeed"
+    },
+    {
+        "id": "399",
+        "name": "Hydnum Repandum",
+        "reference": "HydnumRepandumMushroom",
+        "max": 20,
+        "name_short": "HydnumRepandumMushroom"
+    },
+    {
+        "id": "367",
+        "name": "Katana",
+        "reference": "Katana",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "Katana"
+    },
+    {
+        "id": "567",
+        "name": "Guest Key",
+        "reference": "KeyCardGuest",
+        "max": 1,
+        "name_short": "KeyCardGuest"
+    },
+    {
+        "id": "566",
+        "name": "Maintenance Key",
+        "reference": "KeyCardMaintenance",
+        "max": 1,
+        "name_short": "KeyCardMaintenance"
+    },
+    {
+        "id": "568",
+        "name": "VIP Key",
+        "reference": "KeyCardVIP",
+        "max": 1,
+        "name_short": "KeyCardVIP"
+    },
+    {
+        "id": "398",
+        "name": "King Oyster",
+        "reference": "KingOysterMushroom",
+        "max": 20,
+        "name_short": "KingOysterMushroom"
+    },
+    {
+        "id": "505",
+        "name": "Laser Measure Tool",
+        "reference": "LaserMeasureTool",
+        "max": 1,
+        "name_short": "LaserMeasureTool"
+    },
+    {
+        "id": "375",
+        "name": "Laser Sight",
+        "reference": "LaserSightMod",
+        "max": 1,
+        "name_short": "LaserSightMod"
+    },
+    {
+        "id": "484",
+        "name": "Leaf",
+        "reference": "Leaf",
+        "max": 1000,
+        "name_short": "Leaf"
+    },
+    {
+        "id": "473",
+        "name": "Leaf Armour",
+        "reference": "LeafArmour",
+        "max": 10,
+        "name_short": "LeafArmour"
+    },
+    {
+        "id": "493",
+        "name": "Leather Jacket",
+        "reference": "LeatherJacket",
+        "max": 1,
+        "name_short": "LeatherJacket"
+    },
+    {
+        "id": "395",
+        "name": "Log Plank",
+        "reference": "LogPlank",
+        "max": 1,
+        "equippable": true,
+        "name_short": "LogPlank"
+    },
+    {
+        "id": "576",
+        "name": "Quarter Log plank",
+        "reference": "QuarterLogPlank",
+        "max": 1,
+        "equippable": true,
+        "name_short": "QuarterLogPlank"
+    },
+    {
+        "id": "577",
+        "name": "Half Log plank",
+        "reference": "HalfLogPlank",
+        "max": 1,
+        "equippable": true,
+        "name_short": "HalfLogPlank"
+    },
+    {
+        "id": "578",
+        "name": "Three Quarter Log Plank",
+        "reference": "ThreeQuarterLogPlank",
+        "max": 1,
+        "equippable": true,
+        "name_short": "ThreeQuarterLogPlank"
+    },
+    {
+        "id": "406",
+        "name": "Quarter Log",
+        "reference": "QuarterLog",
+        "max": 1,
+        "equippable": true,
+        "name_short": "QuarterLog"
+    },
+    {
+        "id": "408",
+        "name": "Half Log",
+        "reference": "HalfLog",
+        "max": 1,
+        "equippable": true,
+        "name_short": "HalfLog"
+    },
+    {
+        "id": "409",
+        "name": "Three Quarter Log",
+        "reference": "ThreeQuarterLog",
+        "max": 1,
+        "equippable": true,
+        "name_short": "ThreeQuarterLog"
+    },
+    {
+        "id": "78",
+        "name": "Log",
+        "reference": "Log_Legacy",
+        "max": 1,
+        "equippable": true,
+        "name_short": "Log_Legacy"
+    },
+    {
+        "id": "508",
+        "name": "Skin Pouch",
+        "reference": "LootPouch",
+        "max": 6,
+        "name_short": "LootPouch"
+    },
+    {
+        "id": "359",
+        "name": "Machete",
+        "reference": "Machete2",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "Machete2"
+    },
+    {
+        "id": "433",
+        "name": "Meat",
+        "reference": "Meat",
+        "max": 7,
+        "item_data": {
+            "Modules": [
+                {
+                    "CurrentState": 1,
+                    "TimeRemainingInState": 81342.26,
+                    "PauseDecay": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 3
+                }
+            ]
+        },
+        "name_short": "Meat"
+    },
+    {
+        "id": "356",
+        "name": "Modern Axe",
+        "reference": "ModernAxe",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "ModernAxe"
+    },
+    {
+        "id": "388",
+        "name": "Molotov",
+        "reference": "Molotov",
+        "max": 6,
+        "name_short": "Molotov"
+    },
+    {
+        "id": "389",
+        "name": "MolotovAmmo",
+        "reference": "MolotovAmmo",
+        "max": 10,
+        "name_short": "MolotovAmmo"
+    },
+    {
+        "id": "496",
+        "name": "Money",
+        "reference": "Money",
+        "max": 1000000,
+        "name_short": "Money"
+    },
+    {
+        "id": "438",
+        "name": "MRE Pack",
+        "reference": "MrePack",
+        "max": 6,
+        "name_short": "MrePack"
+    },
+    {
+        "id": "612",
+        "name": "Newspaper Cutout",
+        "reference": "NewspaperCutout",
+        "max": 1,
+        "name_short": "NewspaperCutout"
+    },
+    {
+        "id": "613",
+        "name": "Newspaper Cutout",
+        "reference": "NewspaperCutoutOutbid",
+        "max": 1,
+        "name_short": "NewspaperCutoutOutbid"
+    },
+    {
+        "id": "354",
+        "name": "Night Vision Goggles",
+        "reference": "NightVisionGoggles",
+        "max": 1,
+        "name_short": "NightVisionGoggles"
+    },
+    {
+        "id": "423",
+        "name": "Novel A",
+        "reference": "NovelA",
+        "max": 1,
+        "name_short": "NovelA"
+    },
+    {
+        "id": "424",
+        "name": "Novel B",
+        "reference": "NovelB",
+        "max": 1,
+        "name_short": "NovelB"
+    },
+    {
+        "id": "574",
+        "name": "Novel C",
+        "reference": "NovelC",
+        "max": 1,
+        "name_short": "NovelC"
+    },
+    {
+        "id": "575",
+        "name": "Novel D",
+        "reference": "NovelD",
+        "max": 1,
+        "name_short": "NovelD"
+    },
+    {
+        "id": "611",
+        "name": "Numbers Printout",
+        "reference": "NumbersPrintout",
+        "max": 1,
+        "name_short": "NumbersPrintout"
+    },
+    {
+        "id": "491",
+        "name": "Blazer",
+        "reference": "OldJacket",
+        "max": 1,
+        "name_short": "OldJacket"
+    },
+    {
+        "id": "466",
+        "name": "Oyster",
+        "reference": "Oyster",
+        "max": 5,
+        "name_short": "Oyster"
+    },
+    {
+        "id": "518",
+        "name": "Paper Target",
+        "reference": "PaperTarget",
+        "max": 50,
+        "name_short": "PaperTarget"
+    },
+    {
+        "id": "437",
+        "name": "Meds",
+        "reference": "Pills",
+        "max": 6,
+        "name_short": "Pills"
+    },
+    {
+        "id": "370",
+        "name": "Pistol Ammo",
+        "reference": "PistolAmmoBox",
+        "max": 1,
+        "name_short": "PistolAmmoBox"
+    },
+    {
+        "id": "374",
+        "name": "Silencer",
+        "reference": "PistolSuppressor",
+        "max": 1,
+        "name_short": "PistolSuppressor"
+    },
+    {
+        "id": "413",
+        "name": "Plasma Lighter",
+        "reference": "PlasmaLighter",
+        "max": 1,
+        "essential": true,
+        "name_short": "PlasmaLighter"
+    },
+    {
+        "id": "500",
+        "name": "Puffy Jacket",
+        "reference": "PuffyJacket",
+        "max": 1,
+        "name_short": "PuffyJacket"
+    },
+    {
+        "id": "590",
+        "name": "Radio",
+        "reference": "Radio",
+        "max": 1,
+        "name_short": "Radio"
+    },
+    {
+        "id": "421",
+        "name": "Ramen Noodles",
+        "reference": "RamenNoodles",
+        "max": 10,
+        "name_short": "RamenNoodles"
+    },
+    {
+        "id": "444",
+        "name": "Rebreather",
+        "reference": "Rebreather",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "RecipeId": -1,
+                    "CurrentVolume": 1000,
+                    "Version": "0.0.0",
+                    "ModuleId": 7
+                }
+            ]
+        },
+        "name_short": "Rebreather"
+    },
+    {
+        "id": "391",
+        "name": "Red Mask",
+        "reference": "RedMask",
+        "max": 1,
+        "name_short": "RedMask"
+    },
+    {
+        "id": "422",
+        "name": "Repair Tool",
+        "reference": "RepairTool",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "RepairTool"
+    },
+    {
+        "id": "386",
+        "name": "Revolver",
+        "reference": "Revolver",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "AmmoType": 362,
+                    "CurrentAmmo": 6,
+                    "WeaponModIds": [],
+                    "Version": "0.0.0",
+                    "ModuleId": 4
+                }
+            ]
+        },
+        "name_short": "Revolver"
+    },
+    {
+        "id": "361",
+        "name": "Rifle",
+        "reference": "Rifle",
+        "max": 1,
+        "name_short": "Rifle"
+    },
+    {
+        "id": "387",
+        "name": "RifleAmmo",
+        "reference": "RifleAmmo",
+        "max": 1,
+        "name_short": "RifleAmmo"
+    },
+    {
+        "id": "383",
+        "name": "Rifle Rail Mod",
+        "reference": "RifleRailMod",
+        "max": 1,
+        "name_short": "RifleRailMod"
+    },
+    {
+        "id": "393",
+        "name": "Rock",
+        "reference": "Rock",
+        "max": 10,
+        "name_short": "Rock"
+    },
+    {
+        "id": "403",
+        "name": "Rope",
+        "reference": "Rope",
+        "max": 10,
+        "name_short": "Rope"
+    },
+    {
+        "id": "522",
+        "name": "RopeGun",
+        "reference": "RopeGun",
+        "max": 1,
+        "name_short": "RopeGun"
+    },
+    {
+        "id": "447",
+        "name": "Salmonberries",
+        "reference": "Salmonberries",
+        "max": 20,
+        "name_short": "Salmonberries"
+    },
+    {
+        "id": "604",
+        "name": "Salmonberry Seed",
+        "reference": "SalmonberrySeed",
+        "max": 20,
+        "name_short": "SalmonberrySeed"
+    },
+    {
+        "id": "377",
+        "name": "Scope",
+        "reference": "ScopeMod",
+        "max": 1,
+        "name_short": "ScopeMod"
+    },
+    {
+        "id": "480",
+        "name": "Severed Arm",
+        "reference": "SeveredArm",
+        "max": 2,
+        "item_data": {
+            "Modules": [
+                {
+                    "SourceActorType": 0,
+                    "Version": "0.0.0",
+                    "ModuleId": 1
+                },
+                {
+                    "CurrentState": 1,
+                    "TimeRemainingInState": 81347.77,
+                    "PauseDecay": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 3
+                },
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "SeveredArm"
+    },
+    {
+        "id": "482",
+        "name": "Severed Head",
+        "reference": "SeveredHead",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "SourceActorType": 0,
+                    "Version": "0.0.0",
+                    "ModuleId": 1
+                },
+                {
+                    "CurrentState": 1,
+                    "TimeRemainingInState": 81347.31,
+                    "PauseDecay": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 3
+                }
+            ]
+        },
+        "name_short": "SeveredHead"
+    },
+    {
+        "id": "481",
+        "name": "Severed Leg",
+        "reference": "SeveredLeg",
+        "max": 2,
+        "item_data": {
+            "Modules": [
+                {
+                    "SourceActorType": 0,
+                    "Version": "0.0.0",
+                    "ModuleId": 1
+                },
+                {
+                    "CurrentState": 1,
+                    "TimeRemainingInState": 81347.77,
+                    "PauseDecay": false,
+                    "Version": "0.0.0",
+                    "ModuleId": 3
+                },
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "SeveredLeg"
+    },
+    {
+        "id": "397",
+        "name": "Shiitake",
+        "reference": "ShiitakeMushroom",
+        "max": 20,
+        "name_short": "ShiitakeMushroom"
+    },
+    {
+        "id": "371",
+        "name": "Shotgun Buckshot",
+        "reference": "ShotgunAmmoBoxBuckshot",
+        "max": 1,
+        "name_short": "ShotgunAmmoBoxBuckshot"
+    },
+    {
+        "id": "372",
+        "name": "Shotgun Slug",
+        "reference": "ShotgunAmmoBoxSlug",
+        "max": 1,
+        "name_short": "ShotgunAmmoBoxSlug"
+    },
+    {
+        "id": "358",
+        "name": "Shotgun",
+        "reference": "ShotgunPumpAction",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "AmmoType": 364,
+                    "CurrentAmmo": 2,
+                    "WeaponModIds": [],
+                    "Version": "0.0.0",
+                    "ModuleId": 4
+                }
+            ]
+        },
+        "name_short": "ShotgunPumpAction"
+    },
+    {
+        "id": "346",
+        "name": "Shotgun Rail",
+        "reference": "ShotgunRail",
+        "max": 1,
+        "name_short": "ShotgunRail"
+    },
+    {
+        "id": "485",
+        "name": "Shovel",
+        "reference": "Shovel",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "Shovel"
+    },
+    {
+        "id": "487",
+        "name": "Silk Pyjamas",
+        "reference": "SilkPyjamas",
+        "max": 1,
+        "name_short": "SilkPyjamas"
+    },
+    {
+        "id": "430",
+        "name": "Skull",
+        "reference": "Skull",
+        "max": 3,
+        "name_short": "Skull"
+    },
+    {
+        "id": "573",
+        "name": "Sleeping Bag",
+        "reference": "SleepingBag",
+        "max": 1,
+        "name_short": "SleepingBag"
+    },
+    {
+        "id": "459",
+        "name": "Slingshot",
+        "reference": "Slingshot",
+        "max": 1,
+        "name_short": "Slingshot"
+    },
+    {
+        "id": "363",
+        "name": "Shotgun Slug",
+        "reference": "SlugAmmo",
+        "max": 1000,
+        "name_short": "SlugAmmo"
+    },
+    {
+        "id": "476",
+        "name": "Small Rock",
+        "reference": "SmallRock",
+        "max": 30,
+        "name_short": "SmallRock"
+    },
+    {
+        "id": "448",
+        "name": "Snowberries",
+        "reference": "Snowberries",
+        "max": 20,
+        "name_short": "Snowberries"
+    },
+    {
+        "id": "513",
+        "name": "Spring",
+        "reference": "Spring",
+        "max": 1,
+        "name_short": "Spring"
+    },
+    {
+        "id": "392",
+        "name": "Stick",
+        "reference": "Stick",
+        "max": 20,
+        "name_short": "Stick"
+    },
+    {
+        "id": "617",
+        "name": "Stock Price",
+        "reference": "StockPricePrintout",
+        "max": 1,
+        "name_short": "StockPricePrintout"
+    },
+    {
+        "id": "520",
+        "name": "Structure Element",
+        "reference": "Structure Element",
+        "max": 1,
+        "equippable": true,
+        "name_short": "Structure Element"
+    },
+    {
+        "id": "353",
+        "name": "Stun Gun",
+        "reference": "StunGun",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "AmmoType": 369,
+                    "CurrentAmmo": 1,
+                    "WeaponModIds": [],
+                    "Version": "0.0.0",
+                    "ModuleId": 4
+                }
+            ]
+        },
+        "name_short": "StunGun"
+    },
+    {
+        "id": "369",
+        "name": "Stun Gun Ammo",
+        "reference": "StunGunAmmo",
+        "max": 1000,
+        "name_short": "StunGunAmmo"
+    },
+    {
+        "id": "457",
+        "name": "Stun Gun Ammo",
+        "reference": "StunGunAmmoBox",
+        "max": 1,
+        "name_short": "StunGunAmmoBox"
+    },
+    {
+        "id": "379",
+        "name": "Tactical Axe",
+        "reference": "TacticalAxe",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "essential": true,
+        "name_short": "TacticalAxe"
+    },
+    {
+        "id": "501",
+        "name": "Tactical Boots",
+        "reference": "TacticalBoots",
+        "max": 1,
+        "name_short": "TacticalBoots"
+    },
+    {
+        "id": "360",
+        "name": "Tactical Bow",
+        "reference": "TacticalBow",
+        "max": 1,
+        "name_short": "TacticalBow"
+    },
+    {
+        "id": "373",
+        "name": "Tactical Arrow",
+        "reference": "TacticalBowAmmo",
+        "max": 25,
+        "name_short": "TacticalBowAmmo"
+    },
+    {
+        "id": "394",
+        "name": "Chainsaw",
+        "reference": "TacticalChainsaw",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "RecipeId": -1,
+                    "CurrentVolume": 100,
+                    "Version": "0.0.0",
+                    "ModuleId": 7
+                },
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "TacticalChainsaw"
+    },
+    {
+        "id": "495",
+        "name": "Tactical Jacket",
+        "reference": "TacticalJacket",
+        "max": 2,
+        "name_short": "TacticalJacket"
+    },
+    {
+        "id": "489",
+        "name": "Tactical Pants",
+        "reference": "TacticalPants",
+        "max": 1,
+        "name_short": "TacticalPants"
+    },
+    {
+        "id": "504",
+        "name": "Tarp",
+        "reference": "Tarp",
+        "max": 5,
+        "name_short": "Tarp"
+    },
+    {
+        "id": "396",
+        "name": "Stun Baton",
+        "reference": "TaserStick",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "RecipeId": -1,
+                    "CurrentVolume": 100,
+                    "Version": "0.0.0",
+                    "ModuleId": 7
+                },
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "TaserStick"
+    },
+    {
+        "id": "554",
+        "name": "Tech Armour",
+        "reference": "TechArmour",
+        "max": 10,
+        "name_short": "TechArmour"
+    },
+    {
+        "id": "553",
+        "name": "Tech Mesh",
+        "reference": "TechMesh",
+        "max": 10,
+        "name_short": "TechMesh"
+    },
+    {
+        "id": "417",
+        "name": "Time Bomb",
+        "reference": "TimeBomb",
+        "max": 3,
+        "name_short": "TimeBomb"
+    },
+    {
+        "id": "503",
+        "name": "Torch",
+        "reference": "Torch",
+        "max": 1,
+        "item_data": {
+            "Modules": [
+                {
+                    "ChannelWeights": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "Version": "0.0.0",
+                    "ModuleId": 0
+                }
+            ]
+        },
+        "name_short": "Torch"
+    },
+    {
+        "id": "366",
+        "name": "Tracker Dart",
+        "reference": "TrackerDart",
+        "max": 1,
+        "name_short": "TrackerDart"
+    },
+    {
+        "id": "401",
+        "name": "Turtle Egg",
+        "reference": "TurtleEgg",
+        "max": 10,
+        "name_short": "TurtleEgg"
+    },
+    {
+        "id": "506",
+        "name": "Turtle Shell",
+        "reference": "TurtleShell",
+        "max": 1,
+        "name_short": "TurtleShell"
+    },
+    {
+        "id": "589",
+        "name": "S.C.R.E.W. \/ Tutorials",
+        "reference": "TutorialBook",
+        "max": 1,
+        "essential": true,
+        "name_short": "TutorialBook"
+    },
+    {
+        "id": "515",
+        "name": "Basic Building Tutorial Page",
+        "reference": "TutorialPageBasicBuilding",
+        "max": 1,
+        "name_short": "TutorialPageBasicBuilding"
+    },
+    {
+        "id": "516",
+        "name": "Tarp Tent Tutorial Page",
+        "reference": "TutorialPageTarpTent",
+        "max": 1,
+        "name_short": "TutorialPageTarpTent"
+    },
+    {
+        "id": "492",
+        "name": "Tuxedo",
+        "reference": "Tuxedo",
+        "max": 1,
+        "name_short": "Tuxedo"
+    },
+    {
+        "id": "446",
+        "name": "Twinberries",
+        "reference": "Twinberries",
+        "max": 20,
+        "name_short": "Twinberries"
+    },
+    {
+        "id": "558",
+        "name": "Camoflage Suit",
+        "reference": "VirginiaCamoSuit",
+        "max": 1,
+        "name_short": "VirginiaCamoSuit"
+    },
+    {
+        "id": "556",
+        "name": "Dress",
+        "reference": "VirginiaDress",
+        "max": 1,
+        "name_short": "VirginiaDress"
+    },
+    {
+        "id": "557",
+        "name": "Leather Suit",
+        "reference": "VirginiaLeatherSuit",
+        "max": 1,
+        "name_short": "VirginiaLeatherSuit"
+    },
+    {
+        "id": "619",
+        "name": "Swim Suit",
+        "reference": "VirginiaSwimSuit",
+        "max": 1,
+        "name_short": "VirginiaSwimSuit"
+    },
+    {
+        "id": "555",
+        "name": "Track Suit",
+        "reference": "VirginiaTrackSuit",
+        "max": 1,
+        "name_short": "VirginiaTrackSuit"
+    },
+    {
+        "id": "414",
+        "name": "Vodka Bottle",
+        "reference": "VodkaBottle",
+        "max": 6,
+        "name_short": "VodkaBottle"
+    },
+    {
+        "id": "486",
+        "name": "Walkie Talkie",
+        "reference": "WalkieTalkie",
+        "max": 1,
+        "essential": true,
+        "name_short": "WalkieTalkie"
+    },
+    {
+        "id": "499",
+        "name": "Wetsuit",
+        "reference": "Wetsuit",
+        "max": 1,
+        "name_short": "Wetsuit"
+    },
+    {
+        "id": "418",
+        "name": "Wire",
+        "reference": "Wire",
+        "max": 100,
+        "name_short": "Wire"
+    },
+    {
+        "id": "410",
+        "name": "Watch",
+        "reference": "Wristwatch",
+        "max": 50,
+        "name_short": "Wristwatch"
+    },
+    {
+        "id": "452",
+        "name": "Yarrow",
+        "reference": "Yarro",
+        "max": 20,
+        "name_short": "Yarro"
+    },
+    {
+        "id": "606",
+        "name": "Yarro Seed",
+        "reference": "YarroSeed",
+        "max": 20,
+        "name_short": "YarroSeed"
+    },
+    {
+        "id": "523",
+        "name": "Zipline Rope",
+        "reference": "ZiplineRope",
+        "max": 10,
+        "name_short": "ZiplineRope"
     }
 ]

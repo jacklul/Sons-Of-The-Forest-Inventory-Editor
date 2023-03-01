@@ -10,3 +10,5 @@
 /data/
 /dist/
 !/build.php
+!/extract.php
+!/items.csv

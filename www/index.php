@@ -238,20 +238,22 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
     echo '<form style="display: inline-block;margin: 0;" method="get"><input type="hidden" name="action" value="add"><input type="hidden" name="path" value="' . ($_GET['path'] ?? '') . '"><select name="id"><option value="0" selected disabled>-- select item --</option>';
 
     foreach ($itemData as $itemDataEntry) {
-        if (in_array($itemDataEntry['id'], $addedItems) || isset($itemDataEntry['hidden']))
+        if (in_array($itemDataEntry['id'], $addedItems) || isset($itemDataEntry['hidden']) || isset($itemDataEntry['equippable']))
             continue;
 
-        echo '<option value="' . $itemDataEntry['id'] . '">' . ($itemDataEntry['name'] == '??' ? $itemDataEntry['id'] . ' - unknown item' : $itemDataEntry['name']. ' &nbsp; [' . $itemDataEntry['id'] . ']') . '</option>';
+        echo '<option value="' . $itemDataEntry['id'] . '">' . ($itemDataEntry['name'] == '??' ? $itemDataEntry['id'] . ' - unknown item' : $itemDataEntry['name'] . ' - ' . $itemDataEntry['reference'] . ' [' . $itemDataEntry['id'] . ']') . '</option>';
     }
 
     echo '</select><input type="submit" value="ADD"></form>';
 
     echo '<table border="1" cellpadding="1" cellspacing="1">';
-    echo '<thead><td>ID</td><td>Name</td><td>Count</td><td>Max</td><td>Unique</td><td>Essential</td><td>Actions</td></thead>';
+    echo '<thead><td>ID</td><td>Name</td><td>Count</td><td>Max</td><td>Unique</td><td>Essential</td><td></td></thead>';
     echo '<tbody>';
     foreach ($inventoryContents['ItemInstanceManagerData']['ItemBlocks'] as $itemInstance) {
         $itemId = $itemInstance['ItemId'];
         $itemName = 'Unrecognized item';
+        $itemReference = 'UnrecognizedItem';
+        $itemCount = '?';
         $itemMaxCount = '?';
         $itemUnique = false;
         $itemEssential = true;
@@ -259,19 +261,16 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
 
         if (isset($itemData[$itemId])) {
             $itemName = $itemData[$itemId]['name'];
+            $itemReference = $itemData[$itemId]['reference'];
             $itemCount = $itemInstance['TotalCount'] ?? 1;
             $itemMaxCount = $itemData[$itemInstance['ItemId']]['max'];
             $itemUnique = isset($itemData[$itemInstance['ItemId']]['item_data']);
             $itemEssential = isset($itemData[$itemInstance['ItemId']]['essential']);
             $itemEquipped = isset($itemInstance['equipped']);
-
-            if ($itemEquipped) {
-                $itemName .= " (equipped)";
-            }
         }
 
         echo '<tr>';
-        echo '<td>' . $itemId . '</td><td>' . $itemName . '</td><td>' . $itemCount . '</td><td>' . $itemMaxCount . '</td>';
+        echo '<td>' . $itemId . '</td><td>' . $itemName . ' &nbsp; (' . $itemReference . ')</td><td>' . $itemCount . '</td><td>' . $itemMaxCount . '</td>';
         echo '<td>' . ($itemUnique ? 'yes' : 'no') . '</td>';
         echo '<td>' . ($itemEssential ? 'yes' : 'no') . '</td>';
         
@@ -288,6 +287,8 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
             if (!$itemEssential) {
                 echo ' &nbsp; <a href="?path=' . $_GET['path'] . '&action=remove&id=' . $itemInstance['ItemId'] .'" onclick="return confirm(\'Removing: ' . $itemId . ' - ' . $itemName . '\n\nAre you sure?\')">DELETE</a>';
             }
+        } elseif ($itemEquipped) {
+            echo 'EQUIPPED';
         }
         echo '</td>';
 
