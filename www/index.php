@@ -243,7 +243,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
         if (in_array($itemDataEntry['id'], $addedItems) || isset($itemDataEntry['hidden']) || isset($itemDataEntry['equippable']))
             continue;
 
-        echo '<option value="' . $itemDataEntry['id'] . '">' . ($itemDataEntry['name'] == '??' ? $itemDataEntry['id'] . ' - unknown item' : $itemDataEntry['name'] . ' - ' . $itemDataEntry['reference'] . ' [' . $itemDataEntry['id'] . ']') . '</option>';
+        echo '<option value="' . $itemDataEntry['id'] . '">' . ($itemDataEntry['name'] == '??' ? $itemDataEntry['id'] . ' - unknown item' : $itemDataEntry['name'] . ' - ' . $itemDataEntry['reference'] . ' [' . $itemDataEntry['id'] . ']') . '' . ($itemDataEntry['unknown'] ? ' &nbsp; ⚠️' : '') . '</option>';
     }
 
     echo '</select><input type="submit" value="ADD"></form>';
@@ -260,6 +260,8 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
         $itemUnique = false;
         $itemEssential = true;
         $itemEquipped = false;
+        $itemHidden = false;
+        $itemUnknown = false;
 
         if (isset($itemData[$itemId])) {
             $itemName = $itemData[$itemId]['name'];
@@ -269,10 +271,12 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
             $itemUnique = isset($itemData[$itemInstance['ItemId']]['item_data']);
             $itemEssential = isset($itemData[$itemInstance['ItemId']]['essential']);
             $itemEquipped = isset($itemInstance['equipped']);
+            $itemHidden = isset($itemData[$itemId]['hidden']);
+            $itemUnknown = isset($itemData[$itemId]['unknown']);
         }
 
         echo '<tr>';
-        echo '<td>' . $itemId . '</td><td>' . $itemName . ' &nbsp; (' . $itemReference . ')</td><td>' . $itemCount . '</td><td>' . $itemMaxCount . '</td>';
+        echo '<td>' . $itemId . '</td><td>' . $itemName . ' &nbsp; (' . $itemReference . ')' . ($itemUnknown ? ' <span title="Unknown/Unobtainable item">⚠️</span> ' : '') . '</td><td>' . $itemCount . '</td><td>' . $itemMaxCount . '</td>';
         echo '<td>' . ($itemUnique ? 'yes' : 'no') . '</td>';
         echo '<td>' . ($itemEssential ? 'yes' : 'no') . '</td>';
         

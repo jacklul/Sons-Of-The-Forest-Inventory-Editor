@@ -9,7 +9,8 @@
         "id": "559",
         "name": "Printed Arrow Heads",
         "reference": "3dPrintedArrowHeads",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "426",
@@ -31,7 +32,8 @@
         "id": "561",
         "name": "Printed Flower Pot",
         "reference": "3dPrintedFlowerPot",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "560",
@@ -43,7 +45,8 @@
         "id": "427",
         "name": "Printed Knife",
         "reference": "3dPrintedKnife",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "428",
@@ -55,7 +58,8 @@
         "id": "429",
         "name": "Printed Scuba Mask",
         "reference": "3dPrintedUnderwaterMask",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "390",
@@ -79,13 +83,15 @@
         "id": "357",
         "name": "Airgun",
         "reference": "Airgun",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "470",
         "name": "Airgun Scope",
         "reference": "AirgunScope",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "467",
@@ -154,13 +160,15 @@
         "id": "460",
         "name": "Battery Pack",
         "reference": "BatteryPack",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "341",
         "name": "Binoculars",
         "reference": "Binoculars",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "595",
@@ -178,7 +186,8 @@
         "id": "488",
         "name": "Blue TShirt",
         "reference": "BlueTShirt",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "445",
@@ -486,8 +495,8 @@
         "item_data": {
             "Modules": [
                 {
-                    "AmmoType": 362,
-                    "CurrentAmmo": 12,
+                    "AmmoType": -1,
+                    "CurrentAmmo": -1,
                     "WeaponModIds": [],
                     "Version": "0.0.0",
                     "ModuleId": 4
@@ -527,7 +536,8 @@
         "id": "517",
         "name": "Cooking Pot",
         "reference": "CookingPot",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "507",
@@ -903,13 +913,15 @@
         "id": "475",
         "name": "Flask",
         "reference": "Flask",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "463",
         "name": "Flippers",
         "reference": "Flippers",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "400",
@@ -939,13 +951,15 @@
         "id": "497",
         "name": "Food Tray",
         "reference": "FoodTray",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "512",
         "name": "Filled Food Tray",
         "reference": "FoodTrayFilled",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "529",
@@ -974,7 +988,8 @@
         "id": "498",
         "name": "GRABS Laser Pointer",
         "reference": "GRABSLaserPointer",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "435",
@@ -1031,7 +1046,8 @@
         "id": "382",
         "name": "GrenadeAmmo",
         "reference": "GrenadeAmmo",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "594",
@@ -1173,7 +1189,8 @@
         "id": "505",
         "name": "Laser Measure Tool",
         "reference": "LaserMeasureTool",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "375",
@@ -1197,7 +1214,8 @@
         "id": "493",
         "name": "Leather Jacket",
         "reference": "LeatherJacket",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "395",
@@ -1358,7 +1376,8 @@
         "id": "354",
         "name": "Night Vision Goggles",
         "reference": "NightVisionGoggles",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "423",
@@ -1501,8 +1520,8 @@
         "item_data": {
             "Modules": [
                 {
-                    "AmmoType": 362,
-                    "CurrentAmmo": 6,
+                    "AmmoType": -1,
+                    "CurrentAmmo": -1,
                     "WeaponModIds": [],
                     "Version": "0.0.0",
                     "ModuleId": 4
@@ -1514,19 +1533,22 @@
         "id": "361",
         "name": "Rifle",
         "reference": "Rifle",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "387",
         "name": "RifleAmmo",
         "reference": "RifleAmmo",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "383",
         "name": "Rifle Rail Mod",
         "reference": "RifleRailMod",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "393",
@@ -1562,7 +1584,8 @@
         "id": "377",
         "name": "Scope",
         "reference": "ScopeMod",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "480",
@@ -1676,8 +1699,8 @@
         "item_data": {
             "Modules": [
                 {
-                    "AmmoType": 364,
-                    "CurrentAmmo": 2,
+                    "AmmoType": -1,
+                    "CurrentAmmo": -1,
                     "WeaponModIds": [],
                     "Version": "0.0.0",
                     "ModuleId": 4
@@ -1786,8 +1809,8 @@
         "item_data": {
             "Modules": [
                 {
-                    "AmmoType": 369,
-                    "CurrentAmmo": 1,
+                    "AmmoType": -1,
+                    "CurrentAmmo": -1,
                     "WeaponModIds": [],
                     "Version": "0.0.0",
                     "ModuleId": 4
@@ -1832,7 +1855,8 @@
         "id": "501",
         "name": "Tactical Boots",
         "reference": "TacticalBoots",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "360",
@@ -1882,7 +1906,8 @@
         "id": "489",
         "name": "Tactical Pants",
         "reference": "TacticalPants",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "504",
@@ -1958,7 +1983,8 @@
         "id": "366",
         "name": "Tracker Dart",
         "reference": "TrackerDart",
-        "max": 1
+        "max": 1,
+        "unknown": true
     },
     {
         "id": "401",
