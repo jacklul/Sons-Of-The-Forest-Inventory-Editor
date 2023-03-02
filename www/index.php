@@ -107,7 +107,7 @@ echo '<form><select name="path" onchange="if(this.value != \'\') this.form.submi
 asort($saves);
 foreach (array_reverse($saves) as $save => $mtime) {
     $path = str_replace(DIRECTORY_SEPARATOR . 'PlayerInventorySaveData.json', '', $save);
-    $title = str_replace([realpath($savesPath) . DIRECTORY_SEPARATOR], '', $path);
+    $title = str_replace([realpath($config['savesPath']) . DIRECTORY_SEPARATOR], '', $path);
     $mtime = date('Y-m-d H:i:s', $mtime);
     $selected = isset($_GET['path']) && $_GET['path'] == $path;
 
