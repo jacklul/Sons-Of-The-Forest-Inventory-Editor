@@ -20,3 +20,5 @@ If everything went well you will see a select dropdown with all your saves sorte
 To modify count of specified item you have to either enter `+1` to add or `-1` to remove one unit of that item *(you can specify any number to add/remove more)* then click **MODIFY**. You can quickly fill item to max capacity by using **FILL** button.
 
 You cannot modify equipped items, make sure you unequip everything before saving the game.
+
+You can exceed capacity limits by setting `allowExceedMaxCapacity` to `true` in `data/config.json`, be cautious when doing so.

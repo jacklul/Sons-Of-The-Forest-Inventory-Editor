@@ -38,27 +38,53 @@ function backLink($br = true) {
     return ($br ? '<br>' : '') . '<a href="javascript:history.back()">Go Back</a>';
 }
 
-$savesPathFile = $dataPath . '/savespath';
-$saves = [];
+$configFile = $dataPath . '/config.json';
+$config = [
+    'savesPath' => null,
+    'allowExceedMaxCapacity' => false,
+];
 
-if (file_exists($savesPathFile)) {
-    $savesPath = file_get_contents($savesPathFile);
-} else {
-    $username = getenv("username");
-    $savesPath = '';
+if (file_exists($configFile)) {
+    $default = $config;
+    $config = json_decode(file_get_contents($configFile), true);
 
-    if (!empty($username)) {
-        if (is_dir('C:\Users\\' . $username . '\AppData\LocalLow\Endnight\SonsOfTheForest\Saves')) {
-            $savesPath = 'C:\Users\\' . $username . '\AppData\LocalLow\Endnight\SonsOfTheForest\Saves';
+    $modified = false;
+    foreach ($default as $var => $val) {
+        if (!isset($config[$var])) {
+            $config[$var] = $val;
+            $modified = true;
         }
     }
 
-    file_put_contents($savesPathFile, $savesPath);
+    if ($modified) {
+        file_put_contents($configFile, json_encode($config, JSON_PRETTY_PRINT));
+    }
 }
 
-if (empty($savesPath)) {
+// Migrate old file
+if (file_exists($dataPath . '/savespath')) {
+    $config['savesPath'] = file_get_contents($dataPath . '/savespath');
+    file_put_contents($configFile, json_encode($config, JSON_PRETTY_PRINT));
+    unlink($dataPath . '/savespath');
+}
+
+if (is_null($config['savesPath'])) {
+    $username = getenv("username");
+    $config['savesPath'] = '';
+
+    if (!empty($username)) {
+        if (is_dir('C:\Users\\' . $username . '\AppData\LocalLow\Endnight\SonsOfTheForest\Saves')) {
+            $config['savesPath'] = 'C:\Users\\' . $username . '\AppData\LocalLow\Endnight\SonsOfTheForest\Saves';
+        }
+    }
+    
+    file_put_contents($configFile, json_encode($config, JSON_PRETTY_PRINT));
+}
+
+if (empty($config['savesPath'])) {
     if (isset($_GET['savespath']) && is_dir($_GET['savespath'])) {
-        file_put_contents($savesPathFile, $_GET['savespath']);
+        $config['savesPath'] = $_GET['savespath'];
+        file_put_contents($configFile, json_encode($config, JSON_PRETTY_PRINT));
         header('location: /');
     }
 
@@ -67,8 +93,9 @@ if (empty($savesPath)) {
     exit;
 }
 
-if (is_dir($savesPath)) {
-    foreach ($iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($savesPath, RecursiveDirectoryIterator::SKIP_DOTS)) as $item) {
+$saves = [];
+if (is_dir($config['savesPath'])) {
+    foreach ($iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($config['savesPath'], RecursiveDirectoryIterator::SKIP_DOTS)) as $item) {
         if ($item->getFilename() === 'PlayerInventorySaveData.json') {
             $saves[$item->getPathname()] = $item->getMTime();
         }
@@ -162,7 +189,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
 
                 switch ($modifier) {
                     case '+':
-                        if ($value > $max - $count) {
+                        if (!$config['allowExceedMaxCapacity'] && $value > $max - $count) {
                             $value = $max - $count;
                         }
 
