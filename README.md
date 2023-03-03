@@ -29,7 +29,7 @@ You can create a text file called `label.txt` (inside `SonsOfTheForest\Saves\[NU
 
 | Variable | Default Value | Description |
 | -- | -- | -- |
-| `savesPath` | `C:\Users\%USERNAME%\AppData\LocalLow\Endnight\SonsOfTheForest\Saves` | Path to saves directory
+| `savesPath` | ` ` | Path to saves directory
 | `allowExceedMaxCapacity` | `false` | Allow exceeding capacity limits
-| `protectEssential` | `true` | Prevent from removing essential items
+| `protectEssential` | `true` | Prevent removing essential items
 | `addItemData` | `false` | Add entry to `UniqueItems` array for some items (this doesn't seem to be necessary at all)
