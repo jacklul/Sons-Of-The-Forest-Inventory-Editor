@@ -121,30 +121,293 @@ foreach (array_reverse($saves) as $save => $mtime) {
     echo '<option value="' . $path . '"' . ($selected ? 'selected' : '') . '>' . $title . $label . ' (' . $mtime . ')' . '</option>';
 }
 
-echo '</select><input type="submit" value="OPEN">&nbsp;<a href="?path=' . ($_GET['path'] ?? '') . '&print">PRINT INVENTORY ARRAY</a></form>';
+echo '</select><input type="submit" value="OPEN">&nbsp;<a href="?path=' . ($_GET['path'] ?? '') . '&print">PRINT INVENTORY ARRAY</a> &nbsp; <a href="?path=' . ($_GET['path'] ?? '') . '&extras">EXTRAS</a></form>';
 
 if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'/PlayerInventorySaveData.json')) {
     $version = '0.0.0';
 
-    $inventoryData = json_decode(file_get_contents($_GET['path'].'/PlayerInventorySaveData.json'), true);
-    $inventoryContents = [];
-    if (isset($inventoryData['Data']['PlayerInventory'])) {
-        $inventoryContents = json_decode($inventoryData['Data']['PlayerInventory'], true);
-        $version = $inventoryContents['ItemInstanceManagerData']['Version'];
+    if (file_exists($_GET['path'].'/PlayerInventorySaveData.json')) {
+        $inventoryData = json_decode(file_get_contents($_GET['path'].'/PlayerInventorySaveData.json'), true);
+
+        $inventoryContents = [];
+        if (isset($inventoryData['Data']['PlayerInventory'])) {
+            $inventoryContents = json_decode($inventoryData['Data']['PlayerInventory'], true);
+
+            $version = $inventoryContents['ItemInstanceManagerData']['Version'];
+        } else {
+            die('PlayerInventorySaveData.json is not a valid');
+        }
     } else {
-        die('PlayerInventorySaveData.json is not a valid');
+        die('PlayerInventorySaveData.json does not exist');
     }
 
-    $clothingData = json_decode(file_get_contents($_GET['path'].'/PlayerClothingSystemSaveData.json'), true);
-    $clothingContents = ['Clothing' => []];
-    if (isset($clothingData['Data']['PlayerClothingSystem'])) {
-        $clothingContents = json_decode($clothingData['Data']['PlayerClothingSystem'], true);
+    if (file_exists($_GET['path'].'/PlayerClothingSystemSaveData.json')) {
+        $clothingData = json_decode(file_get_contents($_GET['path'].'/PlayerClothingSystemSaveData.json'), true);
+
+        $clothingContents = ['Clothing' => []];
+        if (isset($clothingData['Data']['PlayerClothingSystem'])) {
+            $clothingContents = json_decode($clothingData['Data']['PlayerClothingSystem'], true);
+        }
     }
 
     if (isset($_GET['print'])) {
         echo '<pre>';
         print_r($inventoryContents);
         echo '</pre>';
+        exit;
+    }
+
+    if (isset($_GET['extras'])) {
+        if (isset($_GET['revive']) || isset($_GET['teleport'])) {
+            if (file_exists($_GET['path'].'/PlayerStateSaveData.json')) {
+                $playerStateData = json_decode(file_get_contents($_GET['path'].'/PlayerStateSaveData.json'), true);
+
+                $playerStateContents = [];
+                if (isset($playerStateData['Data']['PlayerState'])) {
+                    $playerStateContents = json_decode($playerStateData['Data']['PlayerState'], true);
+                } else {
+                    die('PlayerStateSaveData.json is not a valid');
+                }
+            } else {
+                die('PlayerStateSaveData.json does not exist');
+            }
+
+            if (isset($playerStateContents['_entries'])) {
+                foreach ($playerStateContents['_entries'] as $entry) {
+                    if ($entry['Name'] === 'player.position') {
+                        $playerPosition = [
+                            'x' => $entry['FloatArrayValue'][0],
+                            'y' => $entry['FloatArrayValue'][1],
+                            'z' => $entry['FloatArrayValue'][2],
+                        ];
+                        break;
+                    }
+                }
+            } else {
+                die('PlayerStateSaveData.json has no entries');
+            }
+            
+            if (file_exists($_GET['path'].'/SaveData.json')) {
+                $saveData = json_decode(file_get_contents($_GET['path'].'/SaveData.json'), true);
+
+                $saveVailWorldSimContents = [];
+                if (isset($saveData['Data']['VailWorldSim'])) {
+                    $saveVailWorldSimContents = json_decode($saveData['Data']['VailWorldSim'], true);
+                } else {
+                    die('SaveData.json is not a valid');
+                }
+            } else {
+                die('SaveData.json does not exist');
+            }
+        }
+
+        if (isset($_GET['revive'])) {
+            if (file_exists($_GET['path'].'/GameStateSaveData.json')) {
+                $gameStateData = json_decode(file_get_contents($_GET['path'].'/GameStateSaveData.json'), true);
+
+                $gameStateContents = [];
+                if (isset($gameStateData['Data']['GameState'])) {
+                    $gameStateContents = json_decode($gameStateData['Data']['GameState'], true);
+                } else {
+                    die('GameStateSaveData.json is not a valid');
+                }
+            } else {
+                die('GameStateSaveData.json does not exist');
+            }
+
+            switch (strtolower($_GET['revive'])) {
+                case 'kelvin':
+                    if ($gameStateContents['IsRobbyDead'] === true) {
+                        $gameStateContents['IsRobbyDead'] = true;
+
+                        $hasEntry = false;
+                        foreach ($saveVailWorldSimContents['Actors'] as &$actor) {
+                            if ($actor['TypeId'] === 9) {
+                                $hasEntry = true;
+                                $actor['State'] = 2;
+                                $actor['Stats']['Health'] = 100;
+                                $actor['Position'] = [
+                                    'x' => $playerPosition['x'],
+                                    'y' => $playerPosition['y'],
+                                    'z' => $playerPosition['z'],
+                                ];
+                                break;
+                            }
+                        }
+
+                        foreach ($saveVailWorldSimContents['KillStatsList'] as &$killStat) {
+                            if ($killStat['TypeId'] === 9) {
+                                $killStat['PlayerKilled'] = 0;
+                            }
+                        }
+
+                        if (!$hasEntry) {
+                            $saveVailWorldSimContents['Actors'][] = [
+                                'UniqueId' => 7013,
+                                'TypeId' => 9,
+                                'FamilyId' => 0,
+                                'Position' => [
+                                    'x' => $playerPosition['x'],
+                                    'y' => $playerPosition['y'],
+                                    'z' => $playerPosition['z'],
+                                ],
+                                'Rotation' => [
+                                    'x' => 0.0,
+                                    'y' => 0.0,
+                                    'z' => 0.0,
+                                    'w' => 0.0,
+                                ],
+                                'SpawnerId' => -1,
+                                'ActorSeed' => -1,
+                                'VariationId' => -1,
+                                'State' => 2,
+                                'GraphMask' => 1,
+                                'OutfitId' => -1,
+                                'NextGiftTime' => 0,
+                                'LastVisitTime' => -100,
+                                'Stats' => [
+                                    'Health' => 100.0,
+                                    'Anger' => 0,
+                                    'Fear' => 0,
+                                    'Fullness' => 0,
+                                    'Hydration' => 0,
+                                    'Energy' => 100.0,
+                                    'Affection' => 0,
+                                ],
+                                'StateFlags' => 0,
+                            ];
+                        }
+                    } else {
+                        die('Kelvin is not dead' . backLink());
+                    }
+
+                    break;
+                case 'virginia':
+                    if ($gameStateContents['IsVirginiaDead'] === true) {
+                        $gameStateContents['IsVirginiaDead'] = false;
+
+                        $hasEntry = false;
+                        foreach ($saveVailWorldSimContents['Actors'] as &$actor) {
+                            if ($actor['TypeId'] === 10) {
+                                $hasEntry = true;
+                                $actor['State'] = 2;
+                                $actor['Stats']['Health'] = 100;
+                                $actor['Position'] = [
+                                    'x' => $playerPosition['x'],
+                                    'y' => $playerPosition['y'] + 1.5,
+                                    'z' => $playerPosition['z'],
+                                ];
+                                break;
+                            }
+                        }
+
+                        foreach ($saveVailWorldSimContents['KillStatsList'] as &$killStat) {
+                            if ($killStat['TypeId'] === 10) {
+                                $killStat['PlayerKilled'] = 0;
+                            }
+                        }
+
+                        if (!$hasEntry) {
+                            $saveVailWorldSimContents['Actors'][] = [
+                                'UniqueId' => 6154,
+                                'TypeId' => 10,
+                                'FamilyId' => 0,
+                                'Position' => [
+                                    'x' => $playerPosition['x'],
+                                    'y' => $playerPosition['y'] + 1.5,
+                                    'z' => $playerPosition['z'],
+                                ],
+                                'Rotation' => [
+                                    'x' => 0.0,
+                                    'y' => 0.0,
+                                    'z' => 0.0,
+                                    'w' => 0.0,
+                                ],
+                                'SpawnerId' => -1,
+                                'ActorSeed' => -1,
+                                'VariationId' => -1,
+                                'State' => 2,
+                                'GraphMask' => 1,
+                                'OutfitId' => -1,
+                                'NextGiftTime' => 0,
+                                'LastVisitTime' => -100,
+                                'Stats' => [
+                                    'Health' => 100.0,
+                                    'Anger' => 0,
+                                    'Fear' => 0,
+                                    'Fullness' => 0,
+                                    'Hydration' => 0,
+                                    'Energy' => 100.0,
+                                    'Affection' => 0,
+                                ],
+                                'StateFlags' => 0,
+                            ];
+                        }
+                    } else {
+                        die('Virginia is not dead' . backLink());
+                    }
+                    break;
+
+                default:
+                    die('Bad target');
+            }
+
+            $gameStateData['Data']['GameState'] = json_encode($gameStateContents, JSON_PRESERVE_ZERO_FRACTION);
+            file_put_contents($_GET['path'].'/GameStateSaveData.json', json_encode($gameStateData), LOCK_EX);
+            
+            $saveData['Data']['VailWorldSim'] = json_encode($saveVailWorldSimContents, JSON_PRESERVE_ZERO_FRACTION);
+            file_put_contents($_GET['path'].'/SaveData.json', json_encode($saveData), LOCK_EX);
+            
+            die('Done' . backLink());
+            exit;
+        } elseif (isset($_GET['teleport'])) {
+            if (!isset($playerPosition)) {
+                die('Player position is not known');
+            }
+
+            switch (strtolower($_GET['teleport'])) {
+                case 'kelvin':
+                    foreach ($saveVailWorldSimContents['Actors'] as &$actor) {
+                        if ($actor['TypeId'] === 9) {
+                            $actor['Position'] = [
+                                'x' => $playerPosition['x'],
+                                'y' => $playerPosition['y'] + 1.5,
+                                'z' => $playerPosition['z'],
+                            ];
+                            break;
+                        }
+                    }
+
+                    break;
+                case 'virginia':
+                    foreach ($saveVailWorldSimContents['Actors'] as &$actor) {
+                        if ($actor['TypeId'] === 10) {
+                            $actor['Position'] = [
+                                'x' => $playerPosition['x'],
+                                'y' => $playerPosition['y'] + 1.5,
+                                'z' => $playerPosition['z'],
+                            ];
+                            break;
+                        }
+                    }
+
+                    break;
+                default:
+                    die('Bad target');
+            }
+
+            $saveData['Data']['VailWorldSim'] = json_encode($saveVailWorldSimContents, JSON_PRESERVE_ZERO_FRACTION);
+            file_put_contents($_GET['path'].'/SaveData.json', json_encode($saveData), LOCK_EX);
+            
+            die('Done' . backLink());
+            exit;
+        }
+
+        echo '<a href="?path=' . ($_GET['path'] ?? '') . '&extras&revive=kelvin">Revive Kelvin</a><br>';
+        echo '<a href="?path=' . ($_GET['path'] ?? '') . '&extras&revive=virginia">Revive Virginia</a><br>';
+        echo '<a href="?path=' . ($_GET['path'] ?? '') . '&extras&teleport=kelvin">Teleport Kelvin to your location</a><br>';
+        echo '<a href="?path=' . ($_GET['path'] ?? '') . '&extras&teleport=virginia">Teleport Virginia to your location</a><br>';
+
         exit;
     }
 
@@ -193,7 +456,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
                 ];
 
                 $inventoryContents['ItemInstanceManagerData']['ItemBlocks'] = array_values($inventoryContents['ItemInstanceManagerData']['ItemBlocks']);
-                $inventoryData['Data']['PlayerInventory'] = json_encode($inventoryContents);
+                $inventoryData['Data']['PlayerInventory'] = json_encode($inventoryContents, JSON_PRESERVE_ZERO_FRACTION);
                 file_put_contents($_GET['path'].'/PlayerInventorySaveData.json', json_encode($inventoryData), LOCK_EX);
 
                 break;
@@ -243,7 +506,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
 
                 if ($itemHandle['TotalCount'] > 0) {
                     $inventoryContents['ItemInstanceManagerData']['ItemBlocks'] = array_values($inventoryContents['ItemInstanceManagerData']['ItemBlocks']);
-                    $inventoryData['Data']['PlayerInventory'] = json_encode($inventoryContents);
+                    $inventoryData['Data']['PlayerInventory'] = json_encode($inventoryContents, JSON_PRESERVE_ZERO_FRACTION);
                     file_put_contents($_GET['path'].'/PlayerInventorySaveData.json', json_encode($inventoryData), LOCK_EX);
                     break;
                 }
@@ -257,7 +520,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
                         unset($inventoryContents['ItemInstanceManagerData']['ItemBlocks'][$i]);
 
                         $inventoryContents['ItemInstanceManagerData']['ItemBlocks'] = array_values($inventoryContents['ItemInstanceManagerData']['ItemBlocks']);
-                        $inventoryData['Data']['PlayerInventory'] = json_encode($inventoryContents);
+                        $inventoryData['Data']['PlayerInventory'] = json_encode($inventoryContents, JSON_PRESERVE_ZERO_FRACTION);
                         file_put_contents($_GET['path'].'/PlayerInventorySaveData.json', json_encode($inventoryData), LOCK_EX);
                         break;
                     }
