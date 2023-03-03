@@ -19,11 +19,12 @@ If everything went well you will see a select dropdown with all your saves sorte
 
 To modify count of specified item you have to either enter `+1` to add or `-1` to remove one unit of that item *(you can specify any number to add/remove more)* then click **MODIFY**. You can quickly fill item to max capacity by using **FILL** button.
 
-You cannot modify equipped items, make sure you unequip everything before saving the game.
+### Notes
 
-You can exceed capacity limits by setting `allowExceedMaxCapacity` to `true` in `data/config.json`, be cautious when doing so.
-
-You can create a text file called `label.txt` (inside `SonsOfTheForest\Saves\[NUMBERS]\[MODE]\[SAVEID]`) in your save directory to easily identify it on saves list.
+- You cannot modify equipped items, make sure you unequip everything before saving the game.
+- You can exceed capacity limits by setting `allowExceedMaxCapacity` to `true` in `data/config.json`, be cautious when doing so.
+- You can create a text file called `label.txt` (inside `SonsOfTheForest\Saves\[NUMBERS]\[MODE]\[SAVEID]`) in your save directory (and put a text inside it) to easily identify it on saves list.
+- You can revive or teleport Kelvin/Virginia through `EXTRAS` menu.
 
 ### `config.json` reference:
 
