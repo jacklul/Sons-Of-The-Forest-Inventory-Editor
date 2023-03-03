@@ -22,3 +22,12 @@ To modify count of specified item you have to either enter `+1` to add or `-1` t
 You cannot modify equipped items, make sure you unequip everything before saving the game.
 
 You can exceed capacity limits by setting `allowExceedMaxCapacity` to `true` in `data/config.json`, be cautious when doing so.
+
+### `config.json` reference:
+
+| Variable | Default Value | Description |
+| -- | -- | -- |
+| `savesPath` | `C:\Users\%USERNAME%\AppData\LocalLow\Endnight\SonsOfTheForest\Saves` | Path to saves directory
+| `allowExceedMaxCapacity` | `false` | Allow exceeding capacity limits
+| `protectEssential` | `true` | Prevent from removing essential items
+| `addItemData` | `false` | Add entry to `UniqueItems` array for some items (this doesn't seem to be necessary at all)
