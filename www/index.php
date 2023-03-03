@@ -42,6 +42,8 @@ $configFile = $dataPath . '/config.json';
 $config = [
     'savesPath' => null,
     'allowExceedMaxCapacity' => false,
+    'protectEssential' => true,
+    'addItemData' => false,
 ];
 
 if (file_exists($configFile)) {
@@ -175,7 +177,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
                 }
 
                 $uniqueItems = [];
-                if (isset($itemData[$_GET['id']]['item_data'])) {
+                if ($config['addItemData'] === true && isset($itemData[$_GET['id']]['item_data'])) {
                     $uniqueItems[] = addCurrentVersionToItemArray($itemData[$_GET['id']]['item_data'], $version);
                 }
 
@@ -208,7 +210,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
 
                         $itemHandle['TotalCount'] += $value;
 
-                        if (isset($itemData[$_GET['id']]['item_data'])) {
+                        if ($config['addItemData'] === true && isset($itemData[$_GET['id']]['item_data'])) {
                             $newItem = addCurrentVersionToItemArray($itemData[$_GET['id']]['item_data'], $version);
 
                             for ($j = $value; $j > 0; $j--) {
@@ -241,7 +243,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
                     break;
                 }
             case 'remove':
-                if (isset($itemData[$_GET['id']]['essential'])) {
+                if ($config['protectEssential'] === true && isset($itemData[$_GET['id']]['essential'])) {
                     die('Item cannot be removed' . backLink());
                 }
 
@@ -300,7 +302,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
     echo '</select><input type="submit" value="ADD"><input type="text" name="search" placeholder="SEARCH" id="add-search"><input type="button" value="RESET" onclick="document.getElementById(\'add-search\').value=\'\';document.getElementById(\'add-search\').dispatchEvent(new Event(\'input\', {bubbles:true}));"></form>';
 
     echo '<table border="1" cellpadding="1" cellspacing="1">';
-    echo '<thead><td>ID</td><td>Name</td><td>Count</td><td>Max</td><td>Unique</td><td>Essential</td><td></td></thead>';
+    echo '<thead><td>ID</td><td>Name</td><td>Count</td><td>Max</td><td>Essential</td><td></td></thead>';
     echo '<tbody>';
     foreach ($inventoryContents['ItemInstanceManagerData']['ItemBlocks'] as $itemInstance) {
         $itemId = $itemInstance['ItemId'];
@@ -308,7 +310,6 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
         $itemReference = 'UnrecognizedItem';
         $itemCount = '?';
         $itemMaxCount = '?';
-        $itemUnique = false;
         $itemEssential = true;
         $itemEquipped = false;
         $itemHidden = false;
@@ -319,7 +320,6 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
             $itemReference = $itemData[$itemId]['reference'];
             $itemCount = $itemInstance['TotalCount'] ?? 1;
             $itemMaxCount = $itemData[$itemInstance['ItemId']]['max'];
-            $itemUnique = isset($itemData[$itemInstance['ItemId']]['item_data']);
             $itemEssential = isset($itemData[$itemInstance['ItemId']]['essential']);
             $itemEquipped = isset($itemInstance['equipped']);
             $itemHidden = isset($itemData[$itemId]['hidden']);
@@ -328,11 +328,10 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
 
         echo '<tr>';
         echo '<td>' . $itemId . '</td><td>' . $itemName . ' &nbsp; (' . $itemReference . ')' . ($itemUnknown ? ' <span title="Unknown/Unobtainable item'."\n".'Data on this item is not available and keeping it might break your save">⚠️</span> ' : '') . '</td><td>' . $itemCount . '</td><td>' . $itemMaxCount . '</td>';
-        echo '<td>' . ($itemUnique ? 'yes' : 'no') . '</td>';
         echo '<td>' . ($itemEssential ? 'yes' : 'no') . '</td>';
         
         echo '<td>';
-        if (isset($itemData[$itemId]) && !$itemEssential && !$itemEquipped) {
+        if (isset($itemData[$itemId]) && (!$itemEssential || ($itemEssential && $config['protectEssential'] !== true)) && !$itemEquipped) {
             echo '<form style="display: inline-block;margin: 0;" method="get"><input type="hidden" name="action" value="modify"><input type="hidden" name="id" value="' . $itemId . '"><input type="hidden" name="path" value="' . ($_GET['path'] ?? '') . '">';
             echo '<input type="text" name="count" pattern="[-|+][0-9]+" size="3" placeholder="+1 / -1"><input type="submit" value="MODIFY">';
             echo '</form>';
@@ -341,7 +340,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
                 echo ' &nbsp; <a href="?path=' . $_GET['path'] . '&action=fill&id=' . $itemInstance['ItemId'] .'">FILL</a>';
             }
 
-            if (!$itemEssential) {
+            if (!$itemEssential || ($itemEssential && $config['protectEssential'] !== true)) {
                 echo ' &nbsp; <a href="?path=' . $_GET['path'] . '&action=remove&id=' . $itemInstance['ItemId'] .'" onclick="return confirm(\'Removing: ' . $itemId . ' - ' . $itemName . '\n\nAre you sure?\')">DELETE</a>';
             }
         } elseif ($itemEquipped) {
