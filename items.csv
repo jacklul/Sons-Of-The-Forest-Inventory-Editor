@@ -1,273 +1,273 @@
-ID,"Name (singular)","Name (plural)","Name (PascalCase)","Name (SNAKE_CASE)"
-618,"Printed Arrow","Printed Arrows",3dPrintedArrow,PRINTED_ARROW
-559,"Printed Arrow Heads","Printed Arrow Heads",3dPrintedArrowHeads,PRINTED_ARROW_HEADS
-426,"Printed Flask","Printed Flasks",3dPrintedFlask,PRINTED_FLASK
-561,"Printed Flower Pot","Printed FlowerPots",3dPrintedFlowerPot,PRINTED_FLOWER_POT
-560,"Printed Grappling Hook","Printed Grappling Hooks",3dPrintedGrapplingHook,PRINTED_GRAPPLING_HOOK
-427,"Printed Knife","Printed Knives",3dPrintedKnife,PRINTED_KNIFE
-428,"Printed Sled","Printed Sleds",3dPrintedSled,PRINTED_SLED
-429,"Printed Scuba Mask","Printed Scuba Masks",3dPrintedUnderwaterMask,PRINTED_SCUBA_MASK
-390,"Printer Resin","Printer Resin",3dPrinterResin,PRINTER_RESIN
-362,"Pistol Ammo","Pistol Ammo",9mmAmmo,PISTOL_AMMO
-469,"Air Canister","Air Canisters",AirCanister,AIR_CANISTER
-357,Airgun,Airguns,Airgun,AIRGUN
-470,"Airgun Scope","Airgun Scopes",AirgunScope,AIRGUN_SCOPE
-467,"Album Cover","Album Covers",AlbumCover,ALBUM_COVER
-451,"Aloe Vera","Aloe Vera",AloeVera,ALOE_VERA
-596,"AloeVera Seed","AloeVera Seeds",AloeVeraSeed,ALOE_VERA_SEED
-454,Arrowleaf,Arrowleaf,ArrowleafBalsamroot,ARROWLEAF
-597,"Arrowleaf Seed","Arrowleaf Seeds",ArrowleafSeed,ARROWLEAF_SEED
-402,Backpack,Backpacks,Backpack,BACKPACK
-527,Batteries,Batteries,Batteries,BATTERIES
-458,"Battery Charger","Battery Charger",BatteryCharger,BATTERY_CHARGER
-460,"Battery Pack","Battery Pack",BatteryPack,BATTERY_PACK
-341,Binoculars,Binoculars,Binoculars,BINOCULARS
-595,Blackberries,Blackberries,Blackberries,BLACKBERRIES
-598,"Blackberry Seed","Blackberry Seeds",BlackberrySeed,BLACKBERRY_SEED
-488,"Blue TShirt","Blue TShirts",BlueTShirt,BLUE_TSHIRT
-445,Blueberries,Blueberries,Blueberries,BLUEBERRIES
-599,"Blueberry Seed","Blueberry Seeds",BlueberrySeed,BLUEBERRY_SEED
-581,BlueprintBirdHouse,BlueprintBirdHouse{TitlePlural},BlueprintBirdHouse,BLUEPRINT_BIRD_HOUSE
-579,BlueprintBoneChair,BlueprintBoneChair{TitlePlural},BlueprintBoneChair,BLUEPRINT_BONE_CHAIR
-588,BlueprintBoneChandelier,BlueprintBoneChandelier{TitlePlural},BlueprintBoneChandelier,BLUEPRINT_BONE_CHANDELIER
-552,S.C.R.E.W.,S.C.R.E.W.,BlueprintBook,S_C_R_E_W
-530,"Drying Rack Blueprint","Drying Rack Blueprints",BlueprintDryingRack,DRYING_RACK_BLUEPRINT
-582,BlueprintFishTrap,BlueprintFishTrap{TitlePlural},BlueprintFishTrap,BLUEPRINT_FISH_TRAP
-625,BlueprintHangingSkullLight,BlueprintHangingSkullLight{TitlePlural},BlueprintHangingSkullLight,
-584,BlueprintMannequin,BlueprintMannequin{TitlePlural},BlueprintMannequin,BLUEPRINT_MANNEQUIN
-587,BlueprintPlanterFloor,BlueprintPlanterFloor{TitlePlural},BlueprintPlanterFloor,BLUEPRINT_PLANTER_FLOOR
-586,BlueprintPlanterWallJ,BlueprintPlanterWall{TitlePlural},BlueprintPlanterWall,BLUEPRINT_PLANTER_WALL
-622,BlueprintRockPath,BlueprintRockPath{TitlePlural},BlueprintRockPath,
-585,BlueprintScarecrow,BlueprintScarecrow{TitlePlural},BlueprintScarecrow,BLUEPRINT_SCARECROW
-621,BlueprintShelf,BlueprintShelf{TitlePlural},BlueprintShelf,
-591,BlueprintSmallLogCabin,BlueprintSmallLogCabin{TitlePlural},BlueprintSmallLogCabin,BLUEPRINT_SMALL_LOG_CABIN
-532,"Stick Bed Blueprint","Stick Bed Blueprints",BlueprintStickBed,STICK_BED_BLUEPRINT
-531,"Stick Chair Blueprint","Stick Chair Blueprints",BlueprintStickChair,STICK_CHAIR_BLUEPRINT
-580,BlueprintStickLadderD,BlueprintStickLadder{TitlePlural},BlueprintStickLadder,BLUEPRINT_STICK_LADDER
-608,BlueprintStorageBones,BlueprintStorageBones{TitlePlural},BlueprintStorageBones,BLUEPRINT_STORAGE_BONES
-583,BlueprintStorageBox,BlueprintStorageBox{TitlePlural},BlueprintStorageBox,BLUEPRINT_STORAGE_BOX
-609,BlueprintStorageLogsa,BlueprintStorageLogs{TitlePlural},BlueprintStorageLogs,BLUEPRINT_STORAGE_LOGS
-607,BlueprintStorageRocks,BlueprintStorageRocks{TitlePlural},BlueprintStorageRocks,BLUEPRINT_STORAGE_ROCKS
-610,BlueprintStorageSticks,BlueprintStorageSticks{TitlePlural},BlueprintStorageSticks,BLUEPRINT_STORAGE_STICKS
-620,BlueprintTable,BlueprintTable{TitlePlural},BlueprintTable,
-549,"Bone Maker Blueprint","Bone Maker Blueprints",BlueprintTrapBoneMaker,BONE_MAKER_BLUEPRINT
-550,"Fly Swatter Blueprint","Fly Swatter Blueprints",BlueprintTrapFlySwatter,FLY_SWATTER_BLUEPRINT
-551,"Small Animal Catcher Blueprint","Small Animal Catcher Blueprints",BlueprintTrapSmallAnimalCatcher,SMALL_ANIMAL_CATCHER_BLUEPRINT
-623,BlueprintWallShelf,BlueprintWallShelf{TitlePlural},BlueprintWallShelf,
-624,BlueprintWallTorch,BlueprintWallTorch{TitlePlural},BlueprintWallTorch,
-533,BlueprintWeaponRack,BlueprintWeaponRack{TitlePlural},BlueprintWeaponRack,BLUEPRINT_WEAPON_RACK
-405,Bone,Bones,Bone,BONE
-494,"Bone Armour","Bone Armour",BoneArmour,BONE_ARMOUR
-364,"Shotgun Buckshot","Shotgun Buckshot",BuckshotAmmo,SHOTGUN_BUCKSHOT
-509,"Holosprings Pamphlet","Holosprings Pamphlets",BunkerPamphlet,HOLOSPRINGS_PAMPHLET
-420,"C4 Brick","C4 Brick",C4Brick,C4_BRICK
-432,"Can Opener","Can Openers",CanOpener,CAN_OPENER
-434,"Canned Food","Canned Food",CannedFood,CANNED_FOOD
-464,"Cat Food","Cat Food",CatFood,CAT_FOOD
-425,"Crunchie Wunchies","Crunchie Wunchies",CerealBox,CRUNCHIE_WUNCHIES
-465,Chicory,Chicory,Chicory,CHICORY
-605,"Chicory Seed","Chicory Seeds",ChicorySeed,CHICORY_SEED
-416,"Circuit Board","Circuit Boards",CircuitBoard,CIRCUIT_BOARD
-478,"Climbing Axe","Climbing Axes",ClimbingAxe,CLIMBING_AXE
-415,Cloth,Cloth,Cloth,CLOTH
-502,Coins,Coins,Coins,COINS
-380,"Utility Knife","Utility Knives",CombatKnife,UTILITY_KNIFE
-355,"Compact Pistol","Compact Pistols",CompactPistol,COMPACT_PISTOL
-376,"Pistol Rail","Pistol Rails",CompactPistolRail,PISTOL_RAIL
-514,"Contact Spring Trigger","Contact Spring Triggers",ContactSpringTrigger,CONTACT_SPRING_TRIGGER
-511,"Contact Trigger","Contact Triggers",ContactTrigger,CONTACT_TRIGGER
-517,"Cooking Pot","Cooking Pots",CookingPot,COOKING_POT
-507,"Crafted Arrow","Crafted Arrows",CraftedArrow,CRAFTED_ARROW
-443,"Crafted Bow","Crafted Bows",CraftedBow,CRAFTED_BOW
-477,"Crafted Club","Crafted Clubs",CraftedClub,CRAFTED_CLUB
-474,"Crafted Spear","Crafted Spear",CraftedSpear,CRAFTED_SPEAR
-593,"Creepy Armour","Creepy Armour",CreepyArmour,CREEPY_ARMOUR
-592,"Creepy Skin","Creepy Skin",CreepySkin,CREEPY_SKIN
-468,Cross,Crosses,Cross,CROSS
-365,Crossbow,Crossbows,Crossbow,CROSSBOW
-368,"Crossbow Bolt","Crossbow Bolts",CrossbowAmmoBolt,CROSSBOW_BOLT
-384,"Crossbow Quiver","Crossbow Quivers",CrossbowQuiverMod,CROSSBOW_QUIVER
-472,"Deer Hide","Deer Hide",DeerHide,DEER_HIDE
-519,"Deer Hide Armour","Deer Hide Armour",DeerHideArmour,DEER_HIDE_ARMOUR
-449,DevilsClub,DevilsClub,DevilsClub,DEVILS_CLUB
-600,"DevilsClub Seed","DevilsClub Seeds",DevilsClubSeed,DEVILS_CLUB_SEED
-419,"Duct Tape","Duct Tape",DuctTape,DUCT_TAPE
-539,"Astrology Email Pt 1","Astrology Emails Pt 1",EmailPrintoutAstrologyA,ASTROLOGY_EMAIL_PT_1
-540,"Astrology Email Pt 2","Astrology Emails Pt 2",EmailPrintoutAstrologyB,ASTROLOGY_EMAIL_PT_2
-541,"Astrology Email Pt 3","Astrology Emails Pt 3",EmailPrintoutAstrologyC,ASTROLOGY_EMAIL_PT_3
-545,"Ballet Email","Ballet Emails",EmailPrintoutBalletA,BALLET_EMAIL
-521,"Cave Lighting Email","Cave Lighting Emails",EmailPrintoutCaveLighting,CAVE_LIGHTING_EMAIL
-534,"Golf Email Pt 1","Golf Emails Pt 1",EmailPrintoutGolfA,GOLF_EMAIL_PT_1
-535,"Golf Email Pt 2","Golf Emails Pt 2",EmailPrintoutGolfB,GOLF_EMAIL_PT_2
-536,"Golf Email Pt 3","Golf Emails Pt 3",EmailPrintoutGolfC,GOLF_EMAIL_PT_3
-537,"Golf Email Pt 4","Golf Emails Pt 4",EmailPrintoutGolfD,GOLF_EMAIL_PT_4
-614,Email,Emails,EmailPrintoutGovernmentA,EMAIL_GOVERNMENT_A
-615,Email,Emails,EmailPrintoutGovernmentB,EMAIL_GOVERNMENT_B
-616,Email,Emails,EmailPrintoutGovernmentC,EMAIL_GOVERNMENT_C
-528,"MrPuffy Financials","MrPuffy Financials",EmailPrintoutMrPuffyFinancial,MR_PUFFY_FINANCIALS
-526,"Mr Puffy Will","Mr Puffy Wills",EmailPrintoutMrPuffyWill,MR_PUFFY_WILL
-538,"Painting Email","Painting Emails",EmailPrintoutPaintingA,PAINTING_EMAIL
-542,"Politician Email Pt 1","Politician Emails Pt 1",EmailPrintoutPoliticianA,POLITICIAN_EMAIL_PT_1
-543,"Politician Email Pt 2","Politician Emails Pt 2",EmailPrintoutPoliticianB,POLITICIAN_EMAIL_PT_2
-544,"Politician Email Pt 3","Politician Emails Pt 3",EmailPrintoutPoliticianC,POLITICIAN_EMAIL_PT_3
-546,"Squeaky Shoes Email Pt 1","Squeaky Shoes Emails Pt 1",EmailPrintoutSqueakyShoesA,SQUEAKY_SHOES_EMAIL_PT_1
-547,"Squeaky Shoes Email Pt 2","Squeaky Shoes Emails Pt 2",EmailPrintoutSqueakyShoesB,SQUEAKY_SHOES_EMAIL_PT_2
-548,"Squeaky Shoes Email Pt 3","Squeaky Shoes Emails Pt 3",EmailPrintoutSqueakyShoesC,SQUEAKY_SHOES_EMAIL_PT_3
-483,"Emergency Pack","Emergency Packs",EmergencyPack,EMERGENCY_PACK
-441,"Energy Bar","Energy Bars",EnergyBar,ENERGY_BAR
-439,"Energy Drink","Energy Drinks",EnergyDrink,ENERGY_DRINK
-461,"Energy Mix","Energy Mix",EnergyMix,ENERGY_MIX
-462,"Energy Mix+","Energy Mix+",EnergyMixPlus,SUPER_ENERGY_MIX
-479,Feather,Feathers,Feather,FEATHER
-431,"Firefighter Axe","Firefighter Axes",FireAxe,FIREFIGHTER_AXE
-453,Fireweed,Fireweed,Fireweed,FIREWEED
-601,"Fireweed Seed","Fireweed Seeds",FireweedSeed,FIREWEED_SEED
-436,Fish,Fish,Fish,FISH
-440,Flare,Flares,Flare,FLARE
-471,Flashlight,Flashlights,Flashlight,FLASHLIGHT
-378,"Flashlight Attachment","Flashlight Attachments",FlashlightMod,FLASHLIGHT_ATTACHMENT
-475,Flask,Flasks,Flask,FLASK
-463,Flippers,Flippers,Flippers,FLIPPERS
-400,"Fly Amanita","Fly Amanita",FlyAmanitaMushroom,FLY_AMANITA
-569,"Brain Bite","Brain Bites",FoodCubeBrain,BRAIN_BITE
-570,"Steak Bite","Steak Bites",FoodCubeSteak,STEAK_BITE
-571,"Steak and Bacon Bite","Steak and Bacon Bites",FoodCubeSteakAndBacon,STEAK_AND_BACON_BITE
-497,"Food Tray","Food Trays",FoodTray,FOOD_TRAY
-512,"Filled Food Tray","Filled Food Trays",FoodTrayFilled,FILLED_FOOD_TRAY
-529,"GPS Locator","GPS Locators",GPSLocator,GPS_LOCATOR
-412,"GPS Tracker","GPS Trackers",GPSTracker,GPS_TRACKER
-498,"GRABS Laser Pointer","GRABS Laser Pointers",GRABSLaserPointer,GRABS_LASER_POINTER
-435,"Gold Mask","Gold Masks",GoldMask,GOLD_MASK
-572,"Golden Armour","Golden Armour",GoldenArmour,GOLDEN_ARMOUR
-524,"Golf Ball","Golf Balls",GolfBall,GOLF_BALL
-525,Putter,Putter,GolfPutter,PUTTER
-351,"Grab Bag","Grab Bags",GrabBag,GRAB_BAG
-381,Grenade,Grenades,Grenade,GRENADE
-382,GrenadeAmmo,GrenadeAmmos,GrenadeAmmo,GRENADE_AMMO
-594,"Guarana Berries","Guarana Berries",GuaranaBerries,GUARANA_BERRIES
-602,"Guarana Seed","Guarana Seeds",GuaranaSeed,GUARANA_SEED
-340,Guitar,Guitars,Guitar,GUITAR
-455,"Health Mix","Health Mix",HealthMix,HEALTH_MIX
-456,"Health Mix+","Health Mix+",HealthMixPlus,SUPER_HEALTH_MIX
-562,HolovilleNoticeA,HolovilleNoticeA,HolovilleNoticeA,HOLOVILLE_NOTICE_A
-563,HolovilleNoticeB,HolovilleNoticeB,HolovilleNoticeB,HOLOVILLE_NOTICE_B
-564,HolovilleNoticeC,HolovilleNoticeC,HolovilleNoticeC,HOLOVILLE_NOTICE_C
-565,HolovilleNoticeD,HolovilleNoticeD,HolovilleNoticeD,HOLOVILLE_NOTICE_D
-490,Hoodie,Hoodies,Hoodie,HOODIE
-450,Horsetail,Horsetail,Horsetail,HORSETAIL
-603,"Horsetail Seed","Horsetail Seeds",HorsetailSeed,HORSETAIL_SEED
-399,"Hydnum Repandum","Hydnum Repandum",HydnumRepandumMushroom,HYDNUM_REPANDUM
-367,Katana,Katanas,Katana,KATANA
-567,"Guest Key","Guest Keys",KeyCardGuest,GUEST_KEY
-566,"Maintenance Key","Maintenance Keys",KeyCardMaintenance,MAINTENANCE_KEY
-568,"VIP Key","VIP Keys",KeyCardVIP,VIP_KEY
-398,"King Oyster","King Oysters",KingOysterMushroom,KING_OYSTER
-505,"Laser Measure Tool",LaserMeasureTools,LaserMeasureTool,LASER_MEASURE_TOOL
-375,"Laser Sight","Laser Sights",LaserSightMod,LASER_SIGHT
-484,Leaf,Leaves,Leaf,LEAF
-473,"Leaf Armour","Leaf Armour",LeafArmour,LEAF_ARMOUR
-493,"Leather Jacket","Leather Jacket",LeatherJacket,LEATHER_JACKET
-395,"Log Plank","Log planks",LogPlank,LOG_PLANK
-576,"Quarter Log plank","Quarter Log planks",QuarterLogPlank,QUARTER_LOG_PLANK
-577,"Half Log plank","Half Log planks",HalfLogPlank,HALF_LOG_PLANK
-578,"Three Quarter Log Plank","Three Quarter Log Planks",ThreeQuarterLogPlank,THREE_QUARTER_LOG_PLANK
-406,"Quarter Log","Quarter Logs",QuarterLog,QUARTER_LOG
-408,"Half Log","Half Logs",HalfLog,HALF_LOG
-409,"Three Quarter Log","Three Quarter Logs",ThreeQuarterLog,THREE_QUARTER_LOG
-78,Log,Logs,Log_Legacy,LOG
-508,"Skin Pouch","Skin Pouches",LootPouch,SKIN_POUCH
-359,Machete,Machetes,Machete2,MACHETE
-433,Meat,Meat,Meat,MEAT
-356,"Modern Axe","Modern Axes",ModernAxe,MODERN_AXE
-388,Molotov,Molotovs,Molotov,MOLOTOV
-389,MolotovAmmo,MolotovAmmos,MolotovAmmo,MOLOTOV_AMMO
-496,Money,Money,Money,MONEY
-438,"MRE Pack","MRE Packs",MrePack,MRE_PACK
-612,"Newspaper Cutout","Newspaper Cutouts",NewspaperCutout,NEWSPAPER_CUTOUT
-613,"Newspaper Cutout","Newspaper Cutouts",NewspaperCutoutOutbid,NEWSPAPER_CUTOUT_OUTBID
-354,"Night Vision Goggles","Night Vision Goggles",NightVisionGoggles,NIGHT_VISION_GOGGLES
-423,"Novel A","Novel A",NovelA,NOVEL_A
-424,"Novel B","Novel B",NovelB,NOVEL_B
-574,"Novel C","Novel C",NovelC,NOVEL_C
-575,"Novel D","Novel D",NovelD,NOVEL_D
-611,"Numbers Printout","Numbers Printouts",NumbersPrintout,NUMBERS_PRINTOUT
-491,Blazer,Blazers,OldJacket,BLAZER
-466,Oyster,Oysters,Oyster,OYSTER
-518,"Paper Target","Paper Targets",PaperTarget,PAPER_TARGET
-437,Meds,Meds,Pills,MEDS
-370,"Pistol Ammo","Pistol Ammo",PistolAmmoBox,PISTOL_AMMO
-374,Silencer,Silencers,PistolSuppressor,SILENCER
-413,"Plasma Lighter","Plasma Lighters",PlasmaLighter,PLASMA_LIGHTER
-500,"Puffy Jacket","Puffy Jackets",PuffyJacket,PUFFY_JACKET
-590,Radio,Radios,Radio,RADIO
-421,"Ramen Noodles","Ramen Noodles",RamenNoodles,RAMEN_NOODLES
-444,Rebreather,Rebreathers,Rebreather,REBREATHER
-391,"Red Mask","Red Maks",RedMask,RED_MASK
-422,"Repair Tool","Repair Tools",RepairTool,REPAIR_TOOL
-386,Revolver,Revolvers,Revolver,REVOLVER
-361,Rifle,Rifles,Rifle,RIFLE
-387,RifleAmmo,RifleAmmos,RifleAmmo,RIFLE_AMMO
-383,"Rifle Rail Mod","Rifle Rail Mods",RifleRailMod,RIFLE_RAIL_MOD
-393,Rock,Rocks,Rock,ROCK
-403,Rope,Ropes,Rope,ROPE
-522,RopeGun,"Rope Guns",RopeGun,ROPE_GUN
-447,Salmonberries,Salmonberries,Salmonberries,SALMONBERRIES
-604,"Salmonberry Seed","Salmonberry Seeds",SalmonberrySeed,SALMONBERRY_SEED
-377,Scope,Scope,ScopeMod,SCOPE
-480,"Severed Arm","Severed Arms",SeveredArm,SEVERED_ARM
-482,"Severed Head","Severed Heads",SeveredHead,SEVERED_HEAD
-481,"Severed Leg","Severed Legs",SeveredLeg,SEVERED_LEG
-397,Shiitake,Shiitake,ShiitakeMushroom,SHIITAKE
-371,"Shotgun Buckshot","Shotgun Buckshot",ShotgunAmmoBoxBuckshot,SHOTGUN_BUCKSHOT
-372,"Shotgun Slug","Shotgun Slugs",ShotgunAmmoBoxSlug,SHOTGUN_SLUG
-358,Shotgun,Shotguns,ShotgunPumpAction,SHOTGUN
-346,"Shotgun Rail","Shotgun Rails",ShotgunRail,SHOTGUN_RAIL
-485,Shovel,Shovels,Shovel,SHOVEL
-487,"Silk Pyjamas","Silk Pyjamas",SilkPyjamas,SILK_PYJAMAS
-430,Skull,Skulls,Skull,SKULL
-573,"Sleeping Bag","Sleeping Bags",SleepingBag,SLEEPING_BAG
-459,Slingshot,Slingshots,Slingshot,SLINGSHOT
-363,"Shotgun Slug","Shotgun Slugs",SlugAmmo,SHOTGUN_SLUG
-476,"Small Rock","Small Rocks",SmallRock,SMALL_ROCK
-448,Snowberries,Snowberries,Snowberries,SNOWBERRIES
-513,Spring,Springs,Spring,SPRING
-392,Stick,Sticks,Stick,STICK
-617,"Stock Price","Stock Prices",StockPricePrintout,STOCK_PRICE_PRINTOUT
-520,"Structure Element","Structure Elements","Structure Element",STRUCTURE_ELEMENT
-353,"Stun Gun","Stun Guns",StunGun,STUN_GUN
-369,"Stun Gun Ammo","Stun Gun Ammo",StunGunAmmo,STUN_GUN_AMMO
-457,"Stun Gun Ammo","Stun Gun Ammo",StunGunAmmoBox,STUN_GUN_AMMO
-379,"Tactical Axe","Tactical Axes",TacticalAxe,TACTICAL_AXE
-501,"Tactical Boots","Tactical Boots",TacticalBoots,TACTICAL_BOOTS
-360,"Tactical Bow","Tactical Bows",TacticalBow,TACTICAL_BOW
-373,"Tactical Arrow","Tactical Arrows",TacticalBowAmmo,TACTICAL_ARROW
-394,Chainsaw,Chainsaws,TacticalChainsaw,CHAINSAW
-495,"Tactical Jacket","Tactical Jackets",TacticalJacket,TACTICAL_JACKET
-489,"Tactical Pants","Tactical Pants",TacticalPants,TACTICAL_PANTS
-504,Tarp,Tarps,Tarp,TARP
-396,"Stun Baton","Stun Baton",TaserStick,STUN_BATON
-554,"Tech Armour","Tech Armour",TechArmour,TECH_ARMOUR
-553,"Tech Mesh","Tech Mesh",TechMesh,TECH_MESH
-417,"Time Bomb","Time Bombs",TimeBomb,TIME_BOMB
-503,Torch,Torches,Torch,TORCH
-366,"Tracker Dart","Tracker Darts",TrackerDart,TRACKER_DART
-401,"Turtle Egg","Turtle Eggs",TurtleEgg,TURTLE_EGG
-506,"Turtle Shell","Turtle Shells",TurtleShell,TURTLE_SHELL
-589,"S.C.R.E.W. / Tutorials","S.C.R.E.W. / Tutorials",TutorialBook,S_C_R_E_W__TUTORIALS
-515,"Basic Building Tutorial Page","Basic Building Tutorial Pages",TutorialPageBasicBuilding,BASIC_BUILDING_TUTORIAL_PAGE
-516,"Tarp Tent Tutorial Page","Tarp Tent Tutorial Pages",TutorialPageTarpTent,TARP_TENT_TUTORIAL_PAGE
-492,Tuxedo,Tuxedos,Tuxedo,TUXEDO
-446,Twinberries,Twinberries,Twinberries,TWINBERRIES
-558,"Camoflage Suit","Camoflage Suits",VirginiaCamoSuit,CAMOFLAGE_SUIT
-556,Dress,Dresses,VirginiaDress,DRESS
-557,"Leather Suit","Leather Suits",VirginiaLeatherSuit,LEATHER_SUIT
-619,"Swim Suit","Swim Suits",VirginiaSwimSuit,SWIM_SUIT
-555,"Track Suit","Track Suits",VirginiaTrackSuit,TRACK_SUIT
-414,"Vodka Bottle","Vodka Bottles",VodkaBottle,VODKA_BOTTLE
-486,"Walkie Talkie","Walkie Talkies",WalkieTalkie,WALKIE_TALKIE
-499,Wetsuit,Wetsuits,Wetsuit,WETSUIT
-418,Wire,Wire,Wire,WIRE
-410,Watch,Watches,Wristwatch,WATCH
-452,Yarrow,Yarrow,Yarro,YARROW
-606,"Yarro Seed","Yarro Seeds",YarroSeed,YARRO_SEED
-523,"Zipline Rope","Zipline Ropes",ZiplineRope,ZIPLINE_ROPE
+ID,"Name (singular)","Name (PascalCase)","Name (SNAKE_CASE)"
+618,"Printed Arrow",3dPrintedArrow,PRINTED_ARROW
+559,"Printed Arrow Heads",3dPrintedArrowHeads,PRINTED_ARROW_HEADS
+426,"Printed Flask",3dPrintedFlask,PRINTED_FLASK
+561,"Printed Flower Pot",3dPrintedFlowerPot,PRINTED_FLOWER_POT
+560,"Printed Grappling Hook",3dPrintedGrapplingHook,PRINTED_GRAPPLING_HOOK
+427,"Printed Knife",3dPrintedKnife,PRINTED_KNIFE
+428,"Printed Sled",3dPrintedSled,PRINTED_SLED
+429,"Printed Scuba Mask",3dPrintedUnderwaterMask,PRINTED_SCUBA_MASK
+390,"Printer Resin",3dPrinterResin,PRINTER_RESIN
+362,"Pistol Ammo",9mmAmmo,PISTOL_AMMO
+469,"Air Canister",AirCanister,AIR_CANISTER
+357,Airgun,Airgun,AIRGUN
+470,"Airgun Scope",AirgunScope,AIRGUN_SCOPE
+467,"Album Cover",AlbumCover,ALBUM_COVER
+451,"Aloe Vera",AloeVera,ALOE_VERA
+596,"AloeVera Seed",AloeVeraSeed,ALOE_VERA_SEED
+454,Arrowleaf,ArrowleafBalsamroot,ARROWLEAF
+597,"Arrowleaf Seed",ArrowleafSeed,ARROWLEAF_SEED
+402,Backpack,Backpack,BACKPACK
+527,Batteries,Batteries,BATTERIES
+458,"Battery Charger",BatteryCharger,BATTERY_CHARGER
+460,"Battery Pack",BatteryPack,BATTERY_PACK
+341,Binoculars,Binoculars,BINOCULARS
+595,Blackberries,Blackberries,BLACKBERRIES
+598,"Blackberry Seed",BlackberrySeed,BLACKBERRY_SEED
+488,"Blue TShirt",BlueTShirt,BLUE_TSHIRT
+445,Blueberries,Blueberries,BLUEBERRIES
+599,"Blueberry Seed",BlueberrySeed,BLUEBERRY_SEED
+581,BlueprintBirdHouse,BlueprintBirdHouse,BLUEPRINT_BIRD_HOUSE
+579,BlueprintBoneChair,BlueprintBoneChair,BLUEPRINT_BONE_CHAIR
+588,BlueprintBoneChandelier,BlueprintBoneChandelier,BLUEPRINT_BONE_CHANDELIER
+552,S.C.R.E.W.,BlueprintBook,S_C_R_E_W
+530,"Drying Rack Blueprint",BlueprintDryingRack,DRYING_RACK_BLUEPRINT
+582,BlueprintFishTrap,BlueprintFishTrap,BLUEPRINT_FISH_TRAP
+625,BlueprintHangingSkullLight,BlueprintHangingSkullLight,
+584,BlueprintMannequin,BlueprintMannequin,BLUEPRINT_MANNEQUIN
+587,BlueprintPlanterFloor,BlueprintPlanterFloor,BLUEPRINT_PLANTER_FLOOR
+586,BlueprintPlanterWallJ,BlueprintPlanterWall,BLUEPRINT_PLANTER_WALL
+622,BlueprintRockPath,BlueprintRockPath,
+585,BlueprintScarecrow,BlueprintScarecrow,BLUEPRINT_SCARECROW
+621,BlueprintShelf,BlueprintShelf,
+591,BlueprintSmallLogCabin,BlueprintSmallLogCabin,BLUEPRINT_SMALL_LOG_CABIN
+532,"Stick Bed Blueprint",BlueprintStickBed,STICK_BED_BLUEPRINT
+531,"Stick Chair Blueprint",BlueprintStickChair,STICK_CHAIR_BLUEPRINT
+580,BlueprintStickLadderD,BlueprintStickLadder,BLUEPRINT_STICK_LADDER
+608,BlueprintStorageBones,BlueprintStorageBones,BLUEPRINT_STORAGE_BONES
+583,BlueprintStorageBox,BlueprintStorageBox,BLUEPRINT_STORAGE_BOX
+609,BlueprintStorageLogsa,BlueprintStorageLogs,BLUEPRINT_STORAGE_LOGS
+607,BlueprintStorageRocks,BlueprintStorageRocks,BLUEPRINT_STORAGE_ROCKS
+610,BlueprintStorageSticks,BlueprintStorageSticks,BLUEPRINT_STORAGE_STICKS
+620,BlueprintTable,BlueprintTable,
+549,"Bone Maker Blueprint",BlueprintTrapBoneMaker,BONE_MAKER_BLUEPRINT
+550,"Fly Swatter Blueprint",BlueprintTrapFlySwatter,FLY_SWATTER_BLUEPRINT
+551,"Small Animal Catcher Blueprint",BlueprintTrapSmallAnimalCatcher,SMALL_ANIMAL_CATCHER_BLUEPRINT
+623,BlueprintWallShelf,BlueprintWallShelf,
+624,BlueprintWallTorch,BlueprintWallTorch,
+533,BlueprintWeaponRack,BlueprintWeaponRack,BLUEPRINT_WEAPON_RACK
+405,Bone,Bone,BONE
+494,"Bone Armour",BoneArmour,BONE_ARMOUR
+364,"Shotgun Buckshot",BuckshotAmmo,SHOTGUN_BUCKSHOT
+509,"Holosprings Pamphlet",BunkerPamphlet,HOLOSPRINGS_PAMPHLET
+420,"C4 Brick",C4Brick,C4_BRICK
+432,"Can Opener",CanOpener,CAN_OPENER
+434,"Canned Food",CannedFood,CANNED_FOOD
+464,"Cat Food",CatFood,CAT_FOOD
+425,"Crunchie Wunchies",CerealBox,CRUNCHIE_WUNCHIES
+465,Chicory,Chicory,CHICORY
+605,"Chicory Seed",ChicorySeed,CHICORY_SEED
+416,"Circuit Board",CircuitBoard,CIRCUIT_BOARD
+478,"Climbing Axe",ClimbingAxe,CLIMBING_AXE
+415,Cloth,Cloth,CLOTH
+502,Coins,Coins,COINS
+380,"Utility Knife",CombatKnife,UTILITY_KNIFE
+355,"Compact Pistol",CompactPistol,COMPACT_PISTOL
+376,"Pistol Rail",CompactPistolRail,PISTOL_RAIL
+514,"Contact Spring Trigger",ContactSpringTrigger,CONTACT_SPRING_TRIGGER
+511,"Contact Trigger",ContactTrigger,CONTACT_TRIGGER
+517,"Cooking Pot",CookingPot,COOKING_POT
+507,"Crafted Arrow",CraftedArrow,CRAFTED_ARROW
+443,"Crafted Bow",CraftedBow,CRAFTED_BOW
+477,"Crafted Club",CraftedClub,CRAFTED_CLUB
+474,"Crafted Spear",CraftedSpear,CRAFTED_SPEAR
+593,"Creepy Armour",CreepyArmour,CREEPY_ARMOUR
+592,"Creepy Skin",CreepySkin,CREEPY_SKIN
+468,Cross,Cross,CROSS
+365,Crossbow,Crossbow,CROSSBOW
+368,"Crossbow Bolt",CrossbowAmmoBolt,CROSSBOW_BOLT
+384,"Crossbow Quiver",CrossbowQuiverMod,CROSSBOW_QUIVER
+472,"Deer Hide",DeerHide,DEER_HIDE
+519,"Deer Hide Armour",DeerHideArmour,DEER_HIDE_ARMOUR
+449,DevilsClub,DevilsClub,DEVILS_CLUB
+600,"DevilsClub Seed",DevilsClubSeed,DEVILS_CLUB_SEED
+419,"Duct Tape",DuctTape,DUCT_TAPE
+539,"Astrology Email Pt 1",EmailPrintoutAstrologyA,ASTROLOGY_EMAIL_PT_1
+540,"Astrology Email Pt 2",EmailPrintoutAstrologyB,ASTROLOGY_EMAIL_PT_2
+541,"Astrology Email Pt 3",EmailPrintoutAstrologyC,ASTROLOGY_EMAIL_PT_3
+545,"Ballet Email",EmailPrintoutBalletA,BALLET_EMAIL
+521,"Cave Lighting Email",EmailPrintoutCaveLighting,CAVE_LIGHTING_EMAIL
+534,"Golf Email Pt 1",EmailPrintoutGolfA,GOLF_EMAIL_PT_1
+535,"Golf Email Pt 2",EmailPrintoutGolfB,GOLF_EMAIL_PT_2
+536,"Golf Email Pt 3",EmailPrintoutGolfC,GOLF_EMAIL_PT_3
+537,"Golf Email Pt 4",EmailPrintoutGolfD,GOLF_EMAIL_PT_4
+614,Email,EmailPrintoutGovernmentA,EMAIL_GOVERNMENT_A
+615,Email,EmailPrintoutGovernmentB,EMAIL_GOVERNMENT_B
+616,Email,EmailPrintoutGovernmentC,EMAIL_GOVERNMENT_C
+528,"MrPuffy Financials",EmailPrintoutMrPuffyFinancial,MR_PUFFY_FINANCIALS
+526,"Mr Puffy Will",EmailPrintoutMrPuffyWill,MR_PUFFY_WILL
+538,"Painting Email",EmailPrintoutPaintingA,PAINTING_EMAIL
+542,"Politician Email Pt 1",EmailPrintoutPoliticianA,POLITICIAN_EMAIL_PT_1
+543,"Politician Email Pt 2",EmailPrintoutPoliticianB,POLITICIAN_EMAIL_PT_2
+544,"Politician Email Pt 3",EmailPrintoutPoliticianC,POLITICIAN_EMAIL_PT_3
+546,"Squeaky Shoes Email Pt 1",EmailPrintoutSqueakyShoesA,SQUEAKY_SHOES_EMAIL_PT_1
+547,"Squeaky Shoes Email Pt 2",EmailPrintoutSqueakyShoesB,SQUEAKY_SHOES_EMAIL_PT_2
+548,"Squeaky Shoes Email Pt 3",EmailPrintoutSqueakyShoesC,SQUEAKY_SHOES_EMAIL_PT_3
+483,"Emergency Pack",EmergencyPack,EMERGENCY_PACK
+441,"Energy Bar",EnergyBar,ENERGY_BAR
+439,"Energy Drink",EnergyDrink,ENERGY_DRINK
+461,"Energy Mix",EnergyMix,ENERGY_MIX
+462,"Energy Mix+",EnergyMixPlus,SUPER_ENERGY_MIX
+479,Feather,Feather,FEATHER
+431,"Firefighter Axe",FireAxe,FIREFIGHTER_AXE
+453,Fireweed,Fireweed,FIREWEED
+601,"Fireweed Seed",FireweedSeed,FIREWEED_SEED
+436,Fish,Fish,FISH
+440,Flare,Flare,FLARE
+471,Flashlight,Flashlight,FLASHLIGHT
+378,"Flashlight Attachment",FlashlightMod,FLASHLIGHT_ATTACHMENT
+475,Flask,Flask,FLASK
+463,Flippers,Flippers,FLIPPERS
+400,"Fly Amanita",FlyAmanitaMushroom,FLY_AMANITA
+569,"Brain Bite",FoodCubeBrain,BRAIN_BITE
+570,"Steak Bite",FoodCubeSteak,STEAK_BITE
+571,"Steak and Bacon Bite",FoodCubeSteakAndBacon,STEAK_AND_BACON_BITE
+497,"Food Tray",FoodTray,FOOD_TRAY
+512,"Filled Food Tray",FoodTrayFilled,FILLED_FOOD_TRAY
+529,"GPS Locator",GPSLocator,GPS_LOCATOR
+412,"GPS Tracker",GPSTracker,GPS_TRACKER
+498,"GRABS Laser Pointer",GRABSLaserPointer,GRABS_LASER_POINTER
+435,"Gold Mask",GoldMask,GOLD_MASK
+572,"Golden Armour",GoldenArmour,GOLDEN_ARMOUR
+524,"Golf Ball",GolfBall,GOLF_BALL
+525,Putter,GolfPutter,PUTTER
+351,"Grab Bag",GrabBag,GRAB_BAG
+381,Grenade,Grenade,GRENADE
+382,GrenadeAmmo,GrenadeAmmo,GRENADE_AMMO
+594,"Guarana Berries",GuaranaBerries,GUARANA_BERRIES
+602,"Guarana Seed",GuaranaSeed,GUARANA_SEED
+340,Guitar,Guitar,GUITAR
+455,"Health Mix",HealthMix,HEALTH_MIX
+456,"Health Mix+",HealthMixPlus,SUPER_HEALTH_MIX
+562,HolovilleNoticeA,HolovilleNoticeA,HOLOVILLE_NOTICE_A
+563,HolovilleNoticeB,HolovilleNoticeB,HOLOVILLE_NOTICE_B
+564,HolovilleNoticeC,HolovilleNoticeC,HOLOVILLE_NOTICE_C
+565,HolovilleNoticeD,HolovilleNoticeD,HOLOVILLE_NOTICE_D
+490,Hoodie,Hoodie,HOODIE
+450,Horsetail,Horsetail,HORSETAIL
+603,"Horsetail Seed",HorsetailSeed,HORSETAIL_SEED
+399,"Hydnum Repandum",HydnumRepandumMushroom,HYDNUM_REPANDUM
+367,Katana,Katana,KATANA
+567,"Guest Key",KeyCardGuest,GUEST_KEY
+566,"Maintenance Key",KeyCardMaintenance,MAINTENANCE_KEY
+568,"VIP Key",KeyCardVIP,VIP_KEY
+398,"King Oyster",KingOysterMushroom,KING_OYSTER
+505,"Laser Measure Tool",LaserMeasureTool,LASER_MEASURE_TOOL
+375,"Laser Sight",LaserSightMod,LASER_SIGHT
+484,Leaf,Leaf,LEAF
+473,"Leaf Armour",LeafArmour,LEAF_ARMOUR
+493,"Leather Jacket",LeatherJacket,LEATHER_JACKET
+395,"Log Plank",LogPlank,LOG_PLANK
+576,"Quarter Log plank",QuarterLogPlank,QUARTER_LOG_PLANK
+577,"Half Log plank",HalfLogPlank,HALF_LOG_PLANK
+578,"Three Quarter Log Plank",ThreeQuarterLogPlank,THREE_QUARTER_LOG_PLANK
+406,"Quarter Log",QuarterLog,QUARTER_LOG
+408,"Half Log",HalfLog,HALF_LOG
+409,"Three Quarter Log",ThreeQuarterLog,THREE_QUARTER_LOG
+78,Log,Log_Legacy,LOG
+508,"Skin Pouch",LootPouch,SKIN_POUCH
+359,Machete,Machete2,MACHETE
+433,Meat,Meat,MEAT
+356,"Modern Axe",ModernAxe,MODERN_AXE
+388,Molotov,Molotov,MOLOTOV
+389,MolotovAmmo,MolotovAmmo,MOLOTOV_AMMO
+496,Money,Money,MONEY
+438,"MRE Pack",MrePack,MRE_PACK
+612,"Newspaper Cutout",NewspaperCutout,NEWSPAPER_CUTOUT
+613,"Newspaper Cutout",NewspaperCutoutOutbid,NEWSPAPER_CUTOUT_OUTBID
+354,"Night Vision Goggles",NightVisionGoggles,NIGHT_VISION_GOGGLES
+423,"Novel A",NovelA,NOVEL_A
+424,"Novel B",NovelB,NOVEL_B
+574,"Novel C",NovelC,NOVEL_C
+575,"Novel D",NovelD,NOVEL_D
+611,"Numbers Printout",NumbersPrintout,NUMBERS_PRINTOUT
+491,Blazer,OldJacket,BLAZER
+466,Oyster,Oyster,OYSTER
+518,"Paper Target",PaperTarget,PAPER_TARGET
+437,Meds,Pills,MEDS
+370,"Pistol Ammo",PistolAmmoBox,PISTOL_AMMO
+374,Silencer,PistolSuppressor,SILENCER
+413,"Plasma Lighter",PlasmaLighter,PLASMA_LIGHTER
+500,"Puffy Jacket",PuffyJacket,PUFFY_JACKET
+590,Radio,Radio,RADIO
+421,"Ramen Noodles",RamenNoodles,RAMEN_NOODLES
+444,Rebreather,Rebreather,REBREATHER
+391,"Red Mask",RedMask,RED_MASK
+422,"Repair Tool",RepairTool,REPAIR_TOOL
+386,Revolver,Revolver,REVOLVER
+361,Rifle,Rifle,RIFLE
+387,RifleAmmo,RifleAmmo,RIFLE_AMMO
+383,"Rifle Rail Mod",RifleRailMod,RIFLE_RAIL_MOD
+393,Rock,Rock,ROCK
+403,Rope,Rope,ROPE
+522,RopeGun,RopeGun,ROPE_GUN
+447,Salmonberries,Salmonberries,SALMONBERRIES
+604,"Salmonberry Seed",SalmonberrySeed,SALMONBERRY_SEED
+377,Scope,ScopeMod,SCOPE
+480,"Severed Arm",SeveredArm,SEVERED_ARM
+482,"Severed Head",SeveredHead,SEVERED_HEAD
+481,"Severed Leg",SeveredLeg,SEVERED_LEG
+397,Shiitake,ShiitakeMushroom,SHIITAKE
+371,"Shotgun Buckshot",ShotgunAmmoBoxBuckshot,SHOTGUN_BUCKSHOT
+372,"Shotgun Slug",ShotgunAmmoBoxSlug,SHOTGUN_SLUG
+358,Shotgun,ShotgunPumpAction,SHOTGUN
+346,"Shotgun Rail",ShotgunRail,SHOTGUN_RAIL
+485,Shovel,Shovel,SHOVEL
+487,"Silk Pyjamas",SilkPyjamas,SILK_PYJAMAS
+430,Skull,Skull,SKULL
+573,"Sleeping Bag",SleepingBag,SLEEPING_BAG
+459,Slingshot,Slingshot,SLINGSHOT
+363,"Shotgun Slug",SlugAmmo,SHOTGUN_SLUG
+476,"Small Rock",SmallRock,SMALL_ROCK
+448,Snowberries,Snowberries,SNOWBERRIES
+513,Spring,Spring,SPRING
+392,Stick,Stick,STICK
+617,"Stock Price",StockPricePrintout,STOCK_PRICE_PRINTOUT
+520,"Structure Element","Structure Element",STRUCTURE_ELEMENT
+353,"Stun Gun",StunGun,STUN_GUN
+369,"Stun Gun Ammo",StunGunAmmo,STUN_GUN_AMMO
+457,"Stun Gun Ammo",StunGunAmmoBox,STUN_GUN_AMMO
+379,"Tactical Axe",TacticalAxe,TACTICAL_AXE
+501,"Tactical Boots",TacticalBoots,TACTICAL_BOOTS
+360,"Tactical Bow",TacticalBow,TACTICAL_BOW
+373,"Tactical Arrow",TacticalBowAmmo,TACTICAL_ARROW
+394,Chainsaw,TacticalChainsaw,CHAINSAW
+495,"Tactical Jacket",TacticalJacket,TACTICAL_JACKET
+489,"Tactical Pants",TacticalPants,TACTICAL_PANTS
+504,Tarp,Tarp,TARP
+396,"Stun Baton",TaserStick,STUN_BATON
+554,"Tech Armour",TechArmour,TECH_ARMOUR
+553,"Tech Mesh",TechMesh,TECH_MESH
+417,"Time Bomb",TimeBomb,TIME_BOMB
+503,Torch,Torch,TORCH
+366,"Tracker Dart",TrackerDart,TRACKER_DART
+401,"Turtle Egg",TurtleEgg,TURTLE_EGG
+506,"Turtle Shell",TurtleShell,TURTLE_SHELL
+589,"S.C.R.E.W. / Tutorials",TutorialBook,S_C_R_E_W__TUTORIALS
+515,"Basic Building Tutorial Page",TutorialPageBasicBuilding,BASIC_BUILDING_TUTORIAL_PAGE
+516,"Tarp Tent Tutorial Page",TutorialPageTarpTent,TARP_TENT_TUTORIAL_PAGE
+492,Tuxedo,Tuxedo,TUXEDO
+446,Twinberries,Twinberries,TWINBERRIES
+558,"Camoflage Suit",VirginiaCamoSuit,CAMOFLAGE_SUIT
+556,Dress,VirginiaDress,DRESS
+557,"Leather Suit",VirginiaLeatherSuit,LEATHER_SUIT
+619,"Swim Suit",VirginiaSwimSuit,SWIM_SUIT
+555,"Track Suit",VirginiaTrackSuit,TRACK_SUIT
+414,"Vodka Bottle",VodkaBottle,VODKA_BOTTLE
+486,"Walkie Talkie",WalkieTalkie,WALKIE_TALKIE
+499,Wetsuit,Wetsuit,WETSUIT
+418,Wire,Wire,WIRE
+410,Watch,Wristwatch,WATCH
+452,Yarrow,Yarro,YARROW
+606,"Yarro Seed",YarroSeed,YARRO_SEED
+523,"Zipline Rope",ZiplineRope,ZIPLINE_ROPE

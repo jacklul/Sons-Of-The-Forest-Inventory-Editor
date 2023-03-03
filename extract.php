@@ -23,7 +23,7 @@ if (!file_exists(__DIR__ . '/extract.cache')) {
         $items[$matches[2][$i]] = [
             'id'   => $matches[2][$i],
             'name_singular' => '',
-            'name_plural' => '',
+            //'name_plural' => '',
             'name_pascal' => $matches[1][$i],
             'name_snake' => '',
         ];
@@ -83,11 +83,11 @@ if (!file_exists(__DIR__ . '/extract.cache')) {
                     $item['name_singular'] = $item['name_pascal'];
                 } else {
                     $item['name_singular'] = $matches[1][$i - 1];
-                    $item['name_plural'] = $matches[1][$i];
+                    //$item['name_plural'] = $matches[1][$i];
                 }
             } else {
                 $item['name_singular'] = $matches[1][$i - 2];
-                $item['name_plural'] = $matches[1][$i - 1];
+                //$item['name_plural'] = $matches[1][$i - 1];
                 $item['name_snake'] = $matches[1][$i];
             }
         } else {
@@ -106,10 +106,16 @@ if (!file_exists(__DIR__ . '/extract.cache')) {
 echo 'Saving...' . PHP_EOL;
 
 $fp = fopen(__DIR__ . '/items.csv', 'w');
-fputcsv($fp, ['ID', 'Name (singular)', 'Name (plural)', 'Name (PascalCase)', 'Name (SNAKE_CASE)']);
+//fputcsv($fp, ['ID', 'Name (singular)', 'Name (plural)', 'Name (PascalCase)', 'Name (SNAKE_CASE)']);
+fputcsv($fp, ['ID', 'Name (singular)', 'Name (PascalCase)', 'Name (SNAKE_CASE)']);
 
 foreach ($items as $item) {
-    fputcsv($fp, array_values($item));
+    fputcsv($fp, [
+        $item['id'],
+        $item['name_singular'],
+        $item['name_pascal'],
+        $item['name_snake'],
+    ]);
 }
 
 fclose($fp);
