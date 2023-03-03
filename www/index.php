@@ -288,7 +288,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
         $addedItems[] = $itemInstance['ItemId'];
     }
 
-    echo '<form style="display: inline-block;margin: 0;" method="get"><input type="hidden" name="action" value="add"><input type="hidden" name="path" value="' . ($_GET['path'] ?? '') . '"><select name="id"><option value="0" selected disabled>-- select item --</option>';
+    echo '<form style="display: inline-block;margin: 0;" method="get"><input type="hidden" name="action" value="add"><input type="hidden" name="path" value="' . ($_GET['path'] ?? '') . '"><select name="id" id="add-search-select"><option value="0" selected disabled>-- select item --</option>';
 
     foreach ($itemData as $itemDataEntry) {
         if (in_array($itemDataEntry['id'], $addedItems) || isset($itemDataEntry['hidden']) || isset($itemDataEntry['equippable']))
@@ -297,7 +297,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
         echo '<option value="' . $itemDataEntry['id'] . '">' . ($itemDataEntry['name'] == '??' ? $itemDataEntry['id'] . ' - unknown item' : $itemDataEntry['name'] . ' - ' . $itemDataEntry['reference'] . ' [' . $itemDataEntry['id'] . ']') . '' . ($itemDataEntry['unknown'] ? ' &nbsp; ⚠️' : '') . '</option>';
     }
 
-    echo '</select><input type="submit" value="ADD"></form>';
+    echo '</select><input type="submit" value="ADD"><input type="text" name="search" placeholder="SEARCH" id="add-search"><input type="button" value="RESET" onclick="document.getElementById(\'add-search\').value=\'\';document.getElementById(\'add-search\').dispatchEvent(new Event(\'input\', {bubbles:true}));"></form>';
 
     echo '<table border="1" cellpadding="1" cellspacing="1">';
     echo '<thead><td>ID</td><td>Name</td><td>Count</td><td>Max</td><td>Unique</td><td>Essential</td><td></td></thead>';
@@ -356,3 +356,37 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
 }
 
 ?>
+<script type="text/javascript">
+var selectInputOriginalText = '';
+document.getElementById("add-search").addEventListener('input', function(e) {
+    var selectInput = document.getElementById("add-search-select");
+
+    if (selectInputOriginalText == '') {
+        selectInputOriginalText = selectInput.querySelector('[value="0"]').innerHTML;
+    }
+
+    if (this.value == "") {
+        selectInput.querySelector('[value="0"]').innerHTML = selectInputOriginalText;
+    }
+
+    var options = selectInput.querySelectorAll('option');
+    var hasOption = 0;
+    for (let i = 0; i < options.length; i++) {
+        if (options[i].value == "0")
+            continue;
+
+        if (options[i].innerHTML.toLowerCase().includes(this.value) || this.value == "") {
+            options[i].removeAttribute('hidden');
+            hasOption++;
+        } else {
+            options[i].setAttribute('hidden', true);
+        }
+    }
+
+    if (!hasOption) {
+        selectInput.querySelector('[value="0"]').innerHTML = '-- no items found --';
+    } else if (this.value != "") {
+        selectInput.querySelector('[value="0"]').innerHTML = '-- found ' + hasOption + ' items --';
+    }
+});
+</script>
