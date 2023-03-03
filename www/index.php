@@ -113,7 +113,12 @@ foreach (array_reverse($saves) as $save => $mtime) {
     $mtime = date('Y-m-d H:i:s', $mtime);
     $selected = isset($_GET['path']) && $_GET['path'] == $path;
 
-    echo '<option value="' . $path . '"' . ($selected ? 'selected' : '') . '>' . $title . ' (' . $mtime . ')' . '</option>';
+    $label = '';
+    if (file_exists($path . '/label.txt')) {
+        $label = ' [' . trim(file_get_contents($path . '/label.txt')) . ']';
+    }
+
+    echo '<option value="' . $path . '"' . ($selected ? 'selected' : '') . '>' . $title . $label . ' (' . $mtime . ')' . '</option>';
 }
 
 echo '</select><input type="submit" value="OPEN">&nbsp;<a href="?path=' . ($_GET['path'] ?? '') . '&print">PRINT INVENTORY ARRAY</a></form>';

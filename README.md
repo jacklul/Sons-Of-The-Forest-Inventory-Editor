@@ -23,6 +23,8 @@ You cannot modify equipped items, make sure you unequip everything before saving
 
 You can exceed capacity limits by setting `allowExceedMaxCapacity` to `true` in `data/config.json`, be cautious when doing so.
 
+You can create a text file called `label.txt` (inside `SonsOfTheForest\Saves\[NUMBERS]\[MODE]\[SAVEID]`) in your save directory to easily identify it on saves list.
+
 ### `config.json` reference:
 
 | Variable | Default Value | Description |
