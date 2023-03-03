@@ -117,9 +117,22 @@ foreach (array_reverse($saves) as $save => $mtime) {
 echo '</select><input type="submit" value="OPEN">&nbsp;<a href="?path=' . ($_GET['path'] ?? '') . '&print">PRINT INVENTORY ARRAY</a></form>';
 
 if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'/PlayerInventorySaveData.json')) {
+    $version = '0.0.0';
+
     $inventoryData = json_decode(file_get_contents($_GET['path'].'/PlayerInventorySaveData.json'), true);
-    $inventoryContents = json_decode($inventoryData['Data']['PlayerInventory'], true);
-    $version = $inventoryContents['ItemInstanceManagerData']['Version'];
+    $inventoryContents = [];
+    if (isset($inventoryData['Data']['PlayerInventory'])) {
+        $inventoryContents = json_decode($inventoryData['Data']['PlayerInventory'], true);
+        $version = $inventoryContents['ItemInstanceManagerData']['Version'];
+    } else {
+        die('PlayerInventorySaveData.json is not a valid');
+    }
+
+    $clothingData = json_decode(file_get_contents($_GET['path'].'/PlayerClothingSystemSaveData.json'), true);
+    $clothingContents = ['Clothing' => []];
+    if (isset($clothingData['Data']['PlayerClothingSystem'])) {
+        $clothingContents = json_decode($clothingData['Data']['PlayerClothingSystem'], true);
+    }
 
     if (isset($_GET['print'])) {
         echo '<pre>';
@@ -256,8 +269,19 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
     foreach ($inventoryContents['EquippedItems'] as &$equippedItem) {
         $equippedItem['equipped'] = true;
     }
+
+    $clothes = [];
+    foreach ($clothingContents['Clothing'] as $itemId) {
+        $wornItem['equipped'] = true;
+        $clothes[] = [
+            "ItemId" => $itemId,
+            "TotalCount" => 1,
+            "UniqueItems" => [],
+            "equipped" => true,
+        ];
+    }
     
-    $inventoryContents['ItemInstanceManagerData']['ItemBlocks'] = array_merge($inventoryContents['EquippedItems'], $inventoryContents['ItemInstanceManagerData']['ItemBlocks']);
+    $inventoryContents['ItemInstanceManagerData']['ItemBlocks'] = array_merge($inventoryContents['EquippedItems'], $clothes, $inventoryContents['ItemInstanceManagerData']['ItemBlocks']);
     
     $addedItems = [];
     foreach ($inventoryContents['ItemInstanceManagerData']['ItemBlocks'] as $itemInstance) {
