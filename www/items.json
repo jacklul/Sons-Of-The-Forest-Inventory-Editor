@@ -1214,8 +1214,7 @@
         "id": "493",
         "name": "Leather Jacket",
         "reference": "LeatherJacket",
-        "max": 1,
-        "unknown": true
+        "max": 1
     },
     {
         "id": "395",
