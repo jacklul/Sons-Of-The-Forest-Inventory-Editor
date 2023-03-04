@@ -218,7 +218,7 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
             switch (strtolower($_GET['revive'])) {
                 case 'kelvin':
                     if ($gameStateContents['IsRobbyDead'] === true) {
-                        $gameStateContents['IsRobbyDead'] = true;
+                        $gameStateContents['IsRobbyDead'] = false;
 
                         $hasEntry = false;
                         foreach ($saveVailWorldSimContents['Actors'] as &$actor) {
