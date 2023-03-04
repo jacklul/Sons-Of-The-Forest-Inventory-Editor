@@ -221,7 +221,10 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
                         $gameStateContents['IsRobbyDead'] = false;
 
                         $hasEntry = false;
+                        $uniqueIds = [];
                         foreach ($saveVailWorldSimContents['Actors'] as &$actor) {
+                            $uniqueIds[] = $actor['UniqueId'];
+
                             if ($actor['TypeId'] === 9) {
                                 $hasEntry = true;
                                 $actor['State'] = 2;
@@ -242,8 +245,13 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
                         }
 
                         if (!$hasEntry) {
+                            $uniqueId = 7013;
+                            while (in_array($uniqueId, $uniqueIds)) {
+                                $uniqueId++;
+                            }
+
                             $saveVailWorldSimContents['Actors'][] = [
-                                'UniqueId' => 7013,
+                                'UniqueId' => $uniqueId,
                                 'TypeId' => 9,
                                 'FamilyId' => 0,
                                 'Position' => [
@@ -287,7 +295,10 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
                         $gameStateContents['IsVirginiaDead'] = false;
 
                         $hasEntry = false;
+                        $uniqueIds = [];
                         foreach ($saveVailWorldSimContents['Actors'] as &$actor) {
+                            $uniqueIds[] = $actor['UniqueId'];
+
                             if ($actor['TypeId'] === 10) {
                                 $hasEntry = true;
                                 $actor['State'] = 2;
@@ -308,8 +319,13 @@ if (isset($_GET['path']) && is_dir($_GET['path']) && file_exists($_GET['path'].'
                         }
 
                         if (!$hasEntry) {
+                            $uniqueId = 6154;
+                            while (in_array($uniqueId, $uniqueIds)) {
+                                $uniqueId++;
+                            }
+
                             $saveVailWorldSimContents['Actors'][] = [
-                                'UniqueId' => 6154,
+                                'UniqueId' => $uniqueId,
                                 'TypeId' => 10,
                                 'FamilyId' => 0,
                                 'Position' => [
