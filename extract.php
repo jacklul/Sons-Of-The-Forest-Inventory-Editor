@@ -111,7 +111,7 @@ fputcsv($fp, ['ID', 'Name (singular)', 'Name (PascalCase)', 'Name (SNAKE_CASE)']
 
 foreach ($items as $item) {
     fputcsv($fp, [
-        $item['id'],
+        (int)$item['id'],
         $item['name_singular'],
         $item['name_pascal'],
         $item['name_snake'],
@@ -130,7 +130,7 @@ if (file_exists(__DIR__ . '/www/items.json')) {
         foreach ($json as &$jsonItem) {
             if ($jsonItem['id'] == (int)$item['id']) {
                 $newItem = [
-                    "id" => $item['id'],
+                    "id" => (int)$item['id'],
                     "name" => $item['name_singular'],
                     "reference" => $item['name_pascal'],
                     "max" => $jsonItem['max'] ?? 1

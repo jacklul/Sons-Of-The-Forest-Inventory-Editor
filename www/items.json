@@ -1,19 +1,19 @@
 [
     {
-        "id": "618",
+        "id": 618,
         "name": "Printed Arrow",
         "reference": "3dPrintedArrow",
         "max": 20
     },
     {
-        "id": "559",
+        "id": 559,
         "name": "Printed Arrow Heads",
         "reference": "3dPrintedArrowHeads",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "426",
+        "id": 426,
         "name": "Printed Flask",
         "reference": "3dPrintedFlask",
         "max": 1,
@@ -29,102 +29,102 @@
         }
     },
     {
-        "id": "561",
+        "id": 561,
         "name": "Printed Flower Pot",
         "reference": "3dPrintedFlowerPot",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "560",
+        "id": 560,
         "name": "Printed Grappling Hook",
         "reference": "3dPrintedGrapplingHook",
         "max": 10
     },
     {
-        "id": "427",
+        "id": 427,
         "name": "Printed Knife",
         "reference": "3dPrintedKnife",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "428",
+        "id": 428,
         "name": "Printed Sled",
         "reference": "3dPrintedSled",
         "max": 1
     },
     {
-        "id": "429",
+        "id": 429,
         "name": "Printed Scuba Mask",
         "reference": "3dPrintedUnderwaterMask",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "390",
+        "id": 390,
         "name": "Printer Resin",
         "reference": "3dPrinterResin",
         "max": 1000
     },
     {
-        "id": "362",
+        "id": 362,
         "name": "Pistol Ammo",
         "reference": "9mmAmmo",
         "max": 1000
     },
     {
-        "id": "469",
+        "id": 469,
         "name": "Air Canister",
         "reference": "AirCanister",
         "max": 4
     },
     {
-        "id": "357",
+        "id": 357,
         "name": "Airgun",
         "reference": "Airgun",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "470",
+        "id": 470,
         "name": "Airgun Scope",
         "reference": "AirgunScope",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "467",
+        "id": 467,
         "name": "Album Cover",
         "reference": "AlbumCover",
         "max": 1
     },
     {
-        "id": "451",
+        "id": 451,
         "name": "Aloe Vera",
         "reference": "AloeVera",
         "max": 20
     },
     {
-        "id": "596",
+        "id": 596,
         "name": "AloeVera Seed",
         "reference": "AloeVeraSeed",
         "max": 20
     },
     {
-        "id": "454",
+        "id": 454,
         "name": "Arrowleaf",
         "reference": "ArrowleafBalsamroot",
         "max": 20
     },
     {
-        "id": "597",
+        "id": 597,
         "name": "Arrowleaf Seed",
         "reference": "ArrowleafSeed",
         "max": 20
     },
     {
-        "id": "402",
+        "id": 402,
         "name": "Backpack",
         "reference": "Backpack",
         "max": 1,
@@ -145,329 +145,329 @@
         "essential": true
     },
     {
-        "id": "527",
+        "id": 527,
         "name": "Batteries",
         "reference": "Batteries",
         "max": 6
     },
     {
-        "id": "458",
+        "id": 458,
         "name": "Battery Charger",
         "reference": "BatteryCharger",
         "max": 1
     },
     {
-        "id": "460",
+        "id": 460,
         "name": "Battery Pack",
         "reference": "BatteryPack",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "341",
+        "id": 341,
         "name": "Binoculars",
         "reference": "Binoculars",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "595",
+        "id": 595,
         "name": "Blackberries",
         "reference": "Blackberries",
         "max": 20
     },
     {
-        "id": "598",
+        "id": 598,
         "name": "Blackberry Seed",
         "reference": "BlackberrySeed",
         "max": 20
     },
     {
-        "id": "488",
+        "id": 488,
         "name": "Blue TShirt",
         "reference": "BlueTShirt",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "445",
+        "id": 445,
         "name": "Blueberries",
         "reference": "Blueberries",
         "max": 20
     },
     {
-        "id": "599",
+        "id": 599,
         "name": "Blueberry Seed",
         "reference": "BlueberrySeed",
         "max": 20
     },
     {
-        "id": "581",
+        "id": 581,
         "name": "BlueprintBirdHouse",
         "reference": "BlueprintBirdHouse",
         "max": 1
     },
     {
-        "id": "579",
+        "id": 579,
         "name": "BlueprintBoneChair",
         "reference": "BlueprintBoneChair",
         "max": 1
     },
     {
-        "id": "588",
+        "id": 588,
         "name": "BlueprintBoneChandelier",
         "reference": "BlueprintBoneChandelier",
         "max": 1
     },
     {
-        "id": "552",
+        "id": 552,
         "name": "S.C.R.E.W.",
         "reference": "BlueprintBook",
         "max": 1,
         "essential": true
     },
     {
-        "id": "530",
+        "id": 530,
         "name": "Drying Rack Blueprint",
         "reference": "BlueprintDryingRack",
         "max": 1
     },
     {
-        "id": "582",
+        "id": 582,
         "name": "BlueprintFishTrap",
         "reference": "BlueprintFishTrap",
         "max": 1
     },
     {
-        "id": "625",
+        "id": 625,
         "name": "BlueprintHangingSkullLight",
         "reference": "BlueprintHangingSkullLight",
         "max": 1
     },
     {
-        "id": "584",
+        "id": 584,
         "name": "BlueprintMannequin",
         "reference": "BlueprintMannequin",
         "max": 1
     },
     {
-        "id": "587",
+        "id": 587,
         "name": "BlueprintPlanterFloor",
         "reference": "BlueprintPlanterFloor",
         "max": 1
     },
     {
-        "id": "586",
+        "id": 586,
         "name": "BlueprintPlanterWallJ",
         "reference": "BlueprintPlanterWall",
         "max": 1
     },
     {
-        "id": "622",
+        "id": 622,
         "name": "BlueprintRockPath",
         "reference": "BlueprintRockPath",
         "max": 1
     },
     {
-        "id": "585",
+        "id": 585,
         "name": "BlueprintScarecrow",
         "reference": "BlueprintScarecrow",
         "max": 1
     },
     {
-        "id": "621",
+        "id": 621,
         "name": "BlueprintShelf",
         "reference": "BlueprintShelf",
         "max": 1
     },
     {
-        "id": "591",
+        "id": 591,
         "name": "BlueprintSmallLogCabin",
         "reference": "BlueprintSmallLogCabin",
         "max": 1
     },
     {
-        "id": "532",
+        "id": 532,
         "name": "Stick Bed Blueprint",
         "reference": "BlueprintStickBed",
         "max": 1
     },
     {
-        "id": "531",
+        "id": 531,
         "name": "Stick Chair Blueprint",
         "reference": "BlueprintStickChair",
         "max": 1
     },
     {
-        "id": "580",
+        "id": 580,
         "name": "BlueprintStickLadderD",
         "reference": "BlueprintStickLadder",
         "max": 1
     },
     {
-        "id": "608",
+        "id": 608,
         "name": "BlueprintStorageBones",
         "reference": "BlueprintStorageBones",
         "max": 1
     },
     {
-        "id": "583",
+        "id": 583,
         "name": "BlueprintStorageBox",
         "reference": "BlueprintStorageBox",
         "max": 1
     },
     {
-        "id": "609",
+        "id": 609,
         "name": "BlueprintStorageLogsa",
         "reference": "BlueprintStorageLogs",
         "max": 1
     },
     {
-        "id": "607",
+        "id": 607,
         "name": "BlueprintStorageRocks",
         "reference": "BlueprintStorageRocks",
         "max": 1
     },
     {
-        "id": "610",
+        "id": 610,
         "name": "BlueprintStorageSticks",
         "reference": "BlueprintStorageSticks",
         "max": 1
     },
     {
-        "id": "620",
+        "id": 620,
         "name": "BlueprintTable",
         "reference": "BlueprintTable",
         "max": 1
     },
     {
-        "id": "549",
+        "id": 549,
         "name": "Bone Maker Blueprint",
         "reference": "BlueprintTrapBoneMaker",
         "max": 1
     },
     {
-        "id": "550",
+        "id": 550,
         "name": "Fly Swatter Blueprint",
         "reference": "BlueprintTrapFlySwatter",
         "max": 1
     },
     {
-        "id": "551",
+        "id": 551,
         "name": "Small Animal Catcher Blueprint",
         "reference": "BlueprintTrapSmallAnimalCatcher",
         "max": 1
     },
     {
-        "id": "623",
+        "id": 623,
         "name": "BlueprintWallShelf",
         "reference": "BlueprintWallShelf",
         "max": 1
     },
     {
-        "id": "624",
+        "id": 624,
         "name": "BlueprintWallTorch",
         "reference": "BlueprintWallTorch",
         "max": 1
     },
     {
-        "id": "533",
+        "id": 533,
         "name": "BlueprintWeaponRack",
         "reference": "BlueprintWeaponRack",
         "max": 1
     },
     {
-        "id": "405",
+        "id": 405,
         "name": "Bone",
         "reference": "Bone",
         "max": 15
     },
     {
-        "id": "494",
+        "id": 494,
         "name": "Bone Armour",
         "reference": "BoneArmour",
         "max": 10
     },
     {
-        "id": "364",
+        "id": 364,
         "name": "Shotgun Buckshot",
         "reference": "BuckshotAmmo",
         "max": 1000
     },
     {
-        "id": "509",
+        "id": 509,
         "name": "Holosprings Pamphlet",
         "reference": "BunkerPamphlet",
         "max": 1
     },
     {
-        "id": "420",
+        "id": 420,
         "name": "C4 Brick",
         "reference": "C4Brick",
         "max": 10
     },
     {
-        "id": "432",
+        "id": 432,
         "name": "Can Opener",
         "reference": "CanOpener",
         "max": 1
     },
     {
-        "id": "434",
+        "id": 434,
         "name": "Canned Food",
         "reference": "CannedFood",
         "max": 6
     },
     {
-        "id": "464",
+        "id": 464,
         "name": "Cat Food",
         "reference": "CatFood",
         "max": 5
     },
     {
-        "id": "425",
+        "id": 425,
         "name": "Crunchie Wunchies",
         "reference": "CerealBox",
         "max": 4
     },
     {
-        "id": "465",
+        "id": 465,
         "name": "Chicory",
         "reference": "Chicory",
         "max": 20
     },
     {
-        "id": "605",
+        "id": 605,
         "name": "Chicory Seed",
         "reference": "ChicorySeed",
         "max": 20
     },
     {
-        "id": "416",
+        "id": 416,
         "name": "Circuit Board",
         "reference": "CircuitBoard",
         "max": 10
     },
     {
-        "id": "478",
+        "id": 478,
         "name": "Climbing Axe",
         "reference": "ClimbingAxe",
         "max": 1
     },
     {
-        "id": "415",
+        "id": 415,
         "name": "Cloth",
         "reference": "Cloth",
         "max": 1000
     },
     {
-        "id": "502",
+        "id": 502,
         "name": "Coins",
         "reference": "Coins",
         "max": 1000
     },
     {
-        "id": "380",
+        "id": 380,
         "name": "Utility Knife",
         "reference": "CombatKnife",
         "max": 1,
@@ -488,7 +488,7 @@
         "essential": true
     },
     {
-        "id": "355",
+        "id": 355,
         "name": "Compact Pistol",
         "reference": "CompactPistol",
         "max": 1,
@@ -515,44 +515,44 @@
         }
     },
     {
-        "id": "376",
+        "id": 376,
         "name": "Pistol Rail",
         "reference": "CompactPistolRail",
         "max": 1
     },
     {
-        "id": "514",
+        "id": 514,
         "name": "Contact Spring Trigger",
         "reference": "ContactSpringTrigger",
         "max": 1
     },
     {
-        "id": "511",
+        "id": 511,
         "name": "Contact Trigger",
         "reference": "ContactTrigger",
         "max": 1
     },
     {
-        "id": "517",
+        "id": 517,
         "name": "Cooking Pot",
         "reference": "CookingPot",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "507",
+        "id": 507,
         "name": "Crafted Arrow",
         "reference": "CraftedArrow",
         "max": 20
     },
     {
-        "id": "443",
+        "id": 443,
         "name": "Crafted Bow",
         "reference": "CraftedBow",
         "max": 1
     },
     {
-        "id": "477",
+        "id": 477,
         "name": "Crafted Club",
         "reference": "CraftedClub",
         "max": 1,
@@ -572,7 +572,7 @@
         }
     },
     {
-        "id": "474",
+        "id": 474,
         "name": "Crafted Spear",
         "reference": "CraftedSpear",
         "max": 5,
@@ -592,25 +592,25 @@
         }
     },
     {
-        "id": "593",
+        "id": 593,
         "name": "Creepy Armour",
         "reference": "CreepyArmour",
         "max": 10
     },
     {
-        "id": "592",
+        "id": 592,
         "name": "Creepy Skin",
         "reference": "CreepySkin",
         "max": 10
     },
     {
-        "id": "468",
+        "id": 468,
         "name": "Cross",
         "reference": "Cross",
         "max": 1
     },
     {
-        "id": "365",
+        "id": 365,
         "name": "Crossbow",
         "reference": "Crossbow",
         "max": 1,
@@ -627,175 +627,175 @@
         }
     },
     {
-        "id": "368",
+        "id": 368,
         "name": "Crossbow Bolt",
         "reference": "CrossbowAmmoBolt",
         "max": 15
     },
     {
-        "id": "384",
+        "id": 384,
         "name": "Crossbow Quiver",
         "reference": "CrossbowQuiverMod",
         "max": 1
     },
     {
-        "id": "472",
+        "id": 472,
         "name": "Deer Hide",
         "reference": "DeerHide",
         "max": 10
     },
     {
-        "id": "519",
+        "id": 519,
         "name": "Deer Hide Armour",
         "reference": "DeerHideArmour",
         "max": 10
     },
     {
-        "id": "449",
+        "id": 449,
         "name": "DevilsClub",
         "reference": "DevilsClub",
         "max": 20
     },
     {
-        "id": "600",
+        "id": 600,
         "name": "DevilsClub Seed",
         "reference": "DevilsClubSeed",
         "max": 20
     },
     {
-        "id": "419",
+        "id": 419,
         "name": "Duct Tape",
         "reference": "DuctTape",
         "max": 100
     },
     {
-        "id": "539",
+        "id": 539,
         "name": "Astrology Email Pt 1",
         "reference": "EmailPrintoutAstrologyA",
         "max": 1
     },
     {
-        "id": "540",
+        "id": 540,
         "name": "Astrology Email Pt 2",
         "reference": "EmailPrintoutAstrologyB",
         "max": 1
     },
     {
-        "id": "541",
+        "id": 541,
         "name": "Astrology Email Pt 3",
         "reference": "EmailPrintoutAstrologyC",
         "max": 1
     },
     {
-        "id": "545",
+        "id": 545,
         "name": "Ballet Email",
         "reference": "EmailPrintoutBalletA",
         "max": 1
     },
     {
-        "id": "521",
+        "id": 521,
         "name": "Cave Lighting Email",
         "reference": "EmailPrintoutCaveLighting",
         "max": 1
     },
     {
-        "id": "534",
+        "id": 534,
         "name": "Golf Email Pt 1",
         "reference": "EmailPrintoutGolfA",
         "max": 1
     },
     {
-        "id": "535",
+        "id": 535,
         "name": "Golf Email Pt 2",
         "reference": "EmailPrintoutGolfB",
         "max": 1
     },
     {
-        "id": "536",
+        "id": 536,
         "name": "Golf Email Pt 3",
         "reference": "EmailPrintoutGolfC",
         "max": 1
     },
     {
-        "id": "537",
+        "id": 537,
         "name": "Golf Email Pt 4",
         "reference": "EmailPrintoutGolfD",
         "max": 1
     },
     {
-        "id": "614",
+        "id": 614,
         "name": "Email",
         "reference": "EmailPrintoutGovernmentA",
         "max": 1
     },
     {
-        "id": "615",
+        "id": 615,
         "name": "Email",
         "reference": "EmailPrintoutGovernmentB",
         "max": 1
     },
     {
-        "id": "616",
+        "id": 616,
         "name": "Email",
         "reference": "EmailPrintoutGovernmentC",
         "max": 1
     },
     {
-        "id": "528",
+        "id": 528,
         "name": "MrPuffy Financials",
         "reference": "EmailPrintoutMrPuffyFinancial",
         "max": 1
     },
     {
-        "id": "526",
+        "id": 526,
         "name": "Mr Puffy Will",
         "reference": "EmailPrintoutMrPuffyWill",
         "max": 1
     },
     {
-        "id": "538",
+        "id": 538,
         "name": "Painting Email",
         "reference": "EmailPrintoutPaintingA",
         "max": 1
     },
     {
-        "id": "542",
+        "id": 542,
         "name": "Politician Email Pt 1",
         "reference": "EmailPrintoutPoliticianA",
         "max": 1
     },
     {
-        "id": "543",
+        "id": 543,
         "name": "Politician Email Pt 2",
         "reference": "EmailPrintoutPoliticianB",
         "max": 1
     },
     {
-        "id": "544",
+        "id": 544,
         "name": "Politician Email Pt 3",
         "reference": "EmailPrintoutPoliticianC",
         "max": 1
     },
     {
-        "id": "546",
+        "id": 546,
         "name": "Squeaky Shoes Email Pt 1",
         "reference": "EmailPrintoutSqueakyShoesA",
         "max": 1
     },
     {
-        "id": "547",
+        "id": 547,
         "name": "Squeaky Shoes Email Pt 2",
         "reference": "EmailPrintoutSqueakyShoesB",
         "max": 1
     },
     {
-        "id": "548",
+        "id": 548,
         "name": "Squeaky Shoes Email Pt 3",
         "reference": "EmailPrintoutSqueakyShoesC",
         "max": 1
     },
     {
-        "id": "483",
+        "id": 483,
         "name": "Emergency Pack",
         "reference": "EmergencyPack",
         "max": 1,
@@ -803,37 +803,37 @@
         "hidden": true
     },
     {
-        "id": "441",
+        "id": 441,
         "name": "Energy Bar",
         "reference": "EnergyBar",
         "max": 10
     },
     {
-        "id": "439",
+        "id": 439,
         "name": "Energy Drink",
         "reference": "EnergyDrink",
         "max": 10
     },
     {
-        "id": "461",
+        "id": 461,
         "name": "Energy Mix",
         "reference": "EnergyMix",
         "max": 3
     },
     {
-        "id": "462",
+        "id": 462,
         "name": "Energy Mix+",
         "reference": "EnergyMixPlus",
         "max": 3
     },
     {
-        "id": "479",
+        "id": 479,
         "name": "Feather",
         "reference": "Feather",
         "max": 1000
     },
     {
-        "id": "431",
+        "id": 431,
         "name": "Firefighter Axe",
         "reference": "FireAxe",
         "max": 1,
@@ -853,19 +853,19 @@
         }
     },
     {
-        "id": "453",
+        "id": 453,
         "name": "Fireweed",
         "reference": "Fireweed",
         "max": 20
     },
     {
-        "id": "601",
+        "id": 601,
         "name": "Fireweed Seed",
         "reference": "FireweedSeed",
         "max": 20
     },
     {
-        "id": "436",
+        "id": 436,
         "name": "Fish",
         "reference": "Fish",
         "max": 3,
@@ -882,13 +882,13 @@
         }
     },
     {
-        "id": "440",
+        "id": 440,
         "name": "Flare",
         "reference": "Flare",
         "max": 10
     },
     {
-        "id": "471",
+        "id": 471,
         "name": "Flashlight",
         "reference": "Flashlight",
         "max": 1,
@@ -904,65 +904,65 @@
         }
     },
     {
-        "id": "378",
+        "id": 378,
         "name": "Flashlight Attachment",
         "reference": "FlashlightMod",
         "max": 1
     },
     {
-        "id": "475",
+        "id": 475,
         "name": "Flask",
         "reference": "Flask",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "463",
+        "id": 463,
         "name": "Flippers",
         "reference": "Flippers",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "400",
+        "id": 400,
         "name": "Fly Amanita",
         "reference": "FlyAmanitaMushroom",
         "max": 20
     },
     {
-        "id": "569",
+        "id": 569,
         "name": "Brain Bite",
         "reference": "FoodCubeBrain",
         "max": 10
     },
     {
-        "id": "570",
+        "id": 570,
         "name": "Steak Bite",
         "reference": "FoodCubeSteak",
         "max": 10
     },
     {
-        "id": "571",
+        "id": 571,
         "name": "Steak and Bacon Bite",
         "reference": "FoodCubeSteakAndBacon",
         "max": 10
     },
     {
-        "id": "497",
+        "id": 497,
         "name": "Food Tray",
         "reference": "FoodTray",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "512",
+        "id": 512,
         "name": "Filled Food Tray",
         "reference": "FoodTrayFilled",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "529",
+        "id": 529,
         "name": "GPS Locator",
         "reference": "GPSLocator",
         "max": 10,
@@ -978,39 +978,39 @@
         }
     },
     {
-        "id": "412",
+        "id": 412,
         "name": "GPS Tracker",
         "reference": "GPSTracker",
         "max": 1,
         "essential": true
     },
     {
-        "id": "498",
+        "id": 498,
         "name": "GRABS Laser Pointer",
         "reference": "GRABSLaserPointer",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "435",
+        "id": 435,
         "name": "Gold Mask",
         "reference": "GoldMask",
         "max": 1
     },
     {
-        "id": "572",
+        "id": 572,
         "name": "Golden Armour",
         "reference": "GoldenArmour",
         "max": 1
     },
     {
-        "id": "524",
+        "id": 524,
         "name": "Golf Ball",
         "reference": "GolfBall",
         "max": 20
     },
     {
-        "id": "525",
+        "id": 525,
         "name": "Putter",
         "reference": "GolfPutter",
         "max": 1,
@@ -1030,39 +1030,39 @@
         }
     },
     {
-        "id": "351",
+        "id": 351,
         "name": "Grab Bag",
         "reference": "GrabBag",
         "max": 1,
         "essential": true
     },
     {
-        "id": "381",
+        "id": 381,
         "name": "Grenade",
         "reference": "Grenade",
         "max": 10
     },
     {
-        "id": "382",
+        "id": 382,
         "name": "GrenadeAmmo",
         "reference": "GrenadeAmmo",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "594",
+        "id": 594,
         "name": "Guarana Berries",
         "reference": "GuaranaBerries",
         "max": 20
     },
     {
-        "id": "602",
+        "id": 602,
         "name": "Guarana Seed",
         "reference": "GuaranaSeed",
         "max": 20
     },
     {
-        "id": "340",
+        "id": 340,
         "name": "Guitar",
         "reference": "Guitar",
         "max": 1,
@@ -1082,67 +1082,67 @@
         }
     },
     {
-        "id": "455",
+        "id": 455,
         "name": "Health Mix",
         "reference": "HealthMix",
         "max": 3
     },
     {
-        "id": "456",
+        "id": 456,
         "name": "Health Mix+",
         "reference": "HealthMixPlus",
         "max": 3
     },
     {
-        "id": "562",
+        "id": 562,
         "name": "HolovilleNoticeA",
         "reference": "HolovilleNoticeA",
         "max": 1
     },
     {
-        "id": "563",
+        "id": 563,
         "name": "HolovilleNoticeB",
         "reference": "HolovilleNoticeB",
         "max": 1
     },
     {
-        "id": "564",
+        "id": 564,
         "name": "HolovilleNoticeC",
         "reference": "HolovilleNoticeC",
         "max": 1
     },
     {
-        "id": "565",
+        "id": 565,
         "name": "HolovilleNoticeD",
         "reference": "HolovilleNoticeD",
         "max": 1
     },
     {
-        "id": "490",
+        "id": 490,
         "name": "Hoodie",
         "reference": "Hoodie",
         "max": 1
     },
     {
-        "id": "450",
+        "id": 450,
         "name": "Horsetail",
         "reference": "Horsetail",
         "max": 20
     },
     {
-        "id": "603",
+        "id": 603,
         "name": "Horsetail Seed",
         "reference": "HorsetailSeed",
         "max": 20
     },
     {
-        "id": "399",
+        "id": 399,
         "name": "Hydnum Repandum",
         "reference": "HydnumRepandumMushroom",
         "max": 20
     },
     {
-        "id": "367",
+        "id": 367,
         "name": "Katana",
         "reference": "Katana",
         "max": 1,
@@ -1162,124 +1162,124 @@
         }
     },
     {
-        "id": "567",
+        "id": 567,
         "name": "Guest Key",
         "reference": "KeyCardGuest",
         "max": 1
     },
     {
-        "id": "566",
+        "id": 566,
         "name": "Maintenance Key",
         "reference": "KeyCardMaintenance",
         "max": 1
     },
     {
-        "id": "568",
+        "id": 568,
         "name": "VIP Key",
         "reference": "KeyCardVIP",
         "max": 1
     },
     {
-        "id": "398",
+        "id": 398,
         "name": "King Oyster",
         "reference": "KingOysterMushroom",
         "max": 20
     },
     {
-        "id": "505",
+        "id": 505,
         "name": "Laser Measure Tool",
         "reference": "LaserMeasureTool",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "375",
+        "id": 375,
         "name": "Laser Sight",
         "reference": "LaserSightMod",
         "max": 1
     },
     {
-        "id": "484",
+        "id": 484,
         "name": "Leaf",
         "reference": "Leaf",
         "max": 1000
     },
     {
-        "id": "473",
+        "id": 473,
         "name": "Leaf Armour",
         "reference": "LeafArmour",
         "max": 10
     },
     {
-        "id": "493",
+        "id": 493,
         "name": "Leather Jacket",
         "reference": "LeatherJacket",
         "max": 1
     },
     {
-        "id": "395",
+        "id": 395,
         "name": "Log Plank",
         "reference": "LogPlank",
         "max": 1,
         "equippable": true
     },
     {
-        "id": "576",
+        "id": 576,
         "name": "Quarter Log plank",
         "reference": "QuarterLogPlank",
         "max": 1,
         "equippable": true
     },
     {
-        "id": "577",
+        "id": 577,
         "name": "Half Log plank",
         "reference": "HalfLogPlank",
         "max": 1,
         "equippable": true
     },
     {
-        "id": "578",
+        "id": 578,
         "name": "Three Quarter Log Plank",
         "reference": "ThreeQuarterLogPlank",
         "max": 1,
         "equippable": true
     },
     {
-        "id": "406",
+        "id": 406,
         "name": "Quarter Log",
         "reference": "QuarterLog",
         "max": 1,
         "equippable": true
     },
     {
-        "id": "408",
+        "id": 408,
         "name": "Half Log",
         "reference": "HalfLog",
         "max": 1,
         "equippable": true
     },
     {
-        "id": "409",
+        "id": 409,
         "name": "Three Quarter Log",
         "reference": "ThreeQuarterLog",
         "max": 1,
         "equippable": true
     },
     {
-        "id": "78",
+        "id": 78,
         "name": "Log",
         "reference": "Log_Legacy",
         "max": 1,
         "equippable": true
     },
     {
-        "id": "508",
+        "id": 508,
         "name": "Skin Pouch",
         "reference": "LootPouch",
         "max": 6
     },
     {
-        "id": "359",
+        "id": 359,
         "name": "Machete",
         "reference": "Machete2",
         "max": 1,
@@ -1299,7 +1299,7 @@
         }
     },
     {
-        "id": "433",
+        "id": 433,
         "name": "Meat",
         "reference": "Meat",
         "max": 7,
@@ -1316,7 +1316,7 @@
         }
     },
     {
-        "id": "356",
+        "id": 356,
         "name": "Modern Axe",
         "reference": "ModernAxe",
         "max": 1,
@@ -1336,141 +1336,141 @@
         }
     },
     {
-        "id": "388",
+        "id": 388,
         "name": "Molotov",
         "reference": "Molotov",
         "max": 6
     },
     {
-        "id": "389",
+        "id": 389,
         "name": "MolotovAmmo",
         "reference": "MolotovAmmo",
         "max": 10
     },
     {
-        "id": "496",
+        "id": 496,
         "name": "Money",
         "reference": "Money",
         "max": 1000000
     },
     {
-        "id": "438",
+        "id": 438,
         "name": "MRE Pack",
         "reference": "MrePack",
         "max": 6
     },
     {
-        "id": "612",
+        "id": 612,
         "name": "Newspaper Cutout",
         "reference": "NewspaperCutout",
         "max": 1
     },
     {
-        "id": "613",
+        "id": 613,
         "name": "Newspaper Cutout",
         "reference": "NewspaperCutoutOutbid",
         "max": 1
     },
     {
-        "id": "354",
+        "id": 354,
         "name": "Night Vision Goggles",
         "reference": "NightVisionGoggles",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "423",
+        "id": 423,
         "name": "Novel A",
         "reference": "NovelA",
         "max": 1
     },
     {
-        "id": "424",
+        "id": 424,
         "name": "Novel B",
         "reference": "NovelB",
         "max": 1
     },
     {
-        "id": "574",
+        "id": 574,
         "name": "Novel C",
         "reference": "NovelC",
         "max": 1
     },
     {
-        "id": "575",
+        "id": 575,
         "name": "Novel D",
         "reference": "NovelD",
         "max": 1
     },
     {
-        "id": "611",
+        "id": 611,
         "name": "Numbers Printout",
         "reference": "NumbersPrintout",
         "max": 1
     },
     {
-        "id": "491",
+        "id": 491,
         "name": "Blazer",
         "reference": "OldJacket",
         "max": 1
     },
     {
-        "id": "466",
+        "id": 466,
         "name": "Oyster",
         "reference": "Oyster",
         "max": 5
     },
     {
-        "id": "518",
+        "id": 518,
         "name": "Paper Target",
         "reference": "PaperTarget",
         "max": 50
     },
     {
-        "id": "437",
+        "id": 437,
         "name": "Meds",
         "reference": "Pills",
         "max": 6
     },
     {
-        "id": "370",
+        "id": 370,
         "name": "Pistol Ammo",
         "reference": "PistolAmmoBox",
         "max": 1
     },
     {
-        "id": "374",
+        "id": 374,
         "name": "Silencer",
         "reference": "PistolSuppressor",
         "max": 1
     },
     {
-        "id": "413",
+        "id": 413,
         "name": "Plasma Lighter",
         "reference": "PlasmaLighter",
         "max": 1,
         "essential": true
     },
     {
-        "id": "500",
+        "id": 500,
         "name": "Puffy Jacket",
         "reference": "PuffyJacket",
         "max": 1
     },
     {
-        "id": "590",
+        "id": 590,
         "name": "Radio",
         "reference": "Radio",
         "max": 1
     },
     {
-        "id": "421",
+        "id": 421,
         "name": "Ramen Noodles",
         "reference": "RamenNoodles",
         "max": 10
     },
     {
-        "id": "444",
+        "id": 444,
         "name": "Rebreather",
         "reference": "Rebreather",
         "max": 1,
@@ -1486,13 +1486,13 @@
         }
     },
     {
-        "id": "391",
+        "id": 391,
         "name": "Red Mask",
         "reference": "RedMask",
         "max": 1
     },
     {
-        "id": "422",
+        "id": 422,
         "name": "Repair Tool",
         "reference": "RepairTool",
         "max": 1,
@@ -1512,7 +1512,7 @@
         }
     },
     {
-        "id": "386",
+        "id": 386,
         "name": "Revolver",
         "reference": "Revolver",
         "max": 1,
@@ -1529,65 +1529,65 @@
         }
     },
     {
-        "id": "361",
+        "id": 361,
         "name": "Rifle",
         "reference": "Rifle",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "387",
+        "id": 387,
         "name": "RifleAmmo",
         "reference": "RifleAmmo",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "383",
+        "id": 383,
         "name": "Rifle Rail Mod",
         "reference": "RifleRailMod",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "393",
+        "id": 393,
         "name": "Rock",
         "reference": "Rock",
         "max": 10
     },
     {
-        "id": "403",
+        "id": 403,
         "name": "Rope",
         "reference": "Rope",
         "max": 10
     },
     {
-        "id": "522",
+        "id": 522,
         "name": "RopeGun",
         "reference": "RopeGun",
         "max": 1
     },
     {
-        "id": "447",
+        "id": 447,
         "name": "Salmonberries",
         "reference": "Salmonberries",
         "max": 20
     },
     {
-        "id": "604",
+        "id": 604,
         "name": "Salmonberry Seed",
         "reference": "SalmonberrySeed",
         "max": 20
     },
     {
-        "id": "377",
+        "id": 377,
         "name": "Scope",
         "reference": "ScopeMod",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "480",
+        "id": 480,
         "name": "Severed Arm",
         "reference": "SeveredArm",
         "max": 2,
@@ -1619,7 +1619,7 @@
         }
     },
     {
-        "id": "482",
+        "id": 482,
         "name": "Severed Head",
         "reference": "SeveredHead",
         "max": 1,
@@ -1641,7 +1641,7 @@
         }
     },
     {
-        "id": "481",
+        "id": 481,
         "name": "Severed Leg",
         "reference": "SeveredLeg",
         "max": 2,
@@ -1673,25 +1673,25 @@
         }
     },
     {
-        "id": "397",
+        "id": 397,
         "name": "Shiitake",
         "reference": "ShiitakeMushroom",
         "max": 20
     },
     {
-        "id": "371",
+        "id": 371,
         "name": "Shotgun Buckshot",
         "reference": "ShotgunAmmoBoxBuckshot",
         "max": 1
     },
     {
-        "id": "372",
+        "id": 372,
         "name": "Shotgun Slug",
         "reference": "ShotgunAmmoBoxSlug",
         "max": 1
     },
     {
-        "id": "358",
+        "id": 358,
         "name": "Shotgun",
         "reference": "ShotgunPumpAction",
         "max": 1,
@@ -1708,13 +1708,13 @@
         }
     },
     {
-        "id": "346",
+        "id": 346,
         "name": "Shotgun Rail",
         "reference": "ShotgunRail",
         "max": 1
     },
     {
-        "id": "485",
+        "id": 485,
         "name": "Shovel",
         "reference": "Shovel",
         "max": 1,
@@ -1734,74 +1734,74 @@
         }
     },
     {
-        "id": "487",
+        "id": 487,
         "name": "Silk Pyjamas",
         "reference": "SilkPyjamas",
         "max": 1
     },
     {
-        "id": "430",
+        "id": 430,
         "name": "Skull",
         "reference": "Skull",
         "max": 3
     },
     {
-        "id": "573",
+        "id": 573,
         "name": "Sleeping Bag",
         "reference": "SleepingBag",
         "max": 1
     },
     {
-        "id": "459",
+        "id": 459,
         "name": "Slingshot",
         "reference": "Slingshot",
         "max": 1
     },
     {
-        "id": "363",
+        "id": 363,
         "name": "Shotgun Slug",
         "reference": "SlugAmmo",
         "max": 1000
     },
     {
-        "id": "476",
+        "id": 476,
         "name": "Small Rock",
         "reference": "SmallRock",
         "max": 30
     },
     {
-        "id": "448",
+        "id": 448,
         "name": "Snowberries",
         "reference": "Snowberries",
         "max": 20
     },
     {
-        "id": "513",
+        "id": 513,
         "name": "Spring",
         "reference": "Spring",
         "max": 1
     },
     {
-        "id": "392",
+        "id": 392,
         "name": "Stick",
         "reference": "Stick",
         "max": 20
     },
     {
-        "id": "617",
+        "id": 617,
         "name": "Stock Price",
         "reference": "StockPricePrintout",
         "max": 1
     },
     {
-        "id": "520",
+        "id": 520,
         "name": "Structure Element",
         "reference": "Structure Element",
         "max": 1,
         "equippable": true
     },
     {
-        "id": "353",
+        "id": 353,
         "name": "Stun Gun",
         "reference": "StunGun",
         "max": 1,
@@ -1818,19 +1818,19 @@
         }
     },
     {
-        "id": "369",
+        "id": 369,
         "name": "Stun Gun Ammo",
         "reference": "StunGunAmmo",
         "max": 1000
     },
     {
-        "id": "457",
+        "id": 457,
         "name": "Stun Gun Ammo",
         "reference": "StunGunAmmoBox",
         "max": 1
     },
     {
-        "id": "379",
+        "id": 379,
         "name": "Tactical Axe",
         "reference": "TacticalAxe",
         "max": 1,
@@ -1851,26 +1851,26 @@
         "essential": true
     },
     {
-        "id": "501",
+        "id": 501,
         "name": "Tactical Boots",
         "reference": "TacticalBoots",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "360",
+        "id": 360,
         "name": "Tactical Bow",
         "reference": "TacticalBow",
         "max": 1
     },
     {
-        "id": "373",
+        "id": 373,
         "name": "Tactical Arrow",
         "reference": "TacticalBowAmmo",
         "max": 25
     },
     {
-        "id": "394",
+        "id": 394,
         "name": "Chainsaw",
         "reference": "TacticalChainsaw",
         "max": 1,
@@ -1896,26 +1896,26 @@
         }
     },
     {
-        "id": "495",
+        "id": 495,
         "name": "Tactical Jacket",
         "reference": "TacticalJacket",
         "max": 1
     },
     {
-        "id": "489",
+        "id": 489,
         "name": "Tactical Pants",
         "reference": "TacticalPants",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "504",
+        "id": 504,
         "name": "Tarp",
         "reference": "Tarp",
         "max": 5
     },
     {
-        "id": "396",
+        "id": 396,
         "name": "Stun Baton",
         "reference": "TaserStick",
         "max": 1,
@@ -1941,25 +1941,25 @@
         }
     },
     {
-        "id": "554",
+        "id": 554,
         "name": "Tech Armour",
         "reference": "TechArmour",
         "max": 10
     },
     {
-        "id": "553",
+        "id": 553,
         "name": "Tech Mesh",
         "reference": "TechMesh",
         "max": 10
     },
     {
-        "id": "417",
+        "id": 417,
         "name": "Time Bomb",
         "reference": "TimeBomb",
         "max": 3
     },
     {
-        "id": "503",
+        "id": 503,
         "name": "Torch",
         "reference": "Torch",
         "max": 1,
@@ -1979,130 +1979,130 @@
         }
     },
     {
-        "id": "366",
+        "id": 366,
         "name": "Tracker Dart",
         "reference": "TrackerDart",
         "max": 1,
         "unknown": true
     },
     {
-        "id": "401",
+        "id": 401,
         "name": "Turtle Egg",
         "reference": "TurtleEgg",
         "max": 10
     },
     {
-        "id": "506",
+        "id": 506,
         "name": "Turtle Shell",
         "reference": "TurtleShell",
         "max": 1
     },
     {
-        "id": "589",
+        "id": 589,
         "name": "S.C.R.E.W. \/ Tutorials",
         "reference": "TutorialBook",
         "max": 1,
         "essential": true
     },
     {
-        "id": "515",
+        "id": 515,
         "name": "Basic Building Tutorial Page",
         "reference": "TutorialPageBasicBuilding",
         "max": 1
     },
     {
-        "id": "516",
+        "id": 516,
         "name": "Tarp Tent Tutorial Page",
         "reference": "TutorialPageTarpTent",
         "max": 1
     },
     {
-        "id": "492",
+        "id": 492,
         "name": "Tuxedo",
         "reference": "Tuxedo",
         "max": 1
     },
     {
-        "id": "446",
+        "id": 446,
         "name": "Twinberries",
         "reference": "Twinberries",
         "max": 20
     },
     {
-        "id": "558",
+        "id": 558,
         "name": "Camoflage Suit",
         "reference": "VirginiaCamoSuit",
         "max": 1
     },
     {
-        "id": "556",
+        "id": 556,
         "name": "Dress",
         "reference": "VirginiaDress",
         "max": 1
     },
     {
-        "id": "557",
+        "id": 557,
         "name": "Leather Suit",
         "reference": "VirginiaLeatherSuit",
         "max": 1
     },
     {
-        "id": "619",
+        "id": 619,
         "name": "Swim Suit",
         "reference": "VirginiaSwimSuit",
         "max": 1
     },
     {
-        "id": "555",
+        "id": 555,
         "name": "Track Suit",
         "reference": "VirginiaTrackSuit",
         "max": 1
     },
     {
-        "id": "414",
+        "id": 414,
         "name": "Vodka Bottle",
         "reference": "VodkaBottle",
         "max": 6
     },
     {
-        "id": "486",
+        "id": 486,
         "name": "Walkie Talkie",
         "reference": "WalkieTalkie",
         "max": 1,
         "essential": true
     },
     {
-        "id": "499",
+        "id": 499,
         "name": "Wetsuit",
         "reference": "Wetsuit",
         "max": 1
     },
     {
-        "id": "418",
+        "id": 418,
         "name": "Wire",
         "reference": "Wire",
         "max": 100
     },
     {
-        "id": "410",
+        "id": 410,
         "name": "Watch",
         "reference": "Wristwatch",
         "max": 50
     },
     {
-        "id": "452",
+        "id": 452,
         "name": "Yarrow",
         "reference": "Yarro",
         "max": 20
     },
     {
-        "id": "606",
+        "id": 606,
         "name": "Yarro Seed",
         "reference": "YarroSeed",
         "max": 20
     },
     {
-        "id": "523",
+        "id": 523,
         "name": "Zipline Rope",
         "reference": "ZiplineRope",
         "max": 10
