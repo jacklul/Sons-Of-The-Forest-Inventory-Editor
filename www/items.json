@@ -1082,6 +1082,12 @@
         }
     },
     {
+        "id": 626,
+        "name": "Hang Glider",
+        "reference": "HangGlider",
+        "max": 1
+    },
+    {
         "id": 455,
         "name": "Health Mix",
         "reference": "HealthMix",
@@ -1354,10 +1360,22 @@
         "max": 1000000
     },
     {
+        "id": 627,
+        "name": "MrPufftonTableCard",
+        "reference": "MrPufftonTableCard",
+        "max": 1
+    },
+    {
         "id": 438,
         "name": "MRE Pack",
         "reference": "MrePack",
         "max": 6
+    },
+    {
+        "id": 628,
+        "name": "MrsPufftonTableCard",
+        "reference": "MrsPufftonTableCard",
+        "max": 1
     },
     {
         "id": 612,

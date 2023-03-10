@@ -147,6 +147,7 @@ ID,"Name (singular)","Name (PascalCase)","Name (SNAKE_CASE)"
 594,"Guarana Berries",GuaranaBerries,GUARANA_BERRIES
 602,"Guarana Seed",GuaranaSeed,GUARANA_SEED
 340,Guitar,Guitar,GUITAR
+626,"Hang Glider",HangGlider,HANG_GLIDER
 455,"Health Mix",HealthMix,HEALTH_MIX
 456,"Health Mix+",HealthMixPlus,SUPER_HEALTH_MIX
 562,HolovilleNoticeA,HolovilleNoticeA,HOLOVILLE_NOTICE_A
@@ -182,7 +183,9 @@ ID,"Name (singular)","Name (PascalCase)","Name (SNAKE_CASE)"
 388,Molotov,Molotov,MOLOTOV
 389,MolotovAmmo,MolotovAmmo,MOLOTOV_AMMO
 496,Money,Money,MONEY
+627,MrPufftonTableCard,MrPufftonTableCard,
 438,"MRE Pack",MrePack,MRE_PACK
+628,MrsPufftonTableCard,MrsPufftonTableCard,
 612,"Newspaper Cutout",NewspaperCutout,NEWSPAPER_CUTOUT
 613,"Newspaper Cutout",NewspaperCutoutOutbid,NEWSPAPER_CUTOUT_OUTBID
 354,"Night Vision Goggles",NightVisionGoggles,NIGHT_VISION_GOGGLES
