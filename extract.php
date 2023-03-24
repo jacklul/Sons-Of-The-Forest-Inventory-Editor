@@ -46,10 +46,16 @@ if (!file_exists(__DIR__ . '/extract.cache')) {
     echo 'Extracting names...' . PHP_EOL;
 
     $previous = 0;
+    $currentitem = 1;
+    $totalitems = count($items);
+    $buffer = '';
     foreach ($items as &$item) {
-        $pos = strpos($data, "\0" . $item['name_pascal'] . ' ID(' . $item['id']);
+        $oldbufferlength = strlen($buffer);
+        $buffer = $currentitem++ . '/' . $totalitems . ' - ' . trim($item['name_pascal']);
+        $spacefix = $oldbufferlength - strlen($buffer);
+        echo $buffer . str_repeat(' ', $spacefix > 0 ? $spacefix : 1) . "\r";
 
-        //echo $item['name_pascal'] . PHP_EOL;
+        $pos = strpos($data, "\0" . $item['name_pascal'] . ' ID(' . $item['id']);
 
         if ($previous === 0) {
             $part = substr($data, $pos - 1000, 1000 + strlen($item['name_pascal'] . ' ID') + 10);
@@ -109,6 +115,7 @@ if (!file_exists(__DIR__ . '/extract.cache')) {
         }
     }
     unset($item);
+    echo "\r" . str_repeat(' ', strlen($buffer)) . "\r";
 
     file_put_contents(__DIR__ . '/extract.cache', json_encode($items));
 } else {
