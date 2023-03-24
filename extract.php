@@ -2,8 +2,20 @@
 
 $gameDir = $argv[1] ?? null;
 
+if (!$gameDir && file_exists(__DIR__ . '/extract.json')) {
+    $config = json_decode(file_get_contents(__DIR__ . '/extract.json'), true);
+    $gameDir = $config['gameDir'];
+}
+
 if (!$gameDir || !is_dir($gameDir . '/SonsOfTheForest_Data')) {
     die('Directory does not exist: ');
+}
+
+if (!isset($config)) {
+    $config = [
+        'gameDir' => $gameDir
+    ];
+    file_put_contents(__DIR__ . '/extract.json', json_encode($config));
 }
 
 ini_set('memory_limit', '4G');
