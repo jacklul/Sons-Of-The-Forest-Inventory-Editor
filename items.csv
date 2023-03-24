@@ -37,10 +37,12 @@ ID,"Name (singular)","Name (PascalCase)","Name (SNAKE_CASE)"
 584,BlueprintMannequin,BlueprintMannequin,BLUEPRINT_MANNEQUIN
 587,BlueprintPlanterFloor,BlueprintPlanterFloor,BLUEPRINT_PLANTER_FLOOR
 586,BlueprintPlanterWallJ,BlueprintPlanterWall,BLUEPRINT_PLANTER_WALL
+629,BlueprintRainCatcheru,BlueprintRainCatcher,
 622,BlueprintRockPath,BlueprintRockPath,
 585,BlueprintScarecrow,BlueprintScarecrow,BLUEPRINT_SCARECROW
 621,BlueprintShelf,BlueprintShelf,
 591,BlueprintSmallLogCabin,BlueprintSmallLogCabin,BLUEPRINT_SMALL_LOG_CABIN
+632,BlueprintSpringTrap,BlueprintSpringTrap,
 532,"Stick Bed Blueprint",BlueprintStickBed,STICK_BED_BLUEPRINT
 531,"Stick Chair Blueprint",BlueprintStickChair,STICK_CHAIR_BLUEPRINT
 580,BlueprintStickLadderD,BlueprintStickLadder,BLUEPRINT_STICK_LADDER
@@ -87,6 +89,7 @@ ID,"Name (singular)","Name (PascalCase)","Name (SNAKE_CASE)"
 365,Crossbow,Crossbow,CROSSBOW
 368,"Crossbow Bolt",CrossbowAmmoBolt,CROSSBOW_BOLT
 384,"Crossbow Quiver",CrossbowQuiverMod,CROSSBOW_QUIVER
+633,"Cult Pamphlet",CultPamphlet,CULT_PAMPHLET
 472,"Deer Hide",DeerHide,DEER_HIDE
 519,"Deer Hide Armour",DeerHideArmour,DEER_HIDE_ARMOUR
 449,DevilsClub,DevilsClub,DEVILS_CLUB
@@ -163,6 +166,7 @@ ID,"Name (singular)","Name (PascalCase)","Name (SNAKE_CASE)"
 566,"Maintenance Key",KeyCardMaintenance,MAINTENANCE_KEY
 568,"VIP Key",KeyCardVIP,VIP_KEY
 398,"King Oyster",KingOysterMushroom,KING_OYSTER
+630,"Small Rock",SmallRock,SMALL_ROCK
 505,"Laser Measure Tool",LaserMeasureTool,LASER_MEASURE_TOOL
 375,"Laser Sight",LaserSightMod,LASER_SIGHT
 484,Leaf,Leaf,LEAF
@@ -193,6 +197,7 @@ ID,"Name (singular)","Name (PascalCase)","Name (SNAKE_CASE)"
 424,"Novel B",NovelB,NOVEL_B
 574,"Novel C",NovelC,NOVEL_C
 575,"Novel D",NovelD,NOVEL_D
+631,"Novel F",NovelF,NOVEL_F
 611,"Numbers Printout",NumbersPrintout,NUMBERS_PRINTOUT
 491,Blazer,OldJacket,BLAZER
 466,Oyster,Oyster,OYSTER

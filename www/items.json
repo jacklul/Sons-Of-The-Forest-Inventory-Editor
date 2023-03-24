@@ -263,6 +263,12 @@
         "max": 1
     },
     {
+        "id": 629,
+        "name": "BlueprintRainCatcheru",
+        "reference": "BlueprintRainCatcher",
+        "max": 1
+    },
+    {
         "id": 622,
         "name": "BlueprintRockPath",
         "reference": "BlueprintRockPath",
@@ -284,6 +290,12 @@
         "id": 591,
         "name": "BlueprintSmallLogCabin",
         "reference": "BlueprintSmallLogCabin",
+        "max": 1
+    },
+    {
+        "id": 632,
+        "name": "BlueprintSpringTrap",
+        "reference": "BlueprintSpringTrap",
         "max": 1
     },
     {
@@ -636,6 +648,12 @@
         "id": 384,
         "name": "Crossbow Quiver",
         "reference": "CrossbowQuiverMod",
+        "max": 1
+    },
+    {
+        "id": 633,
+        "name": "Cult Pamphlet",
+        "reference": "CultPamphlet",
         "max": 1
     },
     {
@@ -1192,6 +1210,12 @@
         "max": 20
     },
     {
+        "id": 630,
+        "name": "Small Rock",
+        "reference": "SmallRock",
+        "max": 1
+    },
+    {
         "id": 505,
         "name": "Laser Measure Tool",
         "reference": "LaserMeasureTool",
@@ -1418,6 +1442,12 @@
         "id": 575,
         "name": "Novel D",
         "reference": "NovelD",
+        "max": 1
+    },
+    {
+        "id": 631,
+        "name": "Novel F",
+        "reference": "NovelF",
         "max": 1
     },
     {
