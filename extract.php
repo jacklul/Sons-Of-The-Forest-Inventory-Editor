@@ -47,7 +47,7 @@ if (!file_exists(__DIR__ . '/extract.cache')) {
 
     $previous = 0;
     foreach ($items as &$item) {
-        $pos = strpos($data, "\0" . $item['name_pascal'] . ' ID(');
+        $pos = strpos($data, "\0" . $item['name_pascal'] . ' ID(' . $item['id']);
 
         //echo $item['name_pascal'] . PHP_EOL;
 
@@ -58,8 +58,8 @@ if (!file_exists(__DIR__ . '/extract.cache')) {
             $part = substr($part, 0, $pos - $previous);
 
             if (strlen($part) > 10000) {
-                echo 'Stripped data is too long - ' . strlen($part) . ' - ' . $item['name_pascal'];
-                exit;
+                echo 'Stripped data is too long - ' . strlen($part) . ' - ' . $item['name_pascal'] . PHP_EOL;
+                continue;
             }
         }
 
